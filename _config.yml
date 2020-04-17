@@ -1,38 +1,49 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b> by <b><a href=\"https://github.com/niklasbuschmann\">@niklasbuschmann</a></b>"
-permalink: /:title/
+title: jermware.net
+author: gavinjerman
+email: jermware@icloud.com
+description: > # this means to ignore newlines until next key word
+  gavin jerman's website for his software development projects, running exploits, and love of real ale
+url: https://gavinjerman.github.io
+baseurl: /
+markdown: kramdown
+permalink: /:year/:month/:title/
 lang: "en"
-excerpt_separator: "\n\n\n"
+excerpt_separator: "\n\n\n" # 2 blank lines
 date_format: "%B %d, %Y"
+paginate: 10
+paginate_path: /page/:num/
 
 # Layout
-
-sidebar: false               # show a sidebar instead of the usual header
-show_excerpts: false         # show article excerpts on the home page
-show_related: true           # show the previous and next links after every post
-show_description: true       # show the site description in the sidebar
-show_title: false            # always keep the site title visible
+sidebar: true               # show a sidebar instead of the usual header
+show_excerpts: true         # show article excerpts on the home page
+show_related: true          # show the previous and next links after every post
+show_description: false     # show the site description in the sidebar
+show_title: true            # always keep the site title visible
 
 # Styling
-
-dark_header: false           # always keep the header dark
-minimal: false               # use simpler style
+dark_header: true           # always keep the header dark
+minimal: false              # use simpler style
 
 # Menu
-
 navigation:
   - {file: "index.html", icon: home}
-  - {file: "README.md", icon: address-card}
+  - {file: "projects.md", icon: clipboard}
+  - {file: "archive.html", icon: archive}
+  - {file: "search.md", icon: search}
+  - {file: "about.md", icon: address-card}
 
-external:                    # see http://fontawesome.com/icons
-#  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-#  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-#  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+external:                   # see http://fontawesome.com/icons
+#  - {title: Mail, icon: envelope, url: "mailto:gavinjerman@github.com"}
+  - {title: Github, icon: github, url: "https://github.com/gavinjerman/gavinjerman.github.io"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/gavinjerman"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
-#  disqus_shortname: ""      # see https://disqus.com/
-#  isso_domain: ""           # see https://posativ.org/isso/
+  #disqus_shortname: ""      # see https://disqus.com/
+  #isso_domain: ""           # see https://posativ.org/isso/
 
 plugins:
- - jekyll-feed
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

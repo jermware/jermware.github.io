@@ -1,7 +1,8 @@
 ---
-title: "About"
-permalink: "/about/"
+title: "Contrast Theme README"
 layout: page
+permalink: "/contrast"
+#published: false
 ---
 
 ## Installation
