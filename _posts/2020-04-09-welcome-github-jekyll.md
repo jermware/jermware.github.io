@@ -35,20 +35,22 @@ Step 1:
 I did not select the *'Initialize this repository with a README'* option. I wanted to keep the repository as clean as possible since I would eventually be overwriting it with a custom theme.
 
 - I did not follow the instructions to *'Clone the respository'* and create an *index.html* file. Instead, I chose the **creating a new file** link in the *'Quick setup - if you've done this kind of thing before'* section.
-![image1](/images/welcome-github-jekyll-1.png)
+![image1](/images/2020-04-09-welcome-1.png)
 I named the file **index.html** with the contents *'Hello World'* and committed the new file.
-![image2](/images/welcome-github-jekyll-2.png)
+![image2](/images/2020-04-09-welcome-2.png)
 My repository looked like this:
-![image3](/images/welcome-github-jekyll-3.png)
+![image3](/images/2020-04-09-welcome-3.png)
 
-- At this point the website was live at [http://gavinjerman.github.io](http://gavinjerman.github.io):  ![image4](/images/welcome-github-jekyll-4.png)
+- At this point the website was live at [http://gavinjerman.github.io](http://gavinjerman.github.io):  ![image4](/images/2020-04-09-welcome-4.png)
 
 Step 2:
 
 - Following the GitHub instructions at [Managing a custom domain for your GitHub Pages site](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site), I set the *'Custom Domain'* to **www.jermware.net** in the repository's *Settings*. This creates a **CNAME** file specifying the custom domain. Whilst in *Settings*, I also selected the *'Enforce HTTPS'* option.  
-- To complete the Custom Domain changes I needed to make some changes with my DNS provider. After googling for instructions specific to my DNS provider **123 Reg** ([these were particularly useful](http://www.benjaminday.co.uk/blog/misc/2015/01/08/github-pages-and-123-reg-dns/)), I created the a **CNAME** and 4 **A** records in my DNS:  
-![image5](/images/welcome-github-jekyll-5.png)  
-- Once the DNS changes had propagated (this can take a couple of days), my website was available at [jermware.net](https://www.jermware.net). The original URL [http://gavinjerman.github.io](http://gavinjerman.github.io) now redirects to [jermware.net](https://www.jermware.net):  
-![image6](/images/welcome-github-jekyll-6.png)  
 
-I now have a website using my custom domain and hosted on GitHub. Now to decide on a theme, apply it, and customise it to my liking...
+- To complete the Custom Domain changes I needed to make some changes with my DNS provider. After googling for instructions specific to my DNS provider **123 Reg** ([these were particularly useful](http://www.benjaminday.co.uk/blog/misc/2015/01/08/github-pages-and-123-reg-dns/)), I created the a **CNAME** and 4 **A** records in my DNS:  
+![image5](/images/2020-04-09-welcome-5.png)  
+
+- Once the DNS changes had propagated (this can take a couple of days), my website was available at [jermware.net](https://www.jermware.net). The original URL [http://gavinjerman.github.io](http://gavinjerman.github.io) now redirects to [jermware.net](https://www.jermware.net):  
+![image6](/images/2020-04-09-welcome-6.png)  
+
+I now have a website using my custom domain and hosted on GitHub. Now to decide on a theme and customise it to my liking...
