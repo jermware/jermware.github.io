@@ -10,8 +10,8 @@ published: true
 
 In an earlier post [Welcome GitHub Pages and Jekyll](/2020/04/welcome-github-jekyll) I described how I created a minimal website (a single content file, *index.html*) hosted on GitHub and using my custom domain. At this point I could have hand-crafted the structure and content of the website using HTML and CSS files etc. This would have been a perfectly reasonable approach, especially if you like writing HTML, but it does not take advantage of GitHub Pages' support for *Jekyll*.
 
-[Jekyll](https://jekyllrb.com) is a static site generator that can "Transform your plain text into static websites and blogs.". If you want, you can hand-craft a website from scratch using Jekyll, but why not let other people do the hard work for you and use one of many freely available Jekyll themes to create and style your website? Once a theme is applied, you just add the content, typically by writing text in markdown files. There is no need to go near HTML and CSS, unless you want to.
 
+[Jekyll](https://jekyllrb.com) is a static site generator that can "Transform your plain text into static websites and blogs.". If you want, you can hand-craft a website from scratch using Jekyll, but why not let other people do the hard work for you and use one of many freely available Jekyll themes to create and style your website? Once a theme is applied, you just add the content, typically by writing text in markdown files. There is no need to go near HTML and CSS, unless you want to.
 
 There are many, many, Jekyll themes available, and you can spend hours browsing for your ideal layout and style. Most of them allow you to add a personal touch by customising them via a configuration file, and those that are available in GitHub repositories allow you to clone and customise them to your exact liking.
 

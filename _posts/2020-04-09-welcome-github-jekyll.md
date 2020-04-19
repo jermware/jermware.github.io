@@ -12,8 +12,8 @@ I finally got around to looking into GitHub Pages and Jekyll, and this website i
 
 I've had my own domain name for many years but have only ever used it for email addresses, never for a website. I couldn't think of any content for it and, to be honest, I didn't want to pay the hosting fees. 
 
-In my spare time I've been learning how to develop Apple iOS apps using Swift, and I now have a number of my own apps on my iPhone - see my [Projects](/projects) page. Although the apps were written to solve a particular need I had, I thought it might be interesting to release one or more of them on Apple's App Store for other people to try. However, in order to submit an app for inclusion in the App Store, I must provide URLs for a support page and a privacy policy. So, I need a website.
 
+In my spare time I've been learning how to develop Apple iOS apps using Swift, and I now have a number of my own apps on my iPhone - see my [Projects](/projects) page. Although the apps were written to solve a particular need I had, I thought it might be interesting to release one or more of them on Apple's App Store for other people to try. However, in order to submit an app for inclusion in the App Store, I must provide URLs for a support page and a privacy policy. So, I need a website.
 
 I recently discovered  that I could host a website for free on [GitHub](https://github.com) using [GitHub Pages](https://pages.github.com). And, using [Jekyll](https://jekyllrb.com), I could easily generate and maintain a static website. This is exactly what I was looking for.
 
