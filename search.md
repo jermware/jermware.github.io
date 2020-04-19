@@ -43,7 +43,7 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
-  searchResultTemplate: '<li><time datetime={datetime}>{date}</time><a href="{url}">{title}</a></li>',
+  searchResultTemplate: '<li><time>{date}</time><a href="{url}">{title}</a></li>',
   noResultsText: 'No results found',
   limit: 29,
   fuzzy: false,

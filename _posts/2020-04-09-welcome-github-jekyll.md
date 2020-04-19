@@ -1,10 +1,9 @@
 ---
-layout: post
 title: "Welcome GitHub Pages and Jekyll"
-author: "Gavin Jerman"
-date: 2020-04-09 21:00:00 +0100
-categories: github jekyll
 description: an article describing using GitHub Pages and Jekyll for the first time
+author: "Gavin Jerman"
+layout: post
+categories: github jekyll
 published: true
 ---
 

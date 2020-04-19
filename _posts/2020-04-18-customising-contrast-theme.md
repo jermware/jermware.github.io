@@ -1,10 +1,9 @@
 ---
-layout: post
 title: "Customising the Contrast Jekyll Theme"
-author: "Gavin Jerman"
-date: 2020-04-18 13:16:00 +0100
-categories: jekyll theme
 description: an article describing customising a Jekyll theme
+author: "Gavin Jerman"
+categories: jekyll theme
+layout: post
 published: true
 ---
 

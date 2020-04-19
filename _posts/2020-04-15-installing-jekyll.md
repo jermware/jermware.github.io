@@ -1,10 +1,9 @@
 ---
-layout: post
 title: "Installing Jekyll"
-author: "Gavin Jerman"
-date: 2020-04-15 21:37:00 +0100
-categories: jekyll bundle gem
 description: an article describing installing Jekyll
+author: "Gavin Jerman"
+categories: jekyll bundle gem
+layout: post
 published: true
 ---
 

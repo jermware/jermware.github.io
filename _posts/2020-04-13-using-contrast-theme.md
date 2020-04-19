@@ -1,10 +1,9 @@
 ---
-layout: post
 title: "Using the Contrast Jekyll Theme"
-author: "Gavin Jerman"
-date: 2020-04-13 20:00:00 +0100
-categories: jekyll theme
 description: an article describing forking a Jekyll theme
+author: "Gavin Jerman"
+categories: jekyll theme
+layout: post
 published: true
 ---
 
