@@ -104,9 +104,6 @@ jekyll serve
 ```     
 
 Once the website is being served locally, it is accessed using the address **[http://127.0.0.1:4000](http://127.0.0.1:4000)**:
-![image1](/images/2020-04-15-installing-1.png){:.image-nomargin}
-
-{:.image-caption}
-*Locally served Jekyll site with default gem-based theme*
+![image1](/images/2020-04-15-installing-1.png)
 
 Now, any changes made to the site (except edits to *_config.yml*) trigger the site to rebuild and the local development server to refresh.
