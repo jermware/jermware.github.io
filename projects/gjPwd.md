@@ -8,7 +8,7 @@ permalink: /gjPwd
 <img width="64" height="64" src="/images/gjPwd-icon.png">
 </span>
 <span style="float: left; padding: 17px 0px 0px 17px;">
-An iOS app for generating generating passwords.
+An iOS app for generating passwords.
 </span>
 <br style="clear: both;"><br/>
 
