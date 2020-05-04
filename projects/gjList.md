@@ -15,7 +15,7 @@ An iOS app for creating lists.
 <div style="clear: both;"></div>
 
 <div id="gallery">
-    <ul id="lightSlider" class="cs-hidden">
+    <ul id="lightSlider" class="cS-hidden">
         <li><img src="/images/gjList-1.png"></li>
         <li><img src="/images/gjList-2.png"></li>
         <li><img src="/images/gjList-3.png"></li>

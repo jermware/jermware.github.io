@@ -15,7 +15,7 @@ An iOS app for calculating pace, time, distance combinations.
 <div style="clear: both;"></div>
 
 <div id="gallery">
-    <ul id="lightSlider" class="cs-hidden">
+    <ul id="lightSlider" class="cS-hidden">
         <li><img src="/images/gjPace-1.png"></li>
         <li><img src="/images/gjPace-2.png"></li>
         <li><img src="/images/gjPace-3.png"></li>

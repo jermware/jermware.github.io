@@ -15,7 +15,7 @@ An iOS app for catologing real ales.
 <div style="clear: both;"></div>
 
 <div id="gallery">
-    <ul id="lightSlider" class="cs-hidden">
+    <ul id="lightSlider" class="cS-hidden">
         <li><img src="/images/gjBeer-1.png"></li>
         <li><img src="/images/gjBeer-2.png"></li>
         <li><img src="/images/gjBeer-3.png"></li>
