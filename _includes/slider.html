@@ -1,0 +1,28 @@
+<link type="text/css" rel="stylesheet" href="assets/css/lightslider.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="assets/js/lightslider.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#lightSlider').lightSlider({
+        item: 3,
+        loop: false,
+        slideMove: 1,
+        slideMargin: 9,
+        controls: false,
+        keyPress: true,
+        onSliderLoad: function() {
+            $('#lightSlider').removeClass('cS-hidden');
+        },
+        responsive : [
+            {
+                breakpoint: 1118, // ? = 16 * 70em when sidebar moves
+                settings: {
+                    item: 2,
+                    slideMove: 1,
+                    slideMargin: 6,
+                }
+            }
+        ]
+    });  
+});
+</script>
