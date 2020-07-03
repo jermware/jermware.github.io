@@ -12,6 +12,7 @@ excerpt_separator: "\n\n\n" # 2 blank lines
 date_format: "%B %d, %Y"
 paginate: 10
 paginate_path: /page/:num/
+analytics: false            # include analytics
 
 # Layout
 sidebar: true               # show a sidebar instead of the usual header
