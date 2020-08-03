@@ -34,7 +34,7 @@ More to follow...
 This policy applies to all information collected or submitted within the _gjLists_ apps for iPhone and any other devices and platforms.
 
 **TL;DR**<br>
-**Your data is your data.**<br>
+**Your data is your data**.<br>
 **We don't use trackers**.<br>
 **We can't read your lists**.<br>
 
@@ -42,7 +42,7 @@ This policy applies to all information collected or submitted within the _gjList
 No personal information, location data, or app usage metrics are collected.
 
 **iCloud**<br>
-All data syncing is done through Apple’s iCloud service. The only data stored iCloud are your lists. These data are only accessible by you when using the app on a device logged into your iCloud account.
+All data syncing is done through Apple’s iCloud service. The only data stored in iCloud are your lists. These data are only accessible by you when using the app on a device logged into your iCloud account.
 
 **Local Storage**<br>
 Your lists are always saved locally on your device, even when iCloud syncing is enabled in the _Settings_ screen. This allows you to access your lists even if iCloud access is not available. Your lists will remain on your device until you delete them within the app, or you delete the app from your device.
@@ -56,7 +56,7 @@ By using our website or apps, you consent to our privacy policy.
 **Contact Us**<br>
 If you have any questions regarding this privacy policy, you may email [jermware@icloud.com](mailto:jermware@icloud.com).
 
-**Changes to This Policy**<br>
+**Changes to this Policy**<br>
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
 * August 2, 2020: First published.
