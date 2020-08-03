@@ -59,4 +59,4 @@ If you have any questions regarding this privacy policy, you may email [jermware
 **Changes to this Policy**<br>
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
-* August 2, 2020: First published.
+* August 3, 2020: First published.
