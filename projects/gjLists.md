@@ -55,9 +55,9 @@ If you turn on _Diagnostics_ in the app's _Settings_ screen (the default setting
 By using our website or apps, you consent to our privacy policy.
 
 **Contact Us**  
-If you have any questions regarding this privacy policy, you may email [jermware@icloud.com](mailto:jermware@icloud.com).
+If you have any questions regarding this privacy policy, you may email [jermware@mac.com](mailto:jermware@mac.com).
 
 **Changes to this Policy**  
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
-* August 3, 2020: First published.
+* August 15, 2020: First published.
