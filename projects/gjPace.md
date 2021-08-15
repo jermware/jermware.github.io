@@ -10,16 +10,45 @@ permalink: /gjPace
 <img width="64" height="64" src="/images/gjPace-icon.png">
 </span>
 <span style="float: left; padding: 17px 0px 0px 17px;">
-An iOS app for calculating pace, time, distance combinations.
+An iOS app for calculating pace, time, speed, and distance combinations.
 </span>
 <div style="clear: both;"></div>
 
 <div id="gallery">
     <ul id="lightSlider" class="cS-hidden">
-        <li><img src="/images/gjPace-1.png"></li>
-        <li><img src="/images/gjPace-2.png"></li>
-        <li><img src="/images/gjPace-3.png"></li>
+        <!-- <li data-src="large"><img src="medium"></li> -->
+        <li data-src="/images/gjPace-1l.png"><img src="/images/gjPace-1m.png"></li>
+        <li data-src="/images/gjPace-2l.png"><img src="/images/gjPace-2m.png"></li>
+        <li data-src="/images/gjPace-3l.png"><img src="/images/gjPace-3m.png"></li>
+        <li data-src="/images/gjPace-4l.png"><img src="/images/gjPace-4m.png"></li>
+        <li data-src="/images/gjPace-5l.png"><img src="/images/gjPace-5m.png"></li>
+        <li data-src="/images/gjPace-6l.png"><img src="/images/gjPace-6m.png"></li>
+        <li data-src="/images/gjPace-7l.png"><img src="/images/gjPace-7m.png"></li>
+        <li data-src="/images/gjPace-8l.png"><img src="/images/gjPace-8m.png"></li>
+        <li data-src="/images/gjPace-9l.png"><img src="/images/gjPace-9m.png"></li>
     </ul>
 </div>
 
-More to follow...
+**gjPace** is my first iOS app. It is written in [Swift](https://swift.org), a logical choice given my C# background, with the user interface (UI) built using [Storyboards](https://developer.apple.com/xcode/interface-builder/).
+
+In March 2013 I was looking for inspiration for an app to develop and decided to recreate an app that regularly used to calculate pace and mile splits to help me improve my running personal best times. That app was **[Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773)** by **[Fikes Farm, LLC](http://fikesfarm.com/rp/)**.
+
+On the face of it, the feature set of the app is fairly simple. Given a specified distance and either a time, pace, or speed, the app calculates the 2 missing values, as well as the cummulative elapsed times for the given split interval. However, the UI is quite complex, especially implementing the [auto-layout contraints](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html) in Storyboards. This was a very useful introduction to Storyboards but proved to be very time consuming and tricky to implement correctly to get the UI layout to adapt to different device screen sizes. Although an excellent learning exercise, it was something I did not want to go through again. This was to be my first, and last, iOS App with the UI built in Storyboards. From now on, my user interfaces would be written in code.
+
+With the basic functionality of the **[Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773)** app implemented, I decided to enhance its functionality and added the ability to record my personal running records. The record types (road, track, and trail) and distances are hard-coded in the app and are specific to my running needs.
+
+Recreating **[Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773)** from the ground up was a great introduction to developing iOS apps, the Swift programming language, and building user interfaces with Storyboards. Given that **gjPace** is based on an existing app in the [App Store](https://www.apple.com/uk/app-store/), and was created without permission of its developers, it will never be released to the App Store. If you want to calculate running distance, time, pace, and speed combinations then you should download **[Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773)** from the App Store. Unfortunately **[Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773)** has not been updated since 2017 so you may want to seek out a more recent alternative, **[Pace Me](https://apps.apple.com/gb/app/pace-me-running-calculator/id1166223979)** perhaps?
+
+Points of interest:
+
+- Written in Swift with UI built using Storyboards.
+- a shameless rip-off of **[Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773)** by **[Fikes Farm, LLC](http://fikesfarm.com/rp/)**.
+- First code cut March 2019, code 'complete' November 2019, numerous tweaks since but unlikely to be anymore unless iOS upgrades break the app.
+- Supports system dark and light modes.
+- Custom keyboard toolbar e.g. common race distances.
+- Custom pickers for time and pace.
+- Stopwatch icon from [OnlineWebFonts.COM](https://www.onlinewebfonts.com/icon/65694).
+- Keyboard avoidance implemented using [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager).
+
+<br/>
+##### August 15, 2021

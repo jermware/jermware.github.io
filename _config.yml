@@ -3,7 +3,7 @@ author: gavinjerman
 email: jermware@icloud.com
 description: > # this means to ignore newlines until next key word
   gavin jerman's website for his software development projects, running exploits, and love of real ale
-url: https://gavinjerman.github.io
+url: https://jermware.github.io
 baseurl: /
 markdown: kramdown
 permalink: /:year/:month/:title/
@@ -35,7 +35,7 @@ navigation:
 
 external:                   # see http://fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:gavinjerman@github.com"}
-  - {title: Github, icon: github, url: "https://github.com/gavinjerman/gavinjerman.github.io"}
+  - {title: Github, icon: github, url: "https://github.com/jermware/jermware.github.io"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/gavinjerman"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
