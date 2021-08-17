@@ -7,7 +7,7 @@ permalink: /gjLists
 {% include slider.html %}
 
 <span style="float: left; line-height: 0px;">
-<img width="64" height="64" src="/images/gjLists-icon.png">
+<img width="64" height="64" src="/images/gjLists/gjLists-icon.png">
 </span>
 <span style="float: left; padding: 17px 0px 0px 17px;">
 An iOS app for creating lists.
@@ -16,15 +16,15 @@ An iOS app for creating lists.
 
 <div id="gallery">
     <ul id="lightSlider" class="cS-hidden">
-        <li><img src="/images/gjLists-1.png"></li>
-        <li><img src="/images/gjLists-2.png"></li>
-        <li><img src="/images/gjLists-3.png"></li>
-        <li><img src="/images/gjLists-4.png"></li>
-        <li><img src="/images/gjLists-5.png"></li>
-        <li><img src="/images/gjLists-6.png"></li>
-        <li><img src="/images/gjLists-7.png"></li>
-        <li><img src="/images/gjLists-8.png"></li>
-        <li><img src="/images/gjLists-9.png"></li>
+        <li><img src="/images/gjLists/gjLists-1.png"></li>
+        <li><img src="/images/gjLists/gjLists-2.png"></li>
+        <li><img src="/images/gjLists/gjLists-3.png"></li>
+        <li><img src="/images/gjLists/gjLists-4.png"></li>
+        <li><img src="/images/gjLists/gjLists-5.png"></li>
+        <li><img src="/images/gjLists/gjLists-6.png"></li>
+        <li><img src="/images/gjLists/gjLists-7.png"></li>
+        <li><img src="/images/gjLists/gjLists-8.png"></li>
+        <li><img src="/images/gjLists/gjLists-9.png"></li>
     </ul>
 </div>
 
