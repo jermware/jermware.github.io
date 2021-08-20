@@ -16,19 +16,19 @@ An iOS app for creating lists.
 
 <div id="gallery">
     <ul id="lightSlider" class="cS-hidden">
-        <li><img src="/images/gjLists/gjLists-1.png"></li>
-        <li><img src="/images/gjLists/gjLists-2.png"></li>
-        <li><img src="/images/gjLists/gjLists-3.png"></li>
-        <li><img src="/images/gjLists/gjLists-4.png"></li>
-        <li><img src="/images/gjLists/gjLists-5.png"></li>
-        <li><img src="/images/gjLists/gjLists-6.png"></li>
-        <li><img src="/images/gjLists/gjLists-7.png"></li>
-        <li><img src="/images/gjLists/gjLists-8.png"></li>
-        <li><img src="/images/gjLists/gjLists-9.png"></li>
+        <!-- <li><img src="/images/gjLists/gjLists-1.png" width=256px></li> -->
+        <!-- <li><img src="/images/gjLists/gjLists-2.png" width=256px></li> -->
+        <li><img src="/images/gjLists/gjLists-3.png" width=256px></li>
+        <!-- <li><img src="/images/gjLists/gjLists-4.png" width=256px></li> -->
+        <!-- <li><img src="/images/gjLists/gjLists-5.png" width=256px></li> -->
+        <!-- <li><img src="/images/gjLists/gjLists-6.png" width=256px></li> -->
+        <!-- <li><img src="/images/gjLists/gjLists-7.png" width=256px></li> -->
+        <!-- <li><img src="/images/gjLists/gjLists-8.png" width=256px></li> -->
+        <!-- <li><img src="/images/gjLists/gjLists-9.png" width=256px></li> -->
     </ul>
 </div>
 
-More to follow...<br><br>
+A work in progress...<br><br>
 
 ### **Privacy Policy**
 

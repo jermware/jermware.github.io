@@ -17,11 +17,11 @@ An iOS app for generating secure passwords.
 <div id="gallery">
     <ul id="lightSlider" class="cS-hidden">
         <!-- <li data-src="large"><img src="medium"></li> -->
-        <li data-src="/images/gjPwd/gjPwd-1l.png"><img src="/images/gjPwd/gjPwd-1m.png"></li>
-        <li data-src="/images/gjPwd/gjPwd-2l.png"><img src="/images/gjPwd/gjPwd-2m.png"></li>
-        <li data-src="/images/gjPwd/gjPwd-3l.png"><img src="/images/gjPwd/gjPwd-3m.png"></li>
-        <li data-src="/images/gjPwd/gjPwd-4l.png"><img src="/images/gjPwd/gjPwd-4m.png"></li>
-        <li data-src="/images/gjPwd/gjPwd-5l.png"><img src="/images/gjPwd/gjPwd-5m.png"></li>
+        <li data-src="/images/gjPwd/gjPwd-1l.png"><img src="/images/gjPwd/gjPwd-1m.png" width=256px></li>
+        <li data-src="/images/gjPwd/gjPwd-2l.png"><img src="/images/gjPwd/gjPwd-2m.png" width=256px></li>
+        <li data-src="/images/gjPwd/gjPwd-3l.png"><img src="/images/gjPwd/gjPwd-3m.png" width=256px></li>
+        <li data-src="/images/gjPwd/gjPwd-4l.png"><img src="/images/gjPwd/gjPwd-4m.png" width=256px></li>
+        <li data-src="/images/gjPwd/gjPwd-5l.png"><img src="/images/gjPwd/gjPwd-5m.png" width=256px></li>
     </ul>
 </div>
 

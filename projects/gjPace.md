@@ -17,15 +17,15 @@ An iOS app for calculating pace, time, speed, and distance combinations.
 <div id="gallery">
     <ul id="lightSlider" class="cS-hidden">
         <!-- <li data-src="large"><img src="medium"></li> -->
-        <li data-src="/images/gjPace/gjPace-1l.png"><img src="/images/gjPace/gjPace-1m.png"></li>
-        <li data-src="/images/gjPace/gjPace-2l.png"><img src="/images/gjPace/gjPace-2m.png"></li>
-        <li data-src="/images/gjPace/gjPace-3l.png"><img src="/images/gjPace/gjPace-3m.png"></li>
-        <li data-src="/images/gjPace/gjPace-4l.png"><img src="/images/gjPace/gjPace-4m.png"></li>
-        <li data-src="/images/gjPace/gjPace-5l.png"><img src="/images/gjPace/gjPace-5m.png"></li>
-        <li data-src="/images/gjPace/gjPace-6l.png"><img src="/images/gjPace/gjPace-6m.png"></li>
-        <li data-src="/images/gjPace/gjPace-7l.png"><img src="/images/gjPace/gjPace-7m.png"></li>
-        <li data-src="/images/gjPace/gjPace-8l.png"><img src="/images/gjPace/gjPace-8m.png"></li>
-        <li data-src="/images/gjPace/gjPace-9l.png"><img src="/images/gjPace/gjPace-9m.png"></li>
+        <li data-src="/images/gjPace/gjPace-1l.png"><img src="/images/gjPace/gjPace-1m.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-2l.png"><img src="/images/gjPace/gjPace-2m.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-3l.png"><img src="/images/gjPace/gjPace-3m.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-4l.png"><img src="/images/gjPace/gjPace-4m.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-5l.png"><img src="/images/gjPace/gjPace-5m.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-6l.png"><img src="/images/gjPace/gjPace-6m.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-7l.png"><img src="/images/gjPace/gjPace-7m.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-8l.png"><img src="/images/gjPace/gjPace-8m.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-9l.png"><img src="/images/gjPace/gjPace-9m.png" width=256px></li>
     </ul>
 </div>
 

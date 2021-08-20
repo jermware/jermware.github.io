@@ -8,15 +8,12 @@
 $(document).ready(function() {
     $('#lightSlider').lightSlider({
         item: 3,
-        slideMove: 1,
         slideMargin: 9,
-        autoWidth: false,
-        loop: false,
-        mode: 'slide',
-        auto: false,
-        controls: false,
+        loop: true,
+        // controls: false,
         keyPress: true,
         enableDrag: false,
+        autoWidth: true,
         onSliderLoad: function(el) {
             $('#lightSlider').removeClass('cS-hidden');
             el.lightGallery({
@@ -29,7 +26,6 @@ $(document).ready(function() {
                 breakpoint: 1120, // ? = 16 * 70em when sidebar moves
                 settings: {
                     item: 2,
-                    slideMove: 1,
                     slideMargin: 7,
                 }
             },
@@ -37,7 +33,6 @@ $(document).ready(function() {
                 breakpoint: 560, // ? = 8 * 70em when sidebar moves
                 settings: {
                     item: 1,
-                    slideMove: 1,
                     slideMargin: 3,
                 }
             }
