@@ -1,19 +1,19 @@
 <link type="text/css" rel="stylesheet" href="assets/css/lightslider.min.css" />
 <link type="text/css" rel="stylesheet" href="assets/css/lightgallery.min.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="assets/js/lightslider.min.js"></script>
 <script src="assets/js/lightgallery.min.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function() {
     $('#lightSlider').lightSlider({
-        item: 3,
+        item: 3, // no effect with autoWidth: true
         slideMargin: 9,
         loop: true,
         // controls: false,
         keyPress: true,
         enableDrag: false,
-        autoWidth: true,
+        autoWidth: true, // custom width for each slide
         onSliderLoad: function(el) {
             $('#lightSlider').removeClass('cS-hidden');
             el.lightGallery({
@@ -21,22 +21,22 @@ $(document).ready(function() {
                 enableDrag: false
             });
         },
-        responsive : [
-            {
-                breakpoint: 1120, // ? = 16 * 70em when sidebar moves
-                settings: {
-                    item: 2,
-                    slideMargin: 7,
-                }
-            },
-            {
-                breakpoint: 560, // ? = 8 * 70em when sidebar moves
-                settings: {
-                    item: 1,
-                    slideMargin: 3,
-                }
-            }
-        ]
+        // responsive: [
+        //     {
+        //         breakpoint: 1120, // ? = 16 * 70em when sidebar moves
+        //         settings: {
+        //             item: 2,
+        //             slideMargin: 9,
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 560, // ? = 8 * 70em when sidebar moves
+        //         settings: {
+        //             item: 1,
+        //             slideMargin: 9,
+        //         }
+        //     }
+        // ]
     });  
 });
 </script>
