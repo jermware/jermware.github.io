@@ -16,15 +16,7 @@ An iOS app for creating lists.
 
 <div id="gallery">
     <ul id="lightSlider" class="cS-hidden">
-        <!-- <li><img src="/images/gjLists/gjLists-1.png" width=256px></li> -->
-        <!-- <li><img src="/images/gjLists/gjLists-2.png" width=256px></li> -->
         <li><img src="/images/gjLists/gjLists-3.png" width=256px></li>
-        <!-- <li><img src="/images/gjLists/gjLists-4.png" width=256px></li> -->
-        <!-- <li><img src="/images/gjLists/gjLists-5.png" width=256px></li> -->
-        <!-- <li><img src="/images/gjLists/gjLists-6.png" width=256px></li> -->
-        <!-- <li><img src="/images/gjLists/gjLists-7.png" width=256px></li> -->
-        <!-- <li><img src="/images/gjLists/gjLists-8.png" width=256px></li> -->
-        <!-- <li><img src="/images/gjLists/gjLists-9.png" width=256px></li> -->
     </ul>
 </div>
 

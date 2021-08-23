@@ -16,10 +16,7 @@ An iOS app for creating notes.
 
 <div id="gallery">
     <ul id="lightSlider" class="cS-hidden">
-        <!-- <li><img src="/images/gjNotes/gjNotes-1.png" width=256px></li> -->
-        <!-- <li><img src="/images/gjNotes/gjNotes-2.png" width=256px></li> -->
         <li><img src="/images/gjNotes/gjNotes-3.png" width=256px></li>
-        <!-- <li><img src="/images/gjNotes/gjNotes-4.png" width=256px></li> -->
     </ul>
 </div>
 

@@ -75,13 +75,13 @@ Alternatively, the app includes a number of preset password configurations:
 
 When passwords are generated they are copied to the clipboard of the iOS device and, if [Universal Clipboard](https://support.apple.com/en-gb/guide/mac-help/mchl70368996/mac) is configured correctly, will be copied to the Mac's clipboard. This is really useful for generating a password on an iPhone and pasting it into a website on a Mac.
 
-I use **gjPwd** to generate all of my passwords. I find it really useful, but I'm not sure I'll ever release it to the App Store. Maybe if I rewrite it using [SwiftUI](https://developer.apple.com/xcode/swiftui/). We'll see.
+I use **gjPwd** to generate all of my passwords. I find it really useful, but I'm not sure I'll ever release it to the [App Store](https://www.apple.com/uk/app-store/). Maybe if I rewrite it using [SwiftUI](https://developer.apple.com/xcode/swiftui/). We'll see.
 
 Notes:
 
 - Written in Swift with UI built using [LBTATools](https://github.com/bhlvoong/LBTATools) v1.0.12.
 - Insprired by **[xkpasswd](https://xkpasswd.net)** from **[Bart Busschots](https://www.bartbusschots.ie)**.
-- First code cut April 2019, code 'complete' November 2019. Numerous tweaks since but unlikely to be anymore unless future iOS versions break the app.
+- First code cut April 2019, code 'complete' November 2019. Various tweaks since but unlikely to be anymore unless future iOS versions break the app.
 - Supports system dark and light modes.
 - Password automatically copied to _Universal Clipboard_.
 - Custom stepper based on [GMStepper](https://github.com/gmertk/GMStepper).
