@@ -72,8 +72,6 @@ Alternatively, the app includes several pre-set password configurations:
 - Requires iOS 12.0 or later.
 - Designed for iPhone but works on iPad.
 - Inspired by **[xkpasswd](https://xkpasswd.net)** from **[Bart Busschots](https://www.bartbusschots.ie)**.
-- Written in Swift with UI built using [LBTATools](https://github.com/bhlvoong/LBTATools) v1.0.12.
-- First code cut April 2019, code 'complete' November 2019. Various tweaks since but unlikely to be anymore unless future iOS versions break the app.
 - Passwords automatically copied to _Universal Clipboard_.
 - Supports system dark and light modes.
 - Custom stepper based on [GMStepper](https://github.com/gmertk/GMStepper).
