@@ -31,7 +31,7 @@ An iOS app for calculating pace, time, speed, and distance combinations.
 
 Given a specified distance and either a time, pace, or speed, the app calculates the 2 missing values, as well as the cumulative elapsed times for the required split interval.
 
-Features:
+**Features:**
 
 - Requires iOS 12.0 or later.
 - Designed for iPhone but works on iPad.
