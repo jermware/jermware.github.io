@@ -69,7 +69,7 @@ Alternatively, the app includes several pre-set password configurations:
 
 **Features:**
 
-- Requires iOS 12.0 or later.
+- Requires iOS 12.1 or later.
 - Designed for iPhone but works on iPad.
 - Inspired by **[xkpasswd](https://xkpasswd.net)** from **[Bart Busschots](https://www.bartbusschots.ie)**.
 - Passwords automatically copied to _Universal Clipboard_.

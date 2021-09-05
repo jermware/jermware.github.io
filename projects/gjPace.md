@@ -33,7 +33,7 @@ Given a specified distance and either a time, pace, or speed, the app calculates
 
 **Features:**
 
-- Requires iOS 12.0 or later.
+- Requires iOS 12.1 or later.
 - Designed for iPhone but works on iPad.
 - A shameless rip-off of **[Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773)** by **[Fikes Farm, LLC](http://fikesfarm.com/rp/)**.
 - Choose miles or kilometers.
