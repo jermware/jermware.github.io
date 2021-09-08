@@ -76,9 +76,9 @@ Alternatively, the app includes several pre-set password configurations:
 - Supports system dark and light modes.
 - Custom stepper based on [GMStepper](https://github.com/gmertk/GMStepper).
 - Key icon from [SVG Repo](https://www.svgrepo.com/svg/4326/house-key).
-<br><br>
 
-### Privacy Policy
+<br>
+<h3 id="privacy">Privacy Policy</h3>
 
 The policy applies to all information collected on **gjPwd**’s website and our apps for iPhone and any other devices and platforms.
 
