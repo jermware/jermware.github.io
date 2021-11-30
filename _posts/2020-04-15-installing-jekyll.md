@@ -24,21 +24,21 @@ The **pre-requisites** for *Jekyll* are:
 
 - **Command Line Tools**  
 These can be installed from a *Terminal* window with the command:
-    ```
+    ``` plain
     xcode-select --install
     ```
 
 - **Ruby** v2.5.0 or later  
 This can be installed via [Homebrew](https://brew.sh) with the *Terminal* command:
-    ```
+    ``` plain
     brew install ruby
     ```
 Ensure the *brew* installed *Ruby* is in the *Terminal* shell path by adding the following to the shell config e.g. *.zshrc*:
-    ```
+    ``` plain
     export PATH="/usr/local/opt/ruby/bin:$PATH"
     ```
 Check the *brew* *Ruby* installation with these *Terminal* commands:
-    ```
+    ``` plain
     which ruby
     > /usr/local/opt/ruby/bin/ruby
     
@@ -47,12 +47,12 @@ Check the *brew* *Ruby* installation with these *Terminal* commands:
     ```
 
 With the **pre-requisites** installed, I performed a *Local* install of [Bundler](https://jekyllrb.com/docs/ruby-101/#bundler) and *Jekyll* with the *Terminal* command:
-```
+``` plain
 gem install --user-install bundler jekyll
 ```
 
 The [gem](https://jekyllrb.com/docs/ruby-101/#gems) environment was checked with the *Terminal* command:
-```
+``` plain
 gem env
 >
 - GEM PATHS:
@@ -62,12 +62,12 @@ gem env
 ```
 
 The *GEM PATH* was added to the *Terminal* shell path by adding the following to the shell config e.g. *.zshrc*:
-```
+``` plain
 export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 ```
 
 The *Bundle* and *Jekyll* installations were checked with these *Terminal* commands:
-```
+``` plain
 which bundle
 > /Users/Gavin/.gem/ruby/2.7.0/bin/bundle
 
@@ -87,18 +87,18 @@ With *Jekyll* installed, building and serving the local website depends on wheth
 
 - **If a *Gemfile* is being used**  
     From a *Terminal* window in the root folder of the website, run the command:
-```
+``` plain
 bundle install
 ```     
 
     This will ensure the required *gems* are installed. You only need to do this once, or when the *gems* in the *Gemfile* change. From then on, to build and serve the website, use the command:
-```
+``` plain
 bundle exec jekyll serve
 ```     
 
 - **If a *Gemfile* is *not* being used**  
     From a *Terminal* window in the root folder of the website, build and serve the website using the command:
-```
+``` plain
 jekyll serve
 ```     
 

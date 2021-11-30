@@ -9,7 +9,7 @@ permalink: /gjPace
 <span style="float: left; line-height: 0px;">
 <img width="64" height="64" src="/images/gjPace/gjPace-icon.png">
 </span>
-<span style="float: left; padding: 17px 0px 0px 17px;">
+<span style="float: left; padding: 25px 0px 0px 17px;">
 An iOS app for calculating pace, time, speed, and distance combinations.
 </span>
 <div style="clear: both;"></div>
@@ -38,7 +38,7 @@ Given a specified distance and either a time, pace, or speed, the app calculates
 - A shameless rip-off of **[Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773)** by **[Fikes Farm, LLC](http://fikesfarm.com/rp/)**.
 - Choose miles or kilometers.
 - Supports system dark and light modes.
-- Custom keyboard toolbar e.g., common race distances.
+- Custom keyboard toolbar e.g. common race distances.
 - Custom pickers for time and pace.
 - Keyboard avoidance implemented using [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager).
 - Stopwatch icon from [OnlineWebFonts.COM](https://www.onlinewebfonts.com/icon/65694).

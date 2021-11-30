@@ -9,7 +9,7 @@ permalink: /gjBeers
 <span style="float: left; line-height: 0px;">
 <img width="64" height="64" src="/images/gjBeers/gjBeers-icon.png">
 </span>
-<span style="float: left; padding: 17px 0px 0px 17px;">
+<span style="float: left; padding: 25px 0px 0px 17px;">
 An iOS app for cataloging real ales.
 </span>
 <div style="clear: both;"></div>
