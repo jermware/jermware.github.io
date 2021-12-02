@@ -7,9 +7,9 @@ layout: post
 published: true
 ---
 
-[![gjPwd](/images/gjPwd/gjPwd-icon.png){:height="64px" width="64px"}](/gjPwd)
+I never intended to release [**gjPwd**](/gjPwd) on the [App Store](https://apps.apple.com/gb/app/gjpwd/id1532589670#?platform=iphone).
 
-I never intended to release [**gjPwd**](/gjPwd) to the [App Store](https://apps.apple.com/gb/app/gjpwd/id1532589670#?platform=iphone).
+<img width="384" src="/images/2021-09-08-gjpwd-released-to-app-store-1.png"/>
 
 
 I wrote it to help me improve my Swift development skills and to solve a specific requirement I had. Generating secure, memorable, passwords is a bit niche, and I would imagine the target audience is quite small. Although it took me longer than I was expecting to complete, the app itself is straightforward. It doesn't use iCloud, it's free, there are no ads or in app purchases, and it uses no third-party libraries. It's just Swift and the iOS system libraries. As apps go, it doesn't get much simpler or cleaner than that. So, I decided to release the app to the App Store as an educational exercise to see exactly what is involved.
@@ -20,6 +20,6 @@ At 00:22 on 7 Sep I hit the _Submit for Review_ button. I wasn't confident that 
 
 From start to finish, my very first App Store review took just over 22 hours. Impressive, thanks review team. Perhaps it was just beginner's luck. Next time it may not be so easy.
 
-Anyway, it's free and there are no ads, so if it's something you might find useful, or if you're just curious, you can download **gjPwd** from the App Store.
+Anyway, it's free and there are no ads, so if it's something you might find useful, or if you're just curious, you can download **gjPwd** from the App Store using the link below.
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjpwd/id1532589670#?platform=iphone)
