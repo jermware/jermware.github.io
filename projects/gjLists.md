@@ -121,8 +121,7 @@ If you find **gjLists** useful and would like to show your appreciation by dropp
 <br>
 <h3 id="privacy">Privacy Policy</h3>
 
-The policy applies to all information collected on **gjLists**’s website and our apps for iPhone and any other devices and platforms.
-
+The policy applies to all information collected on **gjLists'** website and our apps for iPhone and any other devices and platforms.
 
 **TL;DR**  
 **Your data is your data**.  
