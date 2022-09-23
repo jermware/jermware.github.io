@@ -17,15 +17,15 @@ An iOS app for calculating pace, time, speed, and distance combinations.
 <div id="gallery">
     <ul id="lightSlider" class="cS-hidden">
         <!-- <li data-src="large"><img src="medium"></li> -->
-        <li data-src="/images/gjPace/gjPace-1l.png"><img src="/images/gjPace/gjPace-1m.png" width=256px></li>
-        <li data-src="/images/gjPace/gjPace-2l.png"><img src="/images/gjPace/gjPace-2m.png" width=256px></li>
-        <li data-src="/images/gjPace/gjPace-3l.png"><img src="/images/gjPace/gjPace-3m.png" width=256px></li>
-        <li data-src="/images/gjPace/gjPace-4l.png"><img src="/images/gjPace/gjPace-4m.png" width=256px></li>
-        <li data-src="/images/gjPace/gjPace-5l.png"><img src="/images/gjPace/gjPace-5m.png" width=256px></li>
-        <li data-src="/images/gjPace/gjPace-6l.png"><img src="/images/gjPace/gjPace-6m.png" width=256px></li>
-        <li data-src="/images/gjPace/gjPace-7l.png"><img src="/images/gjPace/gjPace-7m.png" width=256px></li>
-        <li data-src="/images/gjPace/gjPace-8l.png"><img src="/images/gjPace/gjPace-8m.png" width=256px></li>
-        <li data-src="/images/gjPace/gjPace-9l.png"><img src="/images/gjPace/gjPace-9m.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-1m.png"><img src="/images/gjPace/gjPace-1s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-2m.png"><img src="/images/gjPace/gjPace-2s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-3m.png"><img src="/images/gjPace/gjPace-3s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-4m.png"><img src="/images/gjPace/gjPace-4s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-5m.png"><img src="/images/gjPace/gjPace-5s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-6m.png"><img src="/images/gjPace/gjPace-6s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-7m.png"><img src="/images/gjPace/gjPace-7s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-8m.png"><img src="/images/gjPace/gjPace-8s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-9m.png"><img src="/images/gjPace/gjPace-9s.png" width=256px></li>
     </ul>
 </div>
 
@@ -33,7 +33,7 @@ Given a specified distance and either a time, pace, or speed, the app calculates
 
 **Features:**
 
-- Requires iOS 12.1 or later.
+- Requires iOS 15.0 or later.
 - Designed for iPhone but works on iPad.
 - A shameless rip-off of **[Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773)** by **[Fikes Farm, LLC](http://fikesfarm.com/rp/)**.
 - Choose miles or kilometers.
@@ -45,4 +45,4 @@ Given a specified distance and either a time, pace, or speed, the app calculates
 
 <br/>
 
-##### August 15, 2021
+##### September 23, 2022
