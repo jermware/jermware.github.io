@@ -17,21 +17,21 @@ An iOS app for cataloging real ales.
 <div id="gallery">
     <ul id="lightSlider" class="cS-hidden">
         <!-- <li data-src="large"><img src="medium"></li> -->
-        <li data-src="/images/gjBeers/gjBeers-1l.png"><img src="/images/gjBeers/gjBeers-1m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-2l.png"><img src="/images/gjBeers/gjBeers-2m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-3l.png"><img src="/images/gjBeers/gjBeers-3m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-4l.png"><img src="/images/gjBeers/gjBeers-4m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-5l.png"><img src="/images/gjBeers/gjBeers-5m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-6l.png"><img src="/images/gjBeers/gjBeers-6m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-7l.png"><img src="/images/gjBeers/gjBeers-7m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-8l.png"><img src="/images/gjBeers/gjBeers-8m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-9l.png"><img src="/images/gjBeers/gjBeers-9m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-10l.png"><img src="/images/gjBeers/gjBeers-10m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-11l.png"><img src="/images/gjBeers/gjBeers-11m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-12l.png"><img src="/images/gjBeers/gjBeers-12m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-13l.png"><img src="/images/gjBeers/gjBeers-13m.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-ipad-3l.png"><img src="/images/gjBeers/gjBeers-ipad-3m.png" width=760px></li>
-        <li data-src="/images/gjBeers/gjBeers-ipad-2l.png"><img src="/images/gjBeers/gjBeers-ipad-2m.png" width=346px></li>
+        <li data-src="/images/gjBeers/gjBeers-1m.png"><img src="/images/gjBeers/gjBeers-1s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-2m.png"><img src="/images/gjBeers/gjBeers-2s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-3m.png"><img src="/images/gjBeers/gjBeers-3s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-4m.png"><img src="/images/gjBeers/gjBeers-4s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-5m.png"><img src="/images/gjBeers/gjBeers-5s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-6m.png"><img src="/images/gjBeers/gjBeers-6s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-7m.png"><img src="/images/gjBeers/gjBeers-7s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-8m.png"><img src="/images/gjBeers/gjBeers-8s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-9m.png"><img src="/images/gjBeers/gjBeers-9s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-10m.png"><img src="/images/gjBeers/gjBeers-10s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-11m.png"><img src="/images/gjBeers/gjBeers-11s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-12m.png"><img src="/images/gjBeers/gjBeers-12s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-13m.png"><img src="/images/gjBeers/gjBeers-13s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-14m.png"><img src="/images/gjBeers/gjBeers-14s.png" width=256px></li>
+        <li data-src="/images/gjBeers/gjBeers-15m.png"><img src="/images/gjBeers/gjBeers-15s.png" width=256px></li>
     </ul>
 </div>
 
@@ -53,4 +53,4 @@ The collection is searchable by beer name and sortable by name, date, brewery, a
 
 <br/>
 
-##### August 23, 2021
+##### September 26, 2022
