@@ -41,7 +41,7 @@ The collection is searchable by beer name and sortable by name, date, brewery, a
 
 **Features:**
 
-- Requires iOS 14.1 or later.
+- Requires iOS 15.0 or later.
 - Designed for iPhone and iPad.
 - Only a reference to the image in the device’s photo library is stored, not a copy of the image. This eliminates the significant storage overhead of duplicating the photos.
 - Backup/restore the collection to/from iCloud.
