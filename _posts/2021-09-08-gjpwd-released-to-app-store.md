@@ -20,6 +20,6 @@ At 00:22 on 7 Sep I hit the _Submit for Review_ button. I wasn't confident that 
 
 From start to finish, my very first App Store review took just over 22 hours. Impressive, thanks review team. Perhaps it was just beginner's luck. Next time it may not be so easy.
 
-Anyway, it's free and there are no ads, so if it's something you might find useful, or if you're just curious, you can download **gjPwd v2021.9** from the App Store using the link below.
+Anyway, **gjPwd** is free and there are no ads, so if it's something you might find useful, or if you're just curious, you can download **v2021.9** from the App Store using the link below.
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjpwd/id1532589670?platform=iphone)
