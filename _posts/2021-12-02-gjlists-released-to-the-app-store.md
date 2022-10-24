@@ -7,7 +7,7 @@ layout: post
 published: true
 ---
 
-[**gjLists**](/gjLists), my fourth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjlists/id1528217135#?platform=iphone).
+[**gjLists**](/gjLists), my fourth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjlists/id1528217135?platform=iphone).
 
 ![gjlists screenshots](/images/2021-12-02-gjlists-released-to-the-app-store-1.png){:width="384px"}
 
@@ -22,4 +22,4 @@ I also wanted to explore using _StoreKit_. Rather than charging for the app, I d
 
 If you're into lists and/or to-do items, give **gjLists** a try. It's free and there are no ads. You can download **v2021.12** from the App Store using the link below. If you find it useful, and can spare some change, you can show your appreciation by throwing some coins in the tip jar.
 
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjlists/id1528217135#?platform=iphone)
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjlists/id1528217135?platform=iphone)
