@@ -1,6 +1,6 @@
 ---
 title: "gjLists Is on the App Store"
-description: an article describing my seconds app released to the app store
+description: an article describing my second app released to the app store
 author: "Gavin Jerman"
 categories: ios app store
 layout: post
@@ -20,6 +20,6 @@ The app uses iCloud to store its lists and to synchronise the lists across devic
 
 I also wanted to explore using _StoreKit_. Rather than charging for the app, I decided to add a tip jar, which is quite a common feature in free apps today. It turns out that tips are 'consumables' in _StoreKit_ parlance and are much easier to implement than non-consumables or subscriptions. Even so, it took me longer to implement and test than I was expecting. I  guess that's why [RevenueCat](https://www.revenuecat.com) is so popular. It looks like _StoreKit 2_ has made life much easier under [SwiftUI](https://developer.apple.com/xcode/swiftui/), so fingers crossed for my next app.
 
-If you're into lists and/or to-do items, give **gjLists** a try. It's free and there are no ads. You can download it from the App Store using the link below. If you find it useful, and can spare some change, you can show your appreciation by throwing some coins in the tip jar.
+If you're into lists and/or to-do items, give **gjLists** a try. It's free and there are no ads. You can download **v2021.12** from the App Store using the link below. If you find it useful, and can spare some change, you can show your appreciation by throwing some coins in the tip jar.
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjlists/id1528217135#?platform=iphone)
