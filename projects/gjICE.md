@@ -71,7 +71,10 @@ Emojis may be used, but they will appear washed out since iOS applies a tint to 
 - Emergency Call icon from [flaticon.com](https://www.flaticon.com/free-icon/emergency-call_2158257).
 
 
+<br>***Coming to the [App Store](https://apps.apple.com/gb/developer/gavin-jerman/id1528217377) soon...***
+<!---
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjice/idxxxxxxxxxx?platform=iphone)
+-->
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
