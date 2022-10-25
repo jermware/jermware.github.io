@@ -72,7 +72,7 @@ Alternatively, the app includes several pre-set password configurations:
 - Custom stepper based on [GMStepper](https://github.com/gmertk/GMStepper).
 - Key icon from [SVG Repo](https://www.svgrepo.com/svg/4326/house-key).
 
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjpwd/id1532589670#?platform=iphone)
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjpwd/id1532589670?platform=iphone)
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
@@ -80,9 +80,10 @@ Alternatively, the app includes several pre-set password configurations:
 The policy applies to all information collected on **gjPwd**’s website and our apps for iPhone and any other devices and platforms.
 
 **TL;DR**  
-**Your data is your data**.  
-**We don't use trackers**.  
-**We can't read your generated passwords**.  
+**Your data is your data.**  
+**We don’t want to have any of your data.**  
+**We don't use trackers.**  
+**We can't read your generated passwords.**  
 
 **Information**  
 No personal information, location data, or app usage metrics are collected.

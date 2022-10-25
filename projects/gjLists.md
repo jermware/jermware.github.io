@@ -116,7 +116,7 @@ The following housekeeping options to manage all lists are available from the el
 
 If you find **gjLists** useful and would like to show your appreciation by dropping some spare coins in the tip jar on the *Settings* screen, it would be most appreciated. Thanks.
 
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjlists/id1528217135#?platform=iphone)
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjlists/id1528217135?platform=iphone)
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
@@ -124,9 +124,10 @@ If you find **gjLists** useful and would like to show your appreciation by dropp
 The policy applies to all information collected on **gjLists'** website and our apps for iPhone and any other devices and platforms.
 
 **TL;DR**  
-**Your data is your data**.  
-**We don't use trackers**.  
-**We can't read your lists**.  
+**Your data is your data.**  
+**We don’t want to have any of your data.**  
+**We don't use trackers.**  
+**We can't read your lists.**  
 
 **Information**  
 No personal information, location data, or app usage metrics are collected.
