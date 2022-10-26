@@ -114,7 +114,7 @@ The following housekeeping options to manage all lists are available from the el
 - Markdown viewer from [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown).
 - List icon from [SVG Repo](https://www.svgrepo.com/svg/177/list).
 
-If you find **gjLists** useful and would like to show your appreciation by dropping some spare coins in the tip jar on the *Settings* screen, it would be most appreciated. Thanks.
+**gjLists** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some spare coins in the tip jar on the *Settings* screen, it would be most appreciated.
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjlists/id1528217135?platform=iphone)
 

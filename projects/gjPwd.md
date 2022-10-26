@@ -72,6 +72,8 @@ Alternatively, the app includes several pre-set password configurations:
 - Custom stepper based on [GMStepper](https://github.com/gmertk/GMStepper).
 - Key icon from [SVG Repo](https://www.svgrepo.com/svg/4326/house-key).
 
+**gjPwd** is free, there are no ads, and you can download it from the App Store using the link below.
+
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjpwd/id1532589670?platform=iphone)
 
 <br>
