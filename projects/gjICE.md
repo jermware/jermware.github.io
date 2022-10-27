@@ -65,17 +65,14 @@ Emojis may be used, but they will appear washed out since iOS applies a tint to 
 **Features:**
 - Requires iOS 16.1 or later.
 - Designed for iPhone only.
-- Up to 3 lines of text.
+- Up to 3 lines of text, empty lines are ignored.
 - Basic markdown support.
 - Supports system dark and light modes.
 - Emergency Call icon from [flaticon.com](https://www.flaticon.com/free-icon/emergency-call_2158257).
 
-
-<br>***Coming to the [App Store](https://apps.apple.com/gb/developer/gavin-jerman/id1528217377) soon...***
-<!---
 **gjICE** is free, there are no ads, and you can download it from the App Store using the link below.
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjice/idxxxxxxxxxx?platform=iphone)
--->
+
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone)
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
