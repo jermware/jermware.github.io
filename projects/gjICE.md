@@ -68,6 +68,7 @@ Emojis may be used, but they will appear washed out since iOS applies a tint to 
 - Up to 3 lines of text, empty lines are ignored.
 - Basic markdown support.
 - Supports system dark and light modes.
+- Anonymous usage statistics from [CountAPI](https://countapi.xyz).
 - Emergency Call icon from [flaticon.com](https://www.flaticon.com/free-icon/emergency-call_2158257).
 
 **gjICE** is free, there are no ads, and you can download it from the App Store using the link below.
