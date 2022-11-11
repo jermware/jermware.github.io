@@ -100,7 +100,7 @@ If you have any questions regarding this privacy policy, you may email [jermware
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
 - September 5, 2021: First published.
-- October 23, 2022: Added 'We don’t want to have any of your data' to TL;DR section.
+- October 23, 2022: Added 'We don’t want to have any of your data' to the **TL;DR** section.
 
 <br>
 ##### October 23, 2022
