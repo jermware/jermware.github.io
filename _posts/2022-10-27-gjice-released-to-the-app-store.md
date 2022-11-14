@@ -7,7 +7,7 @@ layout: post
 published: true
 ---
 
-[**gjICE**](/gjICE), my sixth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjlists/id6443990092?platform=iphone).
+[**gjICE**](/gjICE), my sixth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone).
 
 ![gjice screenshots](/images/2022-10-27-gjice-released-to-the-app-store-1.png){:width="384px"}
 
@@ -66,4 +66,4 @@ If you want to display your emergency contact details, or up to 3 lines of any i
   <img src="/images/2022-10-27-gjice-released-to-the-app-store-2.png" width=256px />
 </p>
 
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjlists/id6443990092?platform=iphone)
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone)
