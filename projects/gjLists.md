@@ -7,7 +7,7 @@ permalink: /gjLists
 {% include slider.html %}
 
 <span style="float: left; line-height: 0px;">
-![gjlists app icon](/images/gjLists/gjLists-icon.png){:height="64px" width="64px"}
+<img width="64" height="64" src="/images/gjLists/gjLists-icon.png">
 </span>
 <span style="float: left; padding: 25px 0px 0px 17px;">
 An iOS app for creating lists.
@@ -28,7 +28,7 @@ An iOS app for creating lists.
     </ul>
 </div>
 
-Use [**gjLists**](https://apps.apple.com/gb/app/gjlists/id1528217135#?platform=iphone) to manage your lists and to-do items using a clean, simple, and intuitive interface.
+Use **gjLists** to manage your lists and to-do items using a clean, simple, and intuitive interface.
 
 A list is just a collection of items (names, words, sentences, etc.), but by marking items as done/complete, it can be used as a to-do list.
 
