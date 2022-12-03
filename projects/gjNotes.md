@@ -69,7 +69,7 @@ The following housekeeping options to manage notes are available:
 
 **gjNotes** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some spare coins in the tip jar on the *Settings* screen, it would be most appreciated.
 
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/developer/gavin-jerman/id1528217377)
+<!--[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/developer/gavin-jerman/id1528217377)-->
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
