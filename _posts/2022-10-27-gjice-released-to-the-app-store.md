@@ -32,13 +32,13 @@ The idea for my widget was simple. I like to have 'if found, or in case of emerg
 
 Time to develop my own Lock Screen widget that would display my emergency contact details independently of the wallpaper.
 
-Enter [**gjICE**](/gjICE). The _ICE_ in **gjICE** stands for _**I**n **C**ase of **E**mergency_.
+Enter **gjICE**. The _ICE_ in **gjICE** stands for _**I**n **C**ase of **E**mergency_.
 
 The initial development was a breeze. SwiftUI makes UI layout very easy, when it supports what you want to do. In my case it was just 2 rows of text with my emergency contact details hardcoded. That was it. I had a working Lock Screen widget displaying my ICE information.
 
 I was going to leave it at that and only use the widget for my own personal use, but I decided that it shouldn't take too much effort to turn it into app that could be used by others and released on the App Store. I amended the app to have 3 user entry text fields that would persist their data on the device, added a preview of what the Lock Screen widget would look like, and added an _About_ section and some support screens. SwiftUI makes creating these UI layouts so easy, and within a few days I had a version of the app that I was happy to release to the App Store.
 
-I also took the opportunity to try out implementing some anonymous data analytics. My previous apps on the App Store, [**gjPwd**](/gjPwd) and [**gjLists**](/gjLists), don't collect any usage data, meaning I have no idea how my apps are used, what features are popular, what features are never used etc. Having this information available would be useful in planning future maintenance and enhancement releases for my apps.
+I also took the opportunity to try out implementing some anonymous data analytics. My previous apps on the App Store, [**gjPwd**](/gjPwd) and **gjLists**, don't collect any usage data, meaning I have no idea how my apps are used, what features are popular, what features are never used etc. Having this information available would be useful in planning future maintenance and enhancement releases for my apps.
 
 I had already been looking at a free service that I could use for anonymous data analytics and decided to implement it in **gjICE**. If it got through App Store review and was successful in providing useful data, I could retrofit it to my existing apps and use it in future apps.
 
