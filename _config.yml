@@ -1,9 +1,9 @@
-title: jermware.net
-author: gavinjerman
-email: jermware@icloud.com
+title: riton64.net
+author: riton64
+email: augeh@cegetel.net
 description: > # this means to ignore newlines until next key word
   gavin jerman's website for his software development projects, running exploits, and love of real ale
-url: https://jermware.github.io
+url: https://riton64/riton64.github.io
 baseurl: /
 markdown: kramdown
 permalink: /:year/:month/:title/
