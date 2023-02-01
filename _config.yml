@@ -10,7 +10,7 @@ permalink: /:year/:month/:title/
 lang: "en"
 excerpt_separator: "\n\n\n" # 2 blank lines
 date_format: "%B %d, %Y"
-paginate: 10
+paginate: 5
 paginate_path: /page/:num/
 analytics: false            # include analytics
 
@@ -27,7 +27,7 @@ show_title: true            # always keep the site title visible
 
 # Styling
 dark_header: true           # always keep the header dark
-minimal: false              # use simpler style
+minimal: true               # use simpler style - no categories on posts
 
 # Menu
 navigation:
@@ -48,7 +48,7 @@ comments:
   #isso_domain: ""           # see https://posativ.org/isso/
 
 plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+ - jekyll-feed
+ - jekyll-paginate
+ - jekyll-sitemap
+ - jekyll-seo-tag
