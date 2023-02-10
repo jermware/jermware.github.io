@@ -1,9 +1,8 @@
 title: jermware.net
 author: gavinjerman
 email: jermware@icloud.com
-description: > # this means to ignore newlines until next key word
-  gavin jerman's website for his software development projects, running exploits, and love of real ale
-url: https://jermware.github.io
+description: jermware.net
+url: https://jermware.net
 baseurl: /
 markdown: kramdown
 permalink: /:year/:month/:title/
@@ -12,40 +11,39 @@ excerpt_separator: "\n\n\n" # 2 blank lines
 date_format: "%B %d, %Y"
 paginate: 5
 paginate_path: /page/:num/
-analytics: false            # include analytics
+analytics: false           # include analytics
 
 # Kramdown
 kramdown:
-  auto_ids: false           # don't auto generate ids from headings
+  auto_ids: false          # don't auto generate ids from headings
 
 # Layout
-sidebar: true               # show a sidebar instead of the usual header
-show_excerpts: true         # show article excerpts on the home page
-show_related: true          # show the previous and next links after every post
-show_description: false     # show the site description in the sidebar
-show_title: true            # always keep the site title visible
-
-# Styling
-dark_header: true           # always keep the header dark
-minimal: true               # use simpler style - no categories on posts
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+show_related: true         # show the previous and next links after every post
+show_description: true     # show the site description in the sidebar
+show_title: true           # always keep the site title visible
 
 # Menu
-navigation:
+navigation:                # accepts {file, title, url, icon, sidebaricon}  - {file: "index.html", icon: home}
   - {file: "index.html", icon: home}
   - {file: "projects.md", icon: clipboard}
-  - {file: "search.md", icon: search}
   - {file: "archive.html", icon: archive}
+  - {file: "search.md", icon: search}
   - {file: "about.md", icon: address-card}
 
-external:                   # see http://fontawesome.com/icons
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:gavinjerman@github.com"}
   - {title: Github, icon: github, url: "https://github.com/jermware/jermware.github.io"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/gavinjerman"}
+#  - {title: Twitter, icon: twitter, url: "https://twitter.com/gavinjerman"}
+  - {title: Mastodon, icon: mastodon, url: "https://mstdn.social/@gavinjerman"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
-  #disqus_shortname: ""      # see https://disqus.com/
-  #isso_domain: ""           # see https://posativ.org/isso/
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
 
 plugins:
  - jekyll-feed
