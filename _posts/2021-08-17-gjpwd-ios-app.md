@@ -7,9 +7,9 @@ layout: post
 published: true
 ---
 
-[**gjPwd**](/gjPwd) is an iOS app for generating secure, easy to use, passwords.
+[**gjPwd**](/gjPwd) is an iOS app for generating secure, easy to use, passwords.  
 
-<img width="384" src="/images/2021-08-17-gjpwd-ios-app-1.png"/>
+![gjPwd screenshots](/images/2021-08-17-gjpwd-ios-app-1.png){:width="384px"}
 
 
 This is my second iOS app and is written in [Swift](https://swift.org), including user interface (no more [Storyboards](https://developer.apple.com/xcode/interface-builder/), apart from the [Launch Screen](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/launch-screen/)). The UI is built using [LBTATools](https://github.com/bhlvoong/LBTATools) v1.0.12.

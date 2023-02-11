@@ -7,9 +7,9 @@ layout: post
 published: true
 ---
 
-[**gjPace**](/gjPace) is an iOS app for calculating pace, time, speed, and distance combinations.
+[**gjPace**](/gjPace) is an iOS app for calculating pace, time, speed, and distance combinations.  
 
-<img width="384" src="/images/2021-08-15-gjpace-ios-app-1.png"/>
+![gjPace screenshots](/images/2021-08-15-gjpace-ios-app-1.png){:width="384px"}
 
 
 This is my first iOS app and is written in [Swift](https://swift.org), a logical choice given my C# background, with the user interface built using [Storyboards](https://developer.apple.com/xcode/interface-builder/).

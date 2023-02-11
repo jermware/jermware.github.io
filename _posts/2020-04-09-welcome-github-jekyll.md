@@ -33,14 +33,17 @@ Step 1:
 - I followed the instructions at [GitHub Pages](https://pages.github.com) to create a **public** repository named **gavinjerman.github.io**.  
 I did not select the *'Initialize this repository with a README'* option. I wanted to keep the repository as clean as possible since I would eventually be overwriting it with a custom theme.
 
-- I did not follow the instructions to *'Clone the respository'* and create an *index.html* file. Instead, I chose the **creating a new file** link in the *'Quick setup - if you've done this kind of thing before'* section.
+- I did not follow the instructions to *'Clone the respository'* and create an *index.html* file. Instead, I chose the **creating a new file** link in the *'Quick setup - if you've done this kind of thing before'* section.  
 ![image1](/images/2020-04-09-welcome-1.png)
-I named the file **index.html** with the contents *'Hello World'* and committed the new file.
+
+  I named the file **index.html** with the contents *'Hello World'* and committed the new file.  
 ![image2](/images/2020-04-09-welcome-2.png)
-My repository looked like this:
+
+  My repository looked like this:  
 ![image3](/images/2020-04-09-welcome-3.png)
 
-- At this point the website was live at [http://gavinjerman.github.io](http://gavinjerman.github.io):  ![image4](/images/2020-04-09-welcome-4.png)
+- At this point the website was live at [http://gavinjerman.github.io](http://gavinjerman.github.io):  
+![image4](/images/2020-04-09-welcome-4.png)
 
 Step 2:
 

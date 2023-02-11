@@ -7,9 +7,9 @@ layout: post
 published: true
 ---
 
-[**gjLists**](/gjLists), my fourth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjlists/id1528217135?platform=iphone).
+[**gjLists**](/gjLists), my fourth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjlists/id1528217135?platform=iphone).  
 
-![gjlists screenshots](/images/2021-12-02-gjlists-released-to-the-app-store-1.png){:width="384px"}
+![gjLists screenshots](/images/2021-12-02-gjlists-released-to-the-app-store-1.png){:width="384px"}
 
 
 Like my previous apps, I wrote it to solve a problem I had. I like lists. I have many lists, for all sorts of things. I have lists for grocery shopping, general to-do items, rooms sizes, bike settings, bugs/features for my apps, all sorts of lists. Originally, I put my lists in text files, then I migrated them to Apple Notes. But I found maintaining and organising them cumbersome. I like to strike out done items and move items around within a list and this was not straightforward in Notes. Yes, I could have found an app on the App Store, but I'm a developer and I wanted to improve my Swift and iOS development skills. So, I decided to write my own app. And I think it worked out well. At least, it works for me.

@@ -7,9 +7,9 @@ layout: post
 published: true
 ---
 
-[**gjICE**](/gjICE), my sixth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone).
+[**gjICE**](/gjICE), my sixth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone).  
 
-![gjice screenshots](/images/2022-10-27-gjice-released-to-the-app-store-1.png){:width="384px"}
+![gjIce screenshots](/images/2022-10-27-gjice-released-to-the-app-store-1.png){:width="384px"}
 
 
 With the release of iOS 16.0 on September 12, 2022, Apple allowed third-party widgets to be displayed on iPhone [Lock Screens](https://support.apple.com/en-gb/guide/iphone/iph4d0e6c351/ios#iph0ee454f4c).
@@ -60,10 +60,8 @@ The use of anonymous data analytics in **gjICE** was a bit of an experiment. App
 
 With everything in place, I submitted **gjICE** for App Store review and **v2022.1** was approved first time. Happy days!
 
-If you want to display your emergency contact details, or up to 3 lines of any information, on your Lock Screen, give **gjICE** a try. It's free and there are no ads. What's not to like? You can download it from the App Store using the link below.
+If you want to display your emergency contact details, or up to 3 lines of any information, on your Lock Screen, give **gjICE** a try. It's free and there are no ads. What's not to like? You can download it from the App Store using the link below.  
 
-<p align="center">
-  <img src="/images/2022-10-27-gjice-released-to-the-app-store-2.png" width=256px />
-</p>
+![lockscreen widget screenshot](/images/2022-10-27-gjice-released-to-the-app-store-2.png){:width="256px" style="display: block; margin: 0 auto" }
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone)

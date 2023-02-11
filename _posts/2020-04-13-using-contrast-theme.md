@@ -16,10 +16,10 @@ There are many, many, Jekyll themes available, and you can spend hours browsing 
 
 The Jekyll [theme](https://jekyllrb.com/docs/themes/) documentation lists some of the sites hosting galleries of Jekyll themes. The two I found most useful were [jamstackthemes.dev](https://jamstackthemes.dev/ssg/jekyll/) and [jekyllthemes.io](https://jekyllthemes.io/).
 
-After a couple of false starts, I finally decided on the [Contrast](https://jekyllthemes.io/theme/contrast) Jekyll theme by [Niklas Buschmann](https://github.com/niklasbuschmann). This is a blog theme that is clean, simple, responsive, and supports pagination and syntax highlighting.
+After a couple of false starts, I finally decided on the [Contrast](https://jekyllthemes.io/theme/contrast) Jekyll theme by [Niklas Buschmann](https://github.com/niklasbuschmann). This is a blog theme that is clean, simple, responsive, and supports pagination and syntax highlighting.  
 ![image1](/images/2020-04-13-using-1.png)
 
-It also supports site navigation, ideal for my iOS app support pages.
+It also supports site navigation, ideal for my iOS app support pages.  
 ![image2](/images/2020-04-13-using-2.png)
 
 The *Contrast* Jekyll theme is hosted on [GitHub](https://github.com/niklasbuschmann/contrast) and comes with an [Unlicence](https://unlicense.org) i.e. "This is free and unencumbered software released into the public domain.".
@@ -32,19 +32,19 @@ With no active website repository, I could follow the *Contrast* installation in
 
 Here's what I did.
 
-- Renamed the existing **gavinjerman.github.io** website repository to **website.old**. Renaming the repository deactivates the website.
+- Renamed the existing **gavinjerman.github.io** website repository to **website.old**. Renaming the repository deactivates the website.  
 ![image3](/images/2020-04-13-using-3.png)
 
-- Forked the [Contrast](https://github.com/niklasbuschmann/contrast) repository into my GitHub account.
+- Forked the [Contrast](https://github.com/niklasbuschmann/contrast) repository into my GitHub account.  
 ![image4](/images/2020-04-13-using-4.png)
 
-- Renamed the forked *Contrast* repository to my GitHub website repository name **gavinjerman.github.io**.
+- Renamed the forked *Contrast* repository to my GitHub website repository name **gavinjerman.github.io**.  
 ![image5](/images/2020-04-13-using-5.png)
 
-- Set the website *Custom domain* to my custom domain name **www.jermware.net**, ensuring *Enforce HTTPS* was checked.
+- Set the website *Custom domain* to my custom domain name **www.jermware.net**, ensuring *Enforce HTTPS* was checked.  
 ![image6](/images/2020-04-13-using-6.png)
 
-Once this was done, my GitHub hosted website, using my custom domain, was running as a clone of the default *Contrast* theme.
+Once this was done, my GitHub hosted website, using my custom domain, was running as a clone of the default *Contrast* theme.  
 ![image7](/images/2020-04-13-using-7.png)
 
 Now to customise the default *Contrast* theme...

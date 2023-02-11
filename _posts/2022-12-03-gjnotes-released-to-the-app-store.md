@@ -7,9 +7,9 @@ layout: post
 published: true
 ---
 
-[**gjNotes**](/gjNotes), my fifth iOS App, is my fourth app released on the [App Store](https://apps.apple.com/app/gjnotes/id1562333522?platform=iphone).
+[**gjNotes**](/gjNotes), my fifth iOS App, is my fourth app released on the [App Store](https://apps.apple.com/app/gjnotes/id1562333522?platform=iphone).  
 
-![gjnotes screenshots](/images/2022-12-03-gjnotes-released-to-the-app-store-1.png){:width="384px"}
+![gjNotes screenshots](/images/2022-12-03-gjnotes-released-to-the-app-store-1.png){:width="384px"}
 
 
 I started work on **gjNotes** back in April 2021 when I was still working on [**gjLists**](/gjLists) but was distracted by the 'new shiny' of [SwiftUI](https://developer.apple.com/documentation/swiftui/). I already had the idea for an app that would allow me to make simple plain text notes (as well as making lists, I like jotting things down in 'scratch' notes) and decided this would be an ideal candidate for my first SwiftUI app. SwiftUI makes creating list/table view based apps so simple compared to [UIKit](https://developer.apple.com/documentation/uikit) that it wasn't long before I had a [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product).

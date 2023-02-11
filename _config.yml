@@ -20,19 +20,19 @@ kramdown:
 # Layout
 show_excerpts: true        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
-show_sidebar: true        # show a sidebar instead of the usual header
-minimal: false             # use a dark header
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: true              # use a dark header - ONLY applies if show_frame: false
 show_related: true         # show the previous and next links after every post
 show_description: true     # show the site description in the sidebar
-show_title: true           # always keep the site title visible
+# show_title: true         # always keep the site title visible - NOT USED ANYWHERE IN CODE
 
 # Menu
 navigation:                # accepts {file, title, url, icon, sidebaricon}  - {file: "index.html", icon: home}
-  - {file: "index.html", icon: home}
-  - {file: "projects.md", icon: clipboard}
-  - {file: "archive.html", icon: archive}
-  - {file: "search.md", icon: search}
-  - {file: "about.md", icon: address-card}
+  - {file: "index.html"} #, icon: home}
+  - {file: "projects.md"} #, icon: clipboard}
+  - {file: "archive.html"} #, icon: archive}
+  - {file: "search.md"} #, icon: search}
+  - {file: "about.md"} #, icon: address-card}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:gavinjerman@github.com"}
@@ -40,10 +40,6 @@ external:                  # shows a footer with social links - for available ic
 #  - {title: Twitter, icon: twitter, url: "https://twitter.com/gavinjerman"}
   - {title: Mastodon, icon: mastodon, url: "https://mstdn.social/@gavinjerman"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
 
 plugins:
  - jekyll-feed

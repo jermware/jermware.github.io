@@ -7,9 +7,9 @@ layout: post
 published: true
 ---
 
-I never intended to release [**gjPwd**](/gjPwd) on the [App Store](https://apps.apple.com/gb/app/gjpwd/id1532589670?platform=iphone).
+I never intended to release [**gjPwd**](/gjPwd) on the [App Store](https://apps.apple.com/gb/app/gjpwd/id1532589670?platform=iphone).  
 
-<img width="384" src="/images/2021-09-08-gjpwd-released-to-app-store-1.png"/>
+![gjPwd screenshots](/images/2021-09-08-gjpwd-released-to-app-store-1.png){:width="384px"}
 
 
 I wrote it to help me improve my Swift development skills and to solve a specific requirement I had. Generating secure, memorable, passwords is a bit niche, and I would imagine the target audience is quite small. Although it took me longer than I was expecting to complete, the app itself is straightforward. It doesn't use iCloud, it's free, there are no ads or in app purchases, and it uses no third-party libraries. It's just Swift and the iOS system libraries. As apps go, it doesn't get much simpler or cleaner than that. So, I decided to release the app to the App Store as an educational exercise to see exactly what is involved.

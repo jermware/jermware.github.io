@@ -7,9 +7,9 @@ layout: post
 published: true
 ---
 
-[**gjBeers**](/gjBeers) is an iOS app for cataloging real ales.
+[**gjBeers**](/gjBeers) is an iOS app for cataloging real ales.  
 
-<img width="384" src="/images/2021-08-23-gjbeers-ios-app-1.png"/>
+![gjBeers screenshots](/images/2021-08-23-gjbeers-ios-app-1.png){:width="384px"}
 
 
 This is my third iOS app. It is written fully in [Swift](https://swift.org) and uses no third-party libraries.
