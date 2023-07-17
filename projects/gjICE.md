@@ -39,7 +39,7 @@ One inline, and up to 4 circular or 2 rectangular widgets may be displayed on th
 ![3 lines of text in the app](/images/gjICE/1-3-lines-of-text-app.png){:width="400px"}
 ![3 lines of text in the widget](/images/gjICE/1-3-lines-of-text-widget.png){:width="200px"}
 
-The text font size is automatically reduced to accomodate long lines, although very long lines will be truncated. Empty lines are ignored.  
+The text font size is automatically reduced to accommodate long lines, although very long lines will be truncated. Empty lines are ignored.  
 ![long lines of text in the app](/images/gjICE/2-long-lines-of-text-app.png){:width="400px"}
 ![long lines of text in the widget](/images/gjICE/2-long-lines-of-text-widget.png){:width="200px"}
 
