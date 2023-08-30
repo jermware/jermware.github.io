@@ -88,7 +88,11 @@ The policy applies to all information collected on **gjPwd**’s website and our
 **We can't read your generated passwords.**  
 
 **Information**  
-No personal information, location data, or app usage metrics are collected.
+No personal information or location data are collected.
+
+We collect anonymous usage data for private analytics to help understand how the app is used and to support future developments. We have no idea who sent the data and they and cannot be traced back to you.
+
+The usage data are not used for marketing, tracking, advertisement or anything alike.
 
 **Your Consent**  
 By using our website or apps, you consent to our privacy policy.
@@ -101,6 +105,7 @@ If we decide to change our privacy policy, we will post those changes on this pa
 
 - September 5, 2021: First published.
 - October 23, 2022: Added 'We don’t want to have any of your data' to the **TL;DR** section.
+- August 30, 2023: Added 'We collect anonymous usage data...' to the **Information** section.
 
 <br>
-##### October 23, 2022
+##### August 30, 2023
