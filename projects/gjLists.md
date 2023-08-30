@@ -127,9 +127,9 @@ The policy applies to all information collected on **gjLists'** website and our 
 **We can't read your lists.**  
 
 **Information**  
-No personal information, location data are collected.
+No personal information or location data are collected.
 
-We collect anonymous usage data for private analytics to help understand how the app is used and to support future developments. This is done by incrementing a number whenever you use certain features, but we only do a +1 on aggregated global counters so we have no idea who sent the event.
+We collect anonymous usage data for private analytics to help understand how the app is used and to support future developments. We have no idea who sent the data and they and cannot be traced back to you.
 
 The usage data are not used for marketing, tracking, advertisement or anything alike.
 
@@ -138,9 +138,6 @@ All data syncing is done through Apple’s iCloud service. The only data stored 
 
 **Local Storage**  
 Your lists are always saved locally on your device, even when iCloud syncing is enabled in the _Settings_ screen. This allows you to access your lists even if iCloud access is not available. Your lists will remain on your device until you delete them within the app, or you delete the app from your device.
-
-**Diagnostics**  
-If you turn on _Diagnostics_ in the app's _Settings_ screen (the default setting is off), a log file containing debugging information is written to your device. The log file is written to until you turn off _Diagnostics_, and remains on your device until you delete it. The contents of the log file are never transmitted by the app and remain on your device unless you explicitly share them with someone else. No personal information is saved in the log file.
 
 **Your Consent**  
 By using our website or apps, you consent to our privacy policy.
@@ -154,6 +151,7 @@ If we decide to change our privacy policy, we will post those changes on this pa
 - November 30, 2021: First published.
 - October 23, 2022: Added 'We don’t want to have any of your data' to the **TL;DR** section.
 - November 11, 2022: Added 'We collect anonymous usage data...' to the **Information** section.
+- August 30, 2023: Removed the **Diagnostics** section since the _Diagnostics_ option in the app's _Settings_ screen is no longer available. Removed the reference to global counters in the **Information** section.
 
 <br>
-##### November 11, 2022
+##### August 30, 2023
