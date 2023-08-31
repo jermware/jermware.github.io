@@ -68,7 +68,7 @@ Emojis may be used, but they will appear washed out since iOS applies a tint to 
 - Up to 3 lines of text, empty lines are ignored.
 - Basic markdown support.
 - Supports system dark and light modes.
-- Anonymous usage statistics from [CountAPI](https://countapi.xyz).
+- Anonymous usage data from [TelemetryDeck](https://telemetrydeck.com/).
 - Emergency Call icon from [flaticon.com](https://www.flaticon.com/free-icon/emergency-call_2158257).
 
 **gjICE** is free, there are no ads, and you can download it from the App Store using the link below.
@@ -89,7 +89,7 @@ The policy applies to all information collected on **gjICE's** website and our a
 **Information**  
 No personal information or location data are collected.
 
-We collect anonymous usage data for private analytics to help understand how the app is used and to support future developments. This is done by incrementing a number whenever you use certain features, but we only do a +1 on aggregated global counters so we have no idea who sent the event.
+We collect anonymous usage data for private analytics to help understand how the app is used and to support future developments. We have no idea who sent the data and they and cannot be traced back to you.
 
 The usage data are not used for marketing, tracking, advertisement or anything alike.
 
@@ -103,6 +103,7 @@ If you have any questions regarding this privacy policy, you may email [jermware
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
 - October 23, 2022: First published.
+- August 30, 2023: Removed the reference to global counters in the **Information** section.
 
 <br>
-##### October 23, 2022
+##### August 31, 2023

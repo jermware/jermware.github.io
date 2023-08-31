@@ -64,7 +64,7 @@ The following housekeeping options are available to manage your notes:
 - Home screen widget.
 - iCloud note synchronisation across devices.
 - Supports system dark and light modes.
-- Anonymous usage statistics from [CountAPI](https://countapi.xyz).
+- Anonymous usage data from [TelemetryDeck](https://telemetrydeck.com/).
 - Note icon from [freeicons.io](https://freeicons.io/text-editing/text-editing-align-left-icon-44143).
 
 **gjNotes** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some coins in the tip jar on the _Settings_ screen, it would be most appreciated.

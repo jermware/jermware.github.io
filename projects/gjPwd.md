@@ -70,6 +70,7 @@ Alternatively, the app includes several pre-set password configurations:
 - Passwords automatically copied to _Universal Clipboard_.
 - Supports system dark and light modes.
 - Custom stepper based on [GMStepper](https://github.com/gmertk/GMStepper).
+- Anonymous usage data from [TelemetryDeck](https://telemetrydeck.com/).
 - Key icon from [SVG Repo](https://www.svgrepo.com/svg/4326/house-key).
 
 **gjPwd** is free, there are no ads, and you can download it from the App Store using the link below.

@@ -108,7 +108,7 @@ The following housekeeping options to manage all lists are available:
 - iCloud list synchronisation across devices.
 - Supports system dark and light modes.
 - Drag and drop reordering from [SwiftReorder](https://github.com/adamshin/SwiftReorder).
-- Anonymous usage statistics from [CountAPI](https://countapi.xyz).
+- Anonymous usage data from [TelemetryDeck](https://telemetrydeck.com/).
 - List icon from [SVG Repo](https://www.svgrepo.com/svg/177/list).
 
 **gjLists** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some spare coins in the tip jar on the *Settings* screen, it would be most appreciated.
