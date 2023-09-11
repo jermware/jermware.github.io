@@ -19,6 +19,11 @@ An iOS app for creating perfect [AeroPress](https://en.wikipedia.org/wiki/AeroPr
         <!-- <li data-src="large"><img src="medium"></li> -->
         <li data-src="/images/gjAero/gjAero-1m.png"><img src="/images/gjAero/gjAero-1s.png" width=256px></li>
         <li data-src="/images/gjAero/gjAero-2m.png"><img src="/images/gjAero/gjAero-2s.png" width=256px></li>
+        <li data-src="/images/gjAero/gjAero-3m.png"><img src="/images/gjAero/gjAero-3s.png" width=256px></li>
+        <li data-src="/images/gjAero/gjAero-4m.png"><img src="/images/gjAero/gjAero-4s.png" width=256px></li>
+        <li data-src="/images/gjAero/gjAero-5m.png"><img src="/images/gjAero/gjAero-5s.png" width=256px></li>
+        <li data-src="/images/gjAero/gjAero-6m.png"><img src="/images/gjAero/gjAero-6s.png" width=256px></li>
+        <li data-src="/images/gjAero/gjAero-7m.png"><img src="/images/gjAero/gjAero-7s.png" width=256px></li>
     </ul>
 </div>
 
@@ -35,17 +40,14 @@ The policy applies to all information collected on **gjAero's** website and our 
 **Your data is your data**.  
 **We don’t want to have any of your data.**  
 **We don't use trackers**.  
-**We can't read your notes**.  
+**We can't read your recipes**.  
 
 **Information**  
-No personal information, location data, or app usage metrics are collected.
+No personal information or location data are collected.
 
-We collect anonymous usage data for private analytics to help understand how the app is used and to support future developments. This is done by incrementing a number whenever you use certain features, but we only do a +1 on aggregated global counters so we have no idea who sent the event.
+We collect anonymous usage data for private analytics to help understand how the app is used and to support future developments. We have no idea who sent the data and they and cannot be traced back to you.
 
 The usage data are not used for marketing, tracking, advertisement or anything alike.
-
-**iCloud**  
-All data syncing is done through Apple’s iCloud service. The only data stored in iCloud are your recipes. These data are only accessible by you when using the app on a device logged into your iCloud account.
 
 **Local Storage**  
 Your recipes are always saved locally on your device. This allows you to access your recipes even if iCloud access is not available. Your recipes will remain on your device until you delete them within the app, or you delete the app from your device.
@@ -59,7 +61,7 @@ If you have any questions regarding this privacy policy, you may email [jermware
 **Changes to this Policy**  
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
-- December 17, 2022: First published.
+- September 11, 2023: First published.
 
 <br>
-##### December 17, 2022
+##### September 11, 2023
