@@ -29,6 +29,47 @@ An iOS app for creating perfect [AeroPress](https://en.wikipedia.org/wiki/AeroPr
 
 Use **gjAero** to create and manage your recipes for creating the perfect _AeroPress_ brew every time.
 
+**gjAero** is the ideal companion for your _AeroPress_. Creating your ideal brew is easy:
+- Select your recipe.
+- Choose your preferred coffee beans and grind size.
+- Heat the water to your required temperature.
+- Follow the app's instructions to add water, stir, steep, and press.
+- Enjoy the perfect cup of coffee every time.
+
+Not sure what recipe to use? Start off by trying the 2 default recipes suplied with the app; the _Classic_ and the _Inverted_. Not completely happy with the results? Don't worry, you can edit and tweak them to your personal preference.
+
+Looking for more recipe insipration? Head over to [AeroPrecipe](https://aeroprecipe.com) where you will find all sorts of recipes that you can add to your collection.
+
+Every recipe has a notes field where you can save grind size, coffee and water amounts, attribution, tasting notes etc. It's a free-form text field so you can save anything you like in it.
+
+App usage notes:
+- Rearrange the order of your recipes by tapping _Edit_ on the recipe list screen and dragging them to the required order on the _Edit Recipes_ screen.
+- Use the _Settings_ screen to specify the number of columns displayed on the recipe list screen.
+- Add new recipes in the _Edit Recipes_ screen.
+- Delete recipes from the _Edit Recipes_ screen.
+- A _**Load default recipes**_ option is displayed when all recipes have been deleted.
+- Specify the app's theme colour in the _Settings_ screen.
+- Specify the the countdown timer sound and volume in the _Settings_ screen.
+
+**Features:**
+- Requires iOS 16.4 or later.
+- Designed for iPhone, works on iPad.
+- 2 default recipes.
+- Create your own recipes.
+- Recipes may contain multiple, individually timed, steps.
+- Pour, pour 1/3, pour 1/2, pour 2/3, stir, steep, and plunge steps.
+- Supports classic and inverted brewing techniques.
+- Add notes to recipes.
+- Countdown timers shown for the current step and overall time remaining.
+- User selectable countdown sound and volume.
+- User selectable theme colour.
+- Supports system dark and light modes.
+- Anonymous usage data from [TelemetryDeck](https://telemetrydeck.com/).
+- AreoPress icon by [No More Heroes](https://thenounproject.com/icon/aeropress-1153401/) from [Noun Project](https://thenounproject.com/).
+- Countdown sounds from [Mixkit](https://mixkit.co/free-sound-effects/countdown/).
+
+**gjAero** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some coins in the tip jar on the _Settings_ screen, it would be most appreciated.
+
 Coming to the [App Store](https://www.apple.com/app-store/) soon...
 
 <br>
