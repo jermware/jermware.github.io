@@ -27,7 +27,7 @@ An iOS app for creating perfect [AeroPress](https://en.wikipedia.org/wiki/AeroPr
     </ul>
 </div>
 
-Use **gjAero** to create and manage your recipes for creating the perfect _AeroPress_ brew every time.
+Use **gjAero** to create and manage your recipes for creating the perfect [AeroPress©](https://aeropress.com) brew every time.
 
 **gjAero** is the ideal companion for your _AeroPress_. Creating your ideal brew is easy:
 - Select your recipe.
@@ -70,7 +70,7 @@ App usage notes:
 
 **gjAero** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some coins in the tip jar on the _Settings_ screen, it would be most appreciated.
 
-Coming to the [App Store](https://www.apple.com/app-store/) soon...
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjaero/id6444918004?platform=iphone)
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
