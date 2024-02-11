@@ -86,7 +86,7 @@ The policy applies to all information collected on **gjAero's** website and our 
 **Information**  
 No personal information or location data are collected.
 
-We collect anonymous usage data for private analytics to help understand how the app is used and to support future developments. We have no idea who sent the data and they and cannot be traced back to you.
+We use TelemetryDeck to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy at https://telemetrydeck.com/privacy
 
 The usage data are not used for marketing, tracking, advertisement or anything alike.
 
@@ -103,6 +103,7 @@ If you have any questions regarding this privacy policy, you may email [jermware
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
 - September 11, 2023: First published.
+- February 11, 2024: Added reference to TelemetryDeck.
 
 <br>
-##### September 11, 2023
+##### February 11, 2024

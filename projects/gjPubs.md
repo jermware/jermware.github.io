@@ -30,12 +30,15 @@ The policy applies to all information collected on **gjPubs'** website and our a
 **Information**  
 No personal information or location data are collected.
 
-We collect anonymous usage data for private analytics to help understand how the app is used and to support future developments. We have no idea who sent the data and they and cannot be traced back to you.
+We use TelemetryDeck to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy at https://telemetrydeck.com/privacy
 
 The usage data are not used for marketing, tracking, advertisement or anything alike.
 
+**iCloud**  
+All data syncing is done through Apple’s iCloud service. The only data stored in iCloud are your pub records. These data are only accessible by you when using the app on a device logged into your iCloud account.
+
 **Local Storage**  
-Your pubs records and their images are always saved locally on your device. This allows you to access your pub records even if iCloud access is not available. Your pub records and their images will remain on your device until you delete them within the app, or you delete the app from your device.
+Your pub records and their images are always saved locally on your device. This allows you to access your pub records even if iCloud access is not available. Your pub records and their images will remain on your device until you delete them within the app, or you delete the app from your device.
 
 **Your Consent**  
 By using our website or apps, you consent to our privacy policy.
@@ -46,7 +49,7 @@ If you have any questions regarding this privacy policy, you may email [jermware
 **Changes to this Policy**  
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
-- January 6, 2024: First published.
+- February 11, 2024: First published.
 
 <br>
-##### January 6, 2024
+##### February 11, 2024

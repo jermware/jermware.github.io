@@ -89,7 +89,7 @@ The policy applies to all information collected on **gjICE's** website and our a
 **Information**  
 No personal information or location data are collected.
 
-We collect anonymous usage data for private analytics to help understand how the app is used and to support future developments. We have no idea who sent the data and they and cannot be traced back to you.
+We use TelemetryDeck to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy at https://telemetrydeck.com/privacy
 
 The usage data are not used for marketing, tracking, advertisement or anything alike.
 
@@ -104,6 +104,7 @@ If we decide to change our privacy policy, we will post those changes on this pa
 
 - October 23, 2022: First published.
 - August 30, 2023: Removed the reference to global counters in the **Information** section.
+- February 11, 2024: Added reference to TelemetryDeck.
 
 <br>
-##### August 31, 2023
+##### February 11, 2024
