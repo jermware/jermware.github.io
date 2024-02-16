@@ -66,8 +66,9 @@ Alternatively, the app includes several pre-set password configurations:
 
 - Requires iOS 15.0 or later.
 - Designed for iPhone but works on iPad.
-- Inspired by **[xkpasswd](https://xkpasswd.net)** from **[Bart Busschots](https://www.bartbusschots.ie)**.
+- Specify the number and complexity of passwords to generate.
 - Passwords automatically copied to _Universal Clipboard_.
+- Inspired by [xkpasswd](https://xkpasswd.net) from [Bart Busschots](https://www.bartbusschots.ie).
 - Supports system dark and light modes.
 - Custom stepper based on [GMStepper](https://github.com/gmertk/GMStepper).
 - Anonymous usage data from [TelemetryDeck](https://telemetrydeck.com/).
@@ -78,6 +79,7 @@ Alternatively, the app includes several pre-set password configurations:
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjpwd/id1532589670?platform=iphone)
 
 <br>
+
 <h3 id="privacy">Privacy Policy</h3>
 
 The policy applies to all information collected on **gjPwd**’s website and our apps for iPhone and any other devices and platforms.
