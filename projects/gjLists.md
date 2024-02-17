@@ -105,21 +105,21 @@ The following housekeeping options to manage all lists are available:
 **Features:**
 - Requires iOS 15.0 or later.
 - Designed for iPhone and iPad.
-- tap + to create a new list or add an item to a list
-- swipe left to delete a list or item
-- swipe right to edit a list's name
-- swipe right to mark an item as done or to undo a done item
-- tap, hold, and drag to rearrange lists and items/to-dos
-- strikeout completed/done items or mark with a checkmark
-- copy lists and list items to and from the clipboard
-- specify if new items are added to the end or beginning of a list
-- specify if done items are moved to the end of a list
-- specify if undone items are moved to the start of a list
-- mark all items as done or not done
-- duplicate lists
-- delete all done items
-- delete all lists or all items
-- export lists for backup and import lists to restore
+- Tap + to create a new list or add an item to a list
+- Swipe left to delete a list or item
+- Swipe right to edit a list's name
+- Swipe right to mark an item as done or to undo a done item
+- Tap, hold, and drag to rearrange lists and items/to-dos
+- Strikeout completed/done items or mark with a checkmark
+- Copy lists and list items to and from the clipboard
+- Specify if new items are added to the end or beginning of a list
+- Specify if done items are moved to the end of a list
+- Specify if undone items are moved to the start of a list
+- Mark all items as done or not done
+- Duplicate lists
+- Delete all done items
+- Delete all lists or all items
+- Export lists for backup and import lists to restore
 - iCloud list synchronisation across devices.
 - Supports system dark and light modes.
 
