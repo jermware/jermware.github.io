@@ -61,12 +61,10 @@ App usage notes:
 - Supports classic and inverted brewing techniques.
 - Add notes to recipes.
 - Countdown timers shown for the current step and overall time remaining.
+- Backup and restore your recipes.
 - User selectable countdown sound and volume.
 - User selectable theme colour.
 - Supports system dark and light modes.
-- Anonymous usage data from [TelemetryDeck](https://telemetrydeck.com/).
-- AreoPress icon by [No More Heroes](https://thenounproject.com/icon/aeropress-1153401/) from [Noun Project](https://thenounproject.com/).
-- Countdown sounds from [Mixkit](https://mixkit.co/free-sound-effects/countdown/).
 
 **gjAero** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some coins in the tip jar on the _Settings_ screen, it would be most appreciated.
 
@@ -106,4 +104,4 @@ If we decide to change our privacy policy, we will post those changes on this pa
 - February 11, 2024: Added reference to TelemetryDeck.
 
 <br>
-##### February 11, 2024
+##### February 17, 2024
