@@ -58,14 +58,18 @@ The following housekeeping options are available to manage your notes:
 - ***Restore notes*** (accessible from the _Settings -> Maintenance_ screen) - all existing notes are deleted and replaced with the notes contained in the backup file in the selected location in iCloud, a device folder, a shared location etc. Use this to restore notes from a previous back up. Your existing notes will be replaced after using this option. ***Use with caution***.
 
 **Features:**
-- Requires iOS 16.1 or later.
+- Requires iOS 16.4 or later.
 - Designed for iPhone and iPad.
-- Effectively unlimited plain text notes.
+- Tap the 'New note' placeholder to create a new note
+- Swipe left to delete a note
+- Swipe right to favourite or un-favourite a note
+- Tap Edit to rearrange and delete notes
+- Tap, hold, and drag to rearrange notes
+- Copy notes to and from the clipboard
+- Export notes for backup and import notes to restore
 - Home screen widget.
 - iCloud note synchronisation across devices.
 - Supports system dark and light modes.
-- Anonymous usage data from [TelemetryDeck](https://telemetrydeck.com/).
-- Note icon from [freeicons.io](https://freeicons.io/text-editing/text-editing-align-left-icon-44143).
 
 **gjNotes** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some coins in the tip jar on the _Settings_ screen, it would be most appreciated.
 
@@ -109,4 +113,5 @@ If we decide to change our privacy policy, we will post those changes on this pa
 - February 11, 2024: Added reference to TelemetryDeck.
 
 <br>
-##### February 11, 2024
+
+##### February 17, 2024
