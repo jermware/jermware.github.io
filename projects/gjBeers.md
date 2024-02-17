@@ -47,10 +47,7 @@ The collection is searchable by beer name and sortable by name, date, brewery, a
 - Backup/restore the collection to/from iCloud.
 - Various reports can be viewed and copied to the clipboard for exporting to other apps or devices.
 - Supports system dark and light modes.
-- Custom rating control based on [RatingView](https://github.com/shantaramk/RatingView).
-- Zoomable and scrollable image viewer based on [ImageScrollView](https://github.com/huynguyencong/ImageScrollView).
-- Beer glass icon by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/free-icon/alcohol_1764407).
 
-<br/>
+<br>
 
-##### September 26, 2022
+##### February 17, 2024
