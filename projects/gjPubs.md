@@ -14,7 +14,21 @@ An iOS app for recording and rating your pubs.
 </span>
 <div style="clear: both;"></div>
 
-Under construction, comming soon...
+<div id="gallery">
+    <ul id="lightSlider" class="cS-hidden">
+        <!-- <li data-src="large"><img src="medium"></li> -->
+        <li data-src="/images/gjPubs/gjPubs-1m.png"><img src="/images/gjPubs/gjPubs-1s.png" width=256px></li>
+        <li data-src="/images/gjPubs/gjPubs-2m.png"><img src="/images/gjPubs/gjPubs-2s.png" width=256px></li>
+        <li data-src="/images/gjPubs/gjPubs-3m.png"><img src="/images/gjPubs/gjPubs-3s.png" width=256px></li>
+        <li data-src="/images/gjPubs/gjPubs-4m.png"><img src="/images/gjPubs/gjPubs-4s.png" width=256px></li>
+        <li data-src="/images/gjPubs/gjPubs-5m.png"><img src="/images/gjPubs/gjPubs-5s.png" width=256px></li>
+        <li data-src="/images/gjPubs/gjPubs-6m.png"><img src="/images/gjPubs/gjPubs-6s.png" width=256px></li>
+        <li data-src="/images/gjPubs/gjPubs-7m.png"><img src="/images/gjPubs/gjPubs-7s.png" width=256px></li>
+        <li data-src="/images/gjPubs/gjPubs-8m.png"><img src="/images/gjPubs/gjPubs-8s.png" width=256px></li>
+    </ul>
+</div>
+
+Under construction, coming soon...
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
@@ -30,7 +44,7 @@ The policy applies to all information collected on **gjPubs'** website and our a
 **Information**  
 No personal information or location data are collected.
 
-We use TelemetryDeck to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy **[here](https://telemetrydeck.com/privacy)**.
+We use [TelemetryDeck](https://telemetrydeck.com) to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy **[here](https://telemetrydeck.com/privacy)**.
 
 The usage data are not used for marketing, tracking, advertisement or anything alike.
 
