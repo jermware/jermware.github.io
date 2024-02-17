@@ -41,6 +41,6 @@ Given a specified distance and either a time, pace, or speed, the app calculates
 - Custom pickers for time and pace.
 - Supports system dark and light modes.
 
-<br/>
+<br>
 
-##### September 23, 2022
+##### February 17, 2024
