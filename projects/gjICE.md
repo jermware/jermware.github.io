@@ -63,13 +63,15 @@ Emojis may be used, but they will appear washed out since iOS applies a tint to 
 
 
 **Features:**
-- Requires iOS 16.1 or later.
+- Requires iOS 16.0 or later.
 - Designed for iPhone only.
 - Up to 3 lines of text, empty lines are ignored.
-- Basic markdown support.
+- Support for basic markdown:
+  - To bold text, add two asterisks or underscores before and after a word or phrase
+  - To italicise text, add one asterisk or underscore before and after a word or phrase
+  - To strikeout text, add two tildes (~) before and after a word or phrase
+- Emojis may be used but they will appear washed out since iOS applies a tint to all Lock Screen widgets
 - Supports system dark and light modes.
-- Anonymous usage data from [TelemetryDeck](https://telemetrydeck.com/).
-- Emergency Call icon from [flaticon.com](https://www.flaticon.com/free-icon/emergency-call_2158257).
 
 **gjICE** is free, there are no ads, and you can download it from the App Store using the link below.
 
@@ -107,4 +109,4 @@ If we decide to change our privacy policy, we will post those changes on this pa
 - February 11, 2024: Added reference to TelemetryDeck.
 
 <br>
-##### February 11, 2024
+##### February 17, 2024
