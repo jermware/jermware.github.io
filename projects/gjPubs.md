@@ -30,6 +30,12 @@ An iOS app for recording and rating your pubs.
 
 Under construction, coming soon...
 
+Use **gjPubs** to keep tack of, and rate, your pubs.
+
+**Features:**
+- Requires iOS 17.2 or later.
+- Designed for iPhone and iPad.
+
 <br>
 <h3 id="privacy">Privacy Policy</h3>
 
@@ -66,4 +72,5 @@ If we decide to change our privacy policy, we will post those changes on this pa
 - February 11, 2024: First published.
 
 <br>
-##### February 11, 2024
+
+##### February 17, 2024
