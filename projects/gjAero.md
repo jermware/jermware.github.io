@@ -54,16 +54,10 @@ App usage notes:
 **Features:**
 - Requires iOS 16.4 or later.
 - Designed for iPhone, works on iPad.
-- 2 default recipes.
-- Create your own recipes.
-- Recipes may contain multiple, individually timed, steps.
-- Pour, pour 1/3, pour 1/2, pour 2/3, stir, steep, and plunge steps.
 - Supports classic and inverted brewing techniques.
-- Add notes to recipes.
-- Countdown timers shown for the current step and overall time remaining.
-- Backup and restore your recipes.
 - User selectable countdown sound and volume.
 - User selectable theme colour.
+- Backup and restore your recipes.
 - Supports system dark and light modes.
 
 **gjAero** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some coins in the tip jar on the _Settings_ screen, it would be most appreciated.
