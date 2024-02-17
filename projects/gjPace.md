@@ -35,13 +35,11 @@ Given a specified distance and either a time, pace, or speed, the app calculates
 
 - Requires iOS 15.0 or later.
 - Designed for iPhone but works on iPad.
-- A shameless rip-off of **[Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773)** by **[Fikes Farm, LLC](http://fikesfarm.com/rp/)**.
+- A shameless rip-off of [Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773) by [Fikes Farm, LLC](http://fikesfarm.com/rp/).
 - Choose miles or kilometers.
-- Supports system dark and light modes.
 - Custom keyboard toolbar e.g. common race distances.
 - Custom pickers for time and pace.
-- Keyboard avoidance implemented using [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager).
-- Stopwatch icon from [OnlineWebFonts.COM](https://www.onlinewebfonts.com/icon/65694).
+- Supports system dark and light modes.
 
 <br/>
 
