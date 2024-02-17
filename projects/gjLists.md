@@ -105,11 +105,23 @@ The following housekeeping options to manage all lists are available:
 **Features:**
 - Requires iOS 15.0 or later.
 - Designed for iPhone and iPad.
+- tap + to create a new list or add an item to a list
+- swipe left to delete a list or item
+- swipe right to edit a list's name
+- swipe right to mark an item as done or to undo a done item
+- tap, hold, and drag to rearrange lists and items/to-dos
+- strikeout completed/done items or mark with a checkmark
+- copy lists and list items to and from the clipboard
+- specify if new items are added to the end or beginning of a list
+- specify if done items are moved to the end of a list
+- specify if undone items are moved to the start of a list
+- mark all items as done or not done
+- duplicate lists
+- delete all done items
+- delete all lists or all items
+- export lists for backup and import lists to restore
 - iCloud list synchronisation across devices.
 - Supports system dark and light modes.
-- Drag and drop reordering from [SwiftReorder](https://github.com/adamshin/SwiftReorder).
-- Anonymous usage data from [TelemetryDeck](https://telemetrydeck.com/).
-- List icon from [SVG Repo](https://www.svgrepo.com/svg/177/list).
 
 **gjLists** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some spare coins in the tip jar on the *Settings* screen, it would be most appreciated.
 
@@ -155,4 +167,5 @@ If we decide to change our privacy policy, we will post those changes on this pa
 - February 11, 2024: Added reference to TelemetryDeck.
 
 <br>
-##### February 11, 2024
+
+##### February 17, 2024
