@@ -67,10 +67,10 @@ Emojis may be used, but they will appear washed out since iOS applies a tint to 
 - Designed for iPhone only.
 - Up to 3 lines of text, empty lines are ignored.
 - Support for basic markdown:
-  - To bold text, add two asterisks or underscores before and after a word or phrase
-  - To italicise text, add one asterisk or underscore before and after a word or phrase
-  - To strikeout text, add two tildes (~) before and after a word or phrase
-- Emojis may be used but they will appear washed out since iOS applies a tint to all Lock Screen widgets
+  - To bold text, add two asterisks or underscores before and after a word or phrase.
+  - To italicise text, add one asterisk or underscore before and after a word or phrase.
+  - To strikeout text, add two tildes (~) before and after a word or phrase.
+- Emojis may be used but they will appear washed out since iOS applies a tint to all Lock Screen widgets.
 - Supports system dark and light modes.
 
 **gjICE** is free, there are no ads, and you can download it from the App Store using the link below.

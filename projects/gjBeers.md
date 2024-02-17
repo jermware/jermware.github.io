@@ -39,13 +39,12 @@ Drinking a new beer? Take a photo of the pump clip, or the beer, with the iOS de
 
 The collection is searchable by beer name and sortable by name, date, brewery, and rating. It is viewable as an image gallery, as a list of beer names, as a list of brewery names, or as a ratings list. From these lists it is possible to view the beer’s details.
 
-**Features:**
-
+**Feature:**
 - Requires iOS 15.0 or later.
 - Designed for iPhone and iPad.
 - Only a reference to the image in the device’s photo library is stored, not a copy of the image. This eliminates the significant storage overhead of duplicating the photos.
-- Backup/restore the collection to/from iCloud.
 - Various reports can be viewed and copied to the clipboard for exporting to other apps or devices.
+- Backup and restore your beers.
 - Supports system dark and light modes.
 
 <br>

@@ -60,14 +60,11 @@ The following housekeeping options are available to manage your notes:
 **Features:**
 - Requires iOS 16.4 or later.
 - Designed for iPhone and iPad.
-- Tap the 'New note' placeholder to create a new note
-- Swipe left to delete a note
-- Swipe right to favourite or un-favourite a note
-- Tap Edit to rearrange and delete notes
-- Tap, hold, and drag to rearrange notes
-- Copy notes to and from the clipboard
-- Export notes for backup and import notes to restore
+- Swipe actions to delete and favourite/un-favourite a notes.
+- Drag to rearrange notes.
+- Copy notes to and from the clipboard.
 - Home screen widget.
+- Backup and restore your notes.
 - iCloud note synchronisation across devices.
 - Supports system dark and light modes.
 

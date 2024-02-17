@@ -32,7 +32,6 @@ An iOS app for calculating pace, time, speed, and distance combinations.
 Given a specified distance and either a time, pace, or speed, the app calculates the 2 missing values, as well as the cumulative elapsed times for the required split interval.
 
 **Features:**
-
 - Requires iOS 15.0 or later.
 - Designed for iPhone but works on iPad.
 - A shameless rip-off of [Running Pace](https://apps.apple.com/gb/app/running-pace/id519170773) by [Fikes Farm, LLC](http://fikesfarm.com/rp/).
