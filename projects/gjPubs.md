@@ -10,7 +10,7 @@ permalink: /gjPubs
 <img width="64" height="64" src="/images/gjPubs/gjPubs-icon.png">
 </span>
 <span style="float: left; padding: 25px 0px 0px 17px;">
-An iOS app for recording and rating your pubs.
+An iOS app for collecting and rating your pubs.
 </span>
 <div style="clear: both;"></div>
 
@@ -28,13 +28,29 @@ An iOS app for recording and rating your pubs.
     </ul>
 </div>
 
-Under construction, coming soon...
-
 Use **gjPubs** to keep tack of, and rate, your pubs.
+
+Visiting a new pub? Take a photo of it with your iOS device, and in the app add a new pub and select the appropriate image from your photos library. The app uses the photo's [EXIF](https://en.wikipedia.org/wiki/Exif) data to suggest the location and date and time of the first visit and allows you to enter the name, rating, website, and notes for the pub.
+
+Re-visiting a pub? Find the pub in the app, add a new visit, and enter some notes e.g. beer and food consumed. The app will automatically enter the date and time of the visit, but these can be amended.
+
+The collection is searchable by name or location, and sortable by name, rating, location, and date of visit, making it easy to browse your collection or look for a specific pub.
+
+Your pub images are stored alongside their data in the app's database, so they do not have to remain in your device's photos library. A user setting allows you to specify the compression quality of the images to give you control over the storage space used on your device.
+
+iCloud is used to synchronise your collection on all your devices. For additional security your pubs, including images if required, can be backed up to, and restored from, an external file.
 
 **Features:**
 - Requires iOS 17.2 or later.
 - Designed for iPhone and iPad.
+- Searchable and sortable.
+- Zero to 5 star rating in half-star increments.
+- Choosable image compression quality.
+- Backup and restore your pubs.
+- iCloud note synchronisation across devices.
+- Supports system dark and light modes.
+
+<!--[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjpubs/id6475642254?platform=iphone)-->
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
