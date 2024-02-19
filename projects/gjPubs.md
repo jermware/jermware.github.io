@@ -32,11 +32,16 @@ Use **gjPubs** to keep tack of, and rate, your pubs.
 
 Visiting a new pub? Take a photo of it with your iOS device, and in the app add a new pub and select the appropriate image from your photos library. The app uses the photo's [EXIF](https://en.wikipedia.org/wiki/Exif) data to suggest the location and date and time of the first visit and allows you to enter the name, rating, website, and notes for the pub.
 
-Re-visiting a pub? Find the pub in the app, add a new visit, and enter some notes e.g. beer and food consumed. The app will automatically enter the date and time of the visit, but these can be amended.
+Re-visiting a pub? Find the pub in the app, add a new visit, and enter some notes e.g. beer and food consumed. The app will automatically enter the date and time of the visit, but these can be amended.  
+![multiple visits](/images/gjPubs/0-multiple-visits.png){:width="256px"}
+![visit details](/images/gjPubs/1-visit-details.png){:width="256px"}
 
-The collection is searchable by name or location, and sortable by name, rating, location, and date of visit, making it easy to browse your collection or look for a specific pub.
+The collection is searchable by name or location, and sortable by name, rating, location, and date of visit, making it easy to browse your collection or look for a specific pub.  
+![search text](/images/gjPubs/2-search-text.png){:width="256px"}
+![sort options](/images/gjPubs/3-sort-options.png){:width="256px"}
 
-Your pub images are stored alongside their data in the app's database, so they do not have to remain in your device's photos library. A user setting allows you to specify the compression quality of the images to give you control over the storage space used on your device.
+Your pub images are stored alongside their data in the app's database, so they do not have to remain in your device's photos library. A user setting allows you to specify the compression quality of the images to give you control over the storage space used on your device.  
+![image settings](/images/gjPubs/4-image-settings.png){:width="256px"}
 
 iCloud is used to synchronise your collection on all your devices. For additional security your pubs, including images if required, can be backed up to, and restored from, an external file.
 
