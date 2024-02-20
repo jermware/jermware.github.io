@@ -1,6 +1,6 @@
 ---
 title: "gjAero Is on the App Store"
-description: an article describing my fifthfourth app released to the app store
+description: an article describing my fifth app released to the app store
 author: "Gavin Jerman"
 categories: ios app store
 layout: post
