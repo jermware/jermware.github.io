@@ -55,7 +55,9 @@ iCloud is used to synchronise your collection on all your devices. For additiona
 - iCloud note synchronisation across devices.
 - Supports system dark and light modes.
 
-<!--[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjpubs/id6475642254?platform=iphone)-->
+**gjPubs** is available for a small fee, and you can download it from the App Store using the link below.
+
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjpubs/id6475642254?platform=iphone)
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
@@ -94,4 +96,4 @@ If we decide to change our privacy policy, we will post those changes on this pa
 
 <br>
 
-##### February 17, 2024
+##### February 20, 2024
