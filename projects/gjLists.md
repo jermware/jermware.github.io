@@ -25,6 +25,7 @@ An iOS app for creating lists.
         <li data-src="/images/gjLists/gjLists-6m.png"><img src="/images/gjLists/gjLists-6s.png" width=256px></li>
         <li data-src="/images/gjLists/gjLists-7m.png"><img src="/images/gjLists/gjLists-7s.png" width=256px></li>
         <li data-src="/images/gjLists/gjLists-8m.png"><img src="/images/gjLists/gjLists-8s.png" width=256px></li>
+        <li data-src="/images/gjLists/gjLists-9m.png"><img src="/images/gjLists/gjLists-9s.png" width=256px></li>
     </ul>
 </div>
 
@@ -32,23 +33,25 @@ Use **gjLists** to manage your lists and to-do items using a clean, simple, and 
 
 A list is just a collection of items (names, words, sentences, etc.), but by marking items as done/complete, it can be used as a to-do list.
 
-Creating lists is easy. Tap the ⨁ to add a new list or list item.
+Creating lists and items is easy. Enter the name in the _New list/item_ field and tap _Done_. 
 
 Swiping right on an item will mark it as done, either by displaying a checkmark or using strikeout text (the _Strikeout completed items_ setting configures which option is used):
 <br>![mark item as done](/images/gjLists/0-done.png){:width="300px"}
 
 Swiping right on a completed item will undo it:
-<br>![undo item](/images/gjLists/0-undo.png){:width="300px"}
+<br>![undo item](/images/gjLists/1-undo.png){:width="300px"}
 
-Swipe left on a list or list item to delete it:
-<br>![delete list or item](/images/gjLists/0-delete.png){:width="300px"}
+Swipe left on a list or item to delete it:
+<br>![delete list or item](/images/gjLists/2-delete.png){:width="300px"}
 
-Swipe right on a list to edit the list's name:
-<br>![edit list name](/images/gjLists/0-edit.png){:width="300px"}
+Tap on _More..._ in a list to edit the list's name:
+<br>![edit list name](/images/gjLists/3-more.png){:width="300px"}
+<br>![edit list name](/images/gjLists/4-name.png){:width="300px"}
+
+Tap on the list's ⚙ to edit its settings:
+<br>![edit list name](/images/gjLists/5-settings.png){:width="300px"}
 
 Rearrange lists and items by tapping, holding, and dragging them.
-
-If you are logged into your iCloud account and the _Sync to iCloud_ setting is on (enabled by default), your lists are saved to iCloud and will be synchronised with all your iCloud devices. If the setting is off, your lists will only be stored locally on your device.
 
 Lists can also be created by pasting them from the device's clipboard. For example, when on the lists screen, selecting the _Paste from clipboard_ option from the ellipsis (…) menu with the following text on the clipboard:
 <br>
@@ -65,7 +68,7 @@ violet
 
 will create the following list:
 <br>
-![pasted list](/images/gjLists/0-pasted-list.png){:width="300px"}
+![pasted list](/images/gjLists/6-pasted-list.png){:width="300px"}
 <br>
 This allows lists to be created in other apps e.g. text editors, either on or off the device, pasted to the device's clipboard e.g. via _Universal Clipboard_ and pasted into **gjLists**. One or more lists may be pasted from the clipboard. The name of the list is taken from the text inside the `[]` and must be on its own line. Each line of text after the list name is taken as a list item, unless it is a multi-line item, see below.
 
@@ -81,37 +84,43 @@ item three with 'quotes'
 
 will add the following items to the list:
 <br>
-![pasted items](/images/gjLists/0-pasted-items.png){:width="300px"}
+![pasted items](/images/gjLists/7-pasted-items.png){:width="300px"}
 <br>Each item must be on its own line, except for multi-line items which must be enclosed in double-quotation marks i.e. `"item"`. Completed items must be prefixed by `[x] ` - note the space after the closing `]`. Again, this allows list items to be created outside of the app and simplifies the creation of large lists or exporting list items from other apps.
 
 The following options are available to configure the behaviour of lists:
-- ***Done items at end*** - items marked as done/completed are moved to the end of the list. Default is `No`.
-- ***Undo items at start*** - items marked as undone are moved to the beginning of the list. Default is `No`.
-- ***New items at end*** - new items are added to the end of the list. Default is `Yes`.
+- ***Add new items to end*** - new items are added to the end of the list. Default is `Yes`.
+- ***Move done items to end*** - items marked as done/completed are moved to the end of the list. Default is `No`.
+- ***Move undo items to start*** - items marked as undone are moved to the beginning of the list. Default is `No`.
 
-These settings apply to the list for which they were set i.e. each list has its own settings. To configure a list, view it and select the appropriate setting from the ellipsis (…) menu to toggle the setting. Just selecting the ellipsis (…) menu will show the list's current settings.
+These settings apply to the list for which they were set i.e. each list has its own settings.
 
 The following housekeeping options to manage the items in a list are available from the ellipsis (…)  menu when viewing the list:
 - ***Mark all items as done*** - any item marked as undone will be marked as done.
+- ***Mark all items as not done*** - any item marked as done will be marked as undone.
 - ***Duplicate list*** - the current list is copied into a new list with the same name suffixed with _' - copy'_. This is useful for creating working lists from a master list.
 - ***Delete done items*** - all items marked as done are deleted from the list.
 - ***Delete all items*** - all items are deleted from the list i.e. the list is emptied.
 
 The following housekeeping options to manage all lists are available:
-- ***Delete all lists*** (accessible from the ellipsis (…) menu on the lists screen) - all lists, and their items, are deleted from the device and iCloud (if iCloud syncing is turned on). You will have no lists after confirming this option. ***Use with caution***.
+- ***Delete all lists*** (accessible from the ellipsis (…) menu on the lists screen) - all lists, and their items, are deleted from the device and iCloud. You will have no lists after confirming this option. ***Use with caution***.
 - ***Backup lists*** (accessible from the _Settings -> Maintenance_ screen) - all lists are saved to the selected location in iCloud, a device folder, a shared location etc. Use this to regularly back up your lists. You never know when you will need it.
 - ***Restore lists*** (accessible from the _Settings -> Maintenance_ screen) - all existing lists are deleted and replaced with the lists contained in the backup file in the selected location in iCloud, a device folder, a shared location etc. Use this to restore lists from a previous back up. Your existing lists will be replaced after using this option. ***Use with caution***.
 
+If you are logged into your iCloud account, your lists are saved to iCloud and will be synchronised with all your iCloud devices. Otherwise, your lists will only be stored locally on your device.
+
 **Features:**
-- Requires iOS 15.0 or later.
+- Requires iOS 17.2 or later.
 - Designed for iPhone and iPad.
-- Swipe actions to edit lists and mark items as done/undone.
-- Drag to rearrange lists and items.
+- Swipe actions to delete lists/items and mark items as done/undone.
 - Strikeout completed/done items or mark with a checkmark.
+- Drag to rearrange lists and items.
 - Copy lists and items to and from the clipboard.
+- Duplicate lists.
+- No limit on the number of lists or items in a list.
 - Backup and restore your lists.
 - iCloud list synchronisation across devices.
 - Supports system dark and light modes.
+
 
 **gjLists** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some spare coins in the tip jar on the *Settings* screen, it would be most appreciated.
 
