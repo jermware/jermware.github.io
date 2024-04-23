@@ -89,7 +89,7 @@ The policy applies to all information collected on **gjPwd**’s website and our
 **Information**  
 No personal information or location data are collected.
 
-We use TelemetryDeck to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy **[here](https://telemetrydeck.com/privacy)**.
+We use [TelemetryDeck](https://telemetrydeck.com) to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy **[here](https://telemetrydeck.com/privacy)**.
 
 The usage data are not used for marketing, tracking, advertisement or anything alike.
 
