@@ -18,6 +18,13 @@ An iOS app for calculating pace, time, speed, and distance combinations.
     <ul id="lightSlider" class="cS-hidden">
         <!-- <li data-src="large"><img src="medium"></li> -->
         <li data-src="/images/gjPace/gjPace-1m.png"><img src="/images/gjPace/gjPace-1s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-2m.png"><img src="/images/gjPace/gjPace-2s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-3m.png"><img src="/images/gjPace/gjPace-3s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-4m.png"><img src="/images/gjPace/gjPace-4s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-5m.png"><img src="/images/gjPace/gjPace-5s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-6m.png"><img src="/images/gjPace/gjPace-6s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-7m.png"><img src="/images/gjPace/gjPace-7s.png" width=256px></li>
+        <li data-src="/images/gjPace/gjPace-8m.png"><img src="/images/gjPace/gjPace-8s.png" width=256px></li>
     </ul>
 </div>
 
