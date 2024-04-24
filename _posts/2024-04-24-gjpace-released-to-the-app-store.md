@@ -8,7 +8,7 @@ published: true
 ---
 
 
-[**gjPace**](/gjPAce), my very first iOS App, is my seventh app released on the [App Store](https://apps.apple.com/app/gjpubs/id1532589479?platform=iphone).  
+[**gjPace**](/gjPace), my very first iOS App, is my seventh app released on the [App Store](https://apps.apple.com/app/gjpubs/id1532589479?platform=iphone).  
 
 ![gjPubs screenshots](/images/2024-04-24-gjpace-released-to-the-app-store-1.png){:width="384px"}
 
