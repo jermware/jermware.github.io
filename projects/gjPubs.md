@@ -46,13 +46,13 @@ Your pub images are stored alongside their data in the app's database, so they d
 iCloud is used to synchronise your collection on all your devices. For additional security your pubs, including images if required, can be backed up to, and restored from, an external file.
 
 **Features:**
-- Requires iOS 17.2 or later.
+- Requires iOS 17.4 or later.
 - Designed for iPhone and iPad.
 - Searchable and sortable.
 - Zero to 5 star rating in half-star increments.
 - Choosable image compression quality.
 - Backup and restore your pubs.
-- iCloud note synchronisation across devices.
+- iCloud synchronisation of pubs across devices.
 - Supports system dark and light modes.
 
 **gjPubs** is available for a small fee, and you can download it from the App Store using the link below.
@@ -96,4 +96,4 @@ If we decide to change our privacy policy, we will post those changes on this pa
 
 <br>
 
-##### February 20, 2024
+##### July 9, 2024
