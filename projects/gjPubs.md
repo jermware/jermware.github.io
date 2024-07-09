@@ -46,7 +46,7 @@ Your pub images are stored alongside their data in the app's database, so they d
 iCloud is used to synchronise your collection on all your devices. For additional security your pubs, including images if required, can be backed up to, and restored from, an external file.
 
 **Features:**
-- Requires iOS 17.4 or later.
+- Requires iOS 17.5 or later.
 - Designed for iPhone and iPad.
 - Searchable and sortable.
 - Zero to 5 star rating in half-star increments.
