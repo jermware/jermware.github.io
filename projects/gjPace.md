@@ -33,7 +33,7 @@ An iOS app for calculating pace, time, speed, and distance combinations.
 Given a specified distance and either a time, pace, or speed, the app calculates the 2 missing values, as well as the cumulative elapsed times for the required split interval.
 
 **Features:**
-- Requires iOS 17.4 or later.
+- Requires iOS 17.5 or later.
 - Designed for iPhone but works on iPad.
 - Choose miles or kilometers.
 - Custom keyboard toolbar e.g. common race distances.
@@ -42,7 +42,7 @@ Given a specified distance and either a time, pace, or speed, the app calculates
 
 **gjPace** is free, there are no ads, and you can download it from the App Store using the link below.
 
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjpubs/id1532589479?platform=iphone)
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjpace/id1532589479?platform=iphone)
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
@@ -75,4 +75,4 @@ If we decide to change our privacy policy, we will post those changes on this pa
 
 <br>
 
-##### April 23, 2024
+##### July 12, 2024

@@ -7,7 +7,7 @@ layout: post
 published: true
 ---
 
-[**gjPubs**](/gjPubs) has been updated to **v2024.6** on the on the [App Store](https://apps.apple.com/gb/app/gjice/id6475642254?platform=iphone).  
+[**gjPubs**](/gjPubs) has been updated to **v2024.6** on the on the [App Store](https://apps.apple.com/gb/app/gjpubs/id6475642254?platform=iphone).  
 
 
 This is a maintenance release with the following changes:
@@ -16,4 +16,4 @@ This is a maintenance release with the following changes:
 - Reduced size of backup file when including images.
 - UI tweaks.
 
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjice/id6475642254?platform=iphone)
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjpubs/id6475642254?platform=iphone)

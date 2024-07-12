@@ -34,4 +34,4 @@ Why are you charging for **gjPubs** rather than making it free with a tip jar li
 
 If you like visiting pubs and want to log your thoughts, ratings, visits etc., download **gjPubs** using the link below and give it a go. I think you'll like it and find it worth the small fee - thanks.
 
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjaero/id6475642254?platform=iphone)
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjpubs/id6475642254?platform=iphone)

@@ -8,7 +8,7 @@ published: true
 ---
 
 
-[**gjPace**](/gjPace), my very first iOS App, is my seventh app released on the [App Store](https://apps.apple.com/app/gjpubs/id1532589479?platform=iphone).  
+[**gjPace**](/gjPace), my very first iOS App, is my seventh app released on the [App Store](https://apps.apple.com/app/gjpace/id1532589479?platform=iphone).  
 
 ![gjPubs screenshots](/images/2024-04-24-gjpace-released-to-the-app-store-1.png){:width="384px"}
 
@@ -23,4 +23,4 @@ After a few weeks delay because of moving house, **gjPace** was submitted for ap
 
 If you enjoy running (who doesn't?), give **gjPace** a try. It’s free, and there are no ads. You can download it from the App Store using the link below. If you find it useful, please consider giving it a review on the App Store and letting your running friends know about it - thanks.
 
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjaero/id1532589479?platform=iphone)
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjpace/id1532589479?platform=iphone)
