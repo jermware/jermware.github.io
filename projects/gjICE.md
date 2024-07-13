@@ -63,7 +63,7 @@ Emojis may be used, but they will appear washed out since iOS applies a tint to 
 
 
 **Features:**
-- Requires iOS 16.0 or later.
+- Requires iOS 17.5 or later.
 - Designed for iPhone only.
 - Up to 3 lines of text, empty lines are ignored.
 - Support for basic markdown:
@@ -110,4 +110,4 @@ If we decide to change our privacy policy, we will post those changes on this pa
 
 <br>
 
-##### February 17, 2024
+##### July 12, 2024
