@@ -13,5 +13,4 @@ published: true
 This is a maintenance release with the following changes:
 - Fixed an obscure bug that might cause the app to crash when deleting the last note on iPads.
 
-
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjnotes/id1562333522?platform=iphone)
