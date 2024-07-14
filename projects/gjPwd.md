@@ -63,7 +63,7 @@ Alternatively, the app includes several pre-set password configurations:
     where `D` : digit, `P` : padding, `S` : separator, `W` : word
 
 **Features:**
-- Requires iOS 15.0 or later.
+- Requires iOS 17.5 or later.
 - Designed for iPhone but works on iPad.
 - Specify the number and complexity of passwords to generate.
 - Passwords automatically copied to _Universal Clipboard_.
