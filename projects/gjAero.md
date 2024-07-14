@@ -52,7 +52,7 @@ App usage notes:
 - Specify the the countdown timer sound and volume in the _Settings_ screen.
 
 **Features:**
-- Requires iOS 16.4 or later.
+- Requires iOS 17.5 or later.
 - Designed for iPhone, works on iPad.
 - Supports classic and inverted brewing techniques.
 - User selectable countdown sound and volume.
@@ -99,4 +99,4 @@ If we decide to change our privacy policy, we will post those changes on this pa
 
 <br>
 
-##### February 17, 2024
+##### July 14, 2024
