@@ -109,7 +109,7 @@ The following housekeeping options to manage all lists are available:
 If you are logged into your iCloud account, your lists are saved to iCloud and will be synchronised with all your iCloud devices. Otherwise, your lists will only be stored locally on your device.
 
 **Features:**
-- Requires iOS 17.2 or later.
+- Requires iOS 17.5 or later.
 - Designed for iPhone and iPad.
 - Swipe actions to delete lists/items and mark items as done/undone.
 - Strikeout completed/done items or mark with a checkmark.
@@ -167,4 +167,4 @@ If we decide to change our privacy policy, we will post those changes on this pa
 
 <br>
 
-##### February 17, 2024
+##### July 15, 2024
