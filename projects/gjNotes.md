@@ -58,7 +58,7 @@ The following housekeeping options are available to manage your notes:
 - ***Restore notes*** (accessible from the _Settings -> Maintenance_ screen) - all existing notes are deleted and replaced with the notes contained in the backup file in the selected location in iCloud, a device folder, a shared location etc. Use this to restore notes from a previous back up. Your existing notes will be replaced after using this option. ***Use with caution***.
 
 **Features:**
-- Requires iOS 16.4 or later.
+- Requires iOS 17.5 or later.
 - Designed for iPhone and iPad.
 - Swipe actions to delete and favourite/un-favourite a notes.
 - Drag to rearrange notes.
@@ -111,4 +111,4 @@ If we decide to change our privacy policy, we will post those changes on this pa
 
 <br>
 
-##### February 17, 2024
+##### July 16, 2024
