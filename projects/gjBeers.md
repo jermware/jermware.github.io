@@ -24,28 +24,39 @@ An iOS app for cataloging real ales.
         <li data-src="/images/gjBeers/gjBeers-5m.png"><img src="/images/gjBeers/gjBeers-5s.png" width=256px></li>
         <li data-src="/images/gjBeers/gjBeers-6m.png"><img src="/images/gjBeers/gjBeers-6s.png" width=256px></li>
         <li data-src="/images/gjBeers/gjBeers-7m.png"><img src="/images/gjBeers/gjBeers-7s.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-8m.png"><img src="/images/gjBeers/gjBeers-8s.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-9m.png"><img src="/images/gjBeers/gjBeers-9s.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-10m.png"><img src="/images/gjBeers/gjBeers-10s.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-11m.png"><img src="/images/gjBeers/gjBeers-11s.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-12m.png"><img src="/images/gjBeers/gjBeers-12s.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-13m.png"><img src="/images/gjBeers/gjBeers-13s.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-14m.png"><img src="/images/gjBeers/gjBeers-14s.png" width=256px></li>
-        <li data-src="/images/gjBeers/gjBeers-15m.png"><img src="/images/gjBeers/gjBeers-15s.png" width=256px></li>
     </ul>
 </div>
 
-Drinking a new beer? Take a photo of the pump clip, or the beer, with the iOS device. In the app add a new beer, choosing the appropriate photo. The app uses the photo's [EXIF](https://en.wikipedia.org/wiki/Exif) data to give the date, time, and location, and allows you to enter the name, brewery, rating, and tasting notes for the beer.
+Use **gjBeers** to keep track of, and rate, your beers.
 
-The collection is searchable by beer name and sortable by name, date, brewery, and rating. It is viewable as an image gallery, as a list of beer names, as a list of brewery names, or as a ratings list. From these lists it is possible to view the beer’s details.
+Drinking a new beer? Take a photo of the pump clip, or the beer, with your iOS device and in the app add a new beer and select the appropriate image from your photos library. The app uses the photo’s [EXIF](https://en.wikipedia.org/wiki/Exif) data to show the location, and allows you to enter the name, brewery, style, rating, and tasting notes for the beer.
 
-**Feature:**
-- Requires iOS 15.0 or later.
+You can add multiple images to a beer so, as well as the pump clip for example, you can also save an image of the actual poured pint of beer, or you can add additional images of the pump clip as it changes through time.  
+![multiple images](/images/gjBeers/0-multiple-images.png){:width="256px"}
+
+The collection is searchable by beer or brewery name and sortable by name, brewery, rating, style and date, making it easy to browse your collection or look for a specific beer or brewery.  
+![search text](/images/gjBeers/1-search-text.png){:width="256px"}
+![sort options](/images/gjBeers/2-sort-options.png){:width="256px"}
+
+Your beer images are stored alongside their data in the app's database, so they do not have to remain in your device's photos library. A user setting allows you to specify the compression quality of the images to give you control over the storage space used on your device.  
+![image settings](/images/gjBeers/3-image-settings.png){:width="256px"}
+
+iCloud is used to synchronise your collection on all your devices. For additional security your beers, including images if required, can be backed up to, and restored from, an external file.
+
+**Features:**
+- Requires iOS 17.5 or later.
 - Designed for iPhone and iPad.
-- Only a reference to the image in the device’s photo library is stored, not a copy of the image. This eliminates the significant storage overhead of duplicating the photos.
-- Various reports can be viewed and copied to the clipboard for exporting to other apps or devices.
+- Searchable and sortable.
+- Zero to 5 star rating in half-star increments.
+- Choosable image compression quality.
 - Backup and restore your beers.
+- iCloud synchronisation of beers across devices.
 - Supports system dark and light modes.
+
+**gjBeers** is available for a small fee, and you can download it from the App Store using the link below.
+
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com)
+<!-- [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjbeers/id1532589621?platform=iphone) -->
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
@@ -66,10 +77,10 @@ We use [TelemetryDeck](https://telemetrydeck.com) to collect anonymized usage da
 The usage data are not used for marketing, tracking, advertisement or anything alike.
 
 **iCloud**  
-All data syncing is done through Apple’s iCloud service. The only data stored in iCloud are your pub records. These data are only accessible by you when using the app on a device logged into your iCloud account.
+All data syncing is done through Apple’s iCloud service. The only data stored in iCloud are your beer records. These data are only accessible by you when using the app on a device logged into your iCloud account.
 
 **Local Storage**  
-Your pub records and their images are always saved locally on your device. This allows you to access your pub records even if iCloud access is not available. Your pub records and their images will remain on your device until you delete them within the app, or you delete the app from your device.
+Your beer records and their images are always saved locally on your device. This allows you to access your beer records even if iCloud access is not available. Your beer records and their images will remain on your device until you delete them within the app, or you delete the app from your device.
 
 **Your Consent**  
 By using our website or apps, you consent to our privacy policy.
@@ -80,8 +91,8 @@ If you have any questions regarding this privacy policy, you may email [jermware
 **Changes to this Policy**  
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
-- May 1, 2024: First published.
+- Jul 24, 2024: First published.
 
 <br>
 
-##### May 1, 2024
+##### Jul 24, 2024
