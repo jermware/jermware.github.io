@@ -55,8 +55,7 @@ iCloud is used to synchronise your collection on all your devices. For additiona
 
 **gjBeers** is available for a small fee, and you can download it from the App Store using the link below.
 
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com)
-<!-- [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjbeers/id1532589621?platform=iphone) -->
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjbeers/id1532589621?platform=iphone)
 
 <br>
 <h3 id="privacy">Privacy Policy</h3>
