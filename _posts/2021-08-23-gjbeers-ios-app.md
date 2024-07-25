@@ -7,7 +7,7 @@ layout: post
 published: true
 ---
 
-[**gjBeers**](/gjBeers) is an iOS app for cataloging real ales.  
+[**gjBeers**](/gjBeers) is an iOS app for cataloguing real ales.  
 
 ![gjBeers screenshots](/images/2021-08-23-gjbeers-ios-app-1.png){:width="384px"}
 
