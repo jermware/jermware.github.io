@@ -20,9 +20,6 @@ An iOS app for saving your jottings.
         <li data-src="/images/gjJotter/gjJotter-1m.png"><img src="/images/gjJotter/gjJotter-1s.png" width=256px></li>
         <li data-src="/images/gjJotter/gjJotter-2m.png"><img src="/images/gjJotter/gjJotter-2s.png" width=256px></li>
         <li data-src="/images/gjJotter/gjJotter-3m.png"><img src="/images/gjJotter/gjJotter-3s.png" width=256px></li>
-        <li data-src="/images/gjJotter/gjJotter-4m.png"><img src="/images/gjJotter/gjJotter-4s.png" width=256px></li>
-        <li data-src="/images/gjJotter/gjJotter-5m.png"><img src="/images/gjJotter/gjJotter-5s.png" width=256px></li>
-        <li data-src="/images/gjJotter/gjJotter-6m.png"><img src="/images/gjJotter/gjJotter-6s.png" width=256px></li>
     </ul>
 </div>
 
