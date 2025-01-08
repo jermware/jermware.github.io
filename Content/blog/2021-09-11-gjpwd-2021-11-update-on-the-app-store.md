@@ -11,6 +11,6 @@ layout: BlogPost
 [**gjPwd**](/projects/gjPwd) has been updated to **v2021.11** on the [App Store](https://apps.apple.com/gb/app/gjpwd/id1532589670?platform=iphone).
 
 This is a minor update that fixes a problem with the size of the logo on smaller devices.
-<br>
+<br><br>
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjpwd/id1532589670?platform=iphone)
