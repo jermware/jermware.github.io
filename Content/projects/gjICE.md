@@ -77,6 +77,7 @@ Emojis may be used, but they will appear washed out since iOS applies a tint to 
   - To strikeout text, add two tildes (~) before and after a word or phrase.
 - Emojis may be used but they will appear washed out since iOS applies a tint to all Lock Screen widgets.
 - Supports system dark and light modes.
+<br><br>
 
 **gjICE** is free, there are no ads, and you can download it from the App Store using the link below.
 

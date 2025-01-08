@@ -119,6 +119,7 @@ If you are logged into your iCloud account, your lists are saved to iCloud and w
 - Supports system dark and light modes.
 
 **gjLists** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some spare coins in the tip jar on the *Settings* screen, it would be most appreciated.
+<br><br>
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjlists/id1528217135?platform=iphone)
 

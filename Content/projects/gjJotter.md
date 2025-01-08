@@ -26,6 +26,7 @@ The only other thing you might want to do, using the using the toolbar items at 
 - Supports system dark and light modes.
 
 **gjJotter** is free, there are no ads, and you can download it from the App Store using the link below.
+<br><br>
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjjotter/id6698850903?platform=iphone)
 

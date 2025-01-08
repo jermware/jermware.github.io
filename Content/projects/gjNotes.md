@@ -63,6 +63,7 @@ The following housekeeping options are available to manage your notes:
 - Supports system dark and light modes.
 
 **gjNotes** is free, there are no ads, and you can download it from the App Store using the link below. If you find it useful and would like to show your appreciation by dropping some coins in the tip jar on the _Settings_ screen, it would be most appreciated.
+<br><br>
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjnotes/id1562333522?platform=iphone)
 

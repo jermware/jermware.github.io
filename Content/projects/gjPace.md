@@ -25,6 +25,7 @@ Given a specified distance and either a time, pace, or speed, the app calculates
 - Supports system dark and light modes.
 
 **gjPace** is free, there are no ads, and you can download it from the App Store using the link below.
+<br><br>
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjpace/id1532589479?platform=iphone)
 
