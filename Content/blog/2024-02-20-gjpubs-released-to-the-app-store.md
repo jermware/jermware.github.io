@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my sixth app released to the app store
 tags: gjpubs, ios, app, app store, swiftui, swiftdata
 image: /images/blog/2024-02-20-gjpubs-released-to-the-app-store-1.png
+layout: BlogPost
 ---
 
 # gjPubs Is on the App Store
 
-[**gjPubs**](/projects/gjPubs), my eighth iOS App, is my sixth app released on the [App Store](https://apps.apple.com/app/gjpubs/id6475642254?platform=iphone).  
+[**gjPubs**](/projects/gjPubs), my eighth iOS App, is my sixth app released on the [App Store](https://apps.apple.com/app/gjpubs/id6475642254?platform=iphone).
 
 <img src="/images/blog/2024-02-20-gjpubs-released-to-the-app-store-1.png" alt="gjPubs screenshots" width="384">
 <br><br>

@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my first ios app.
 tags: gjpace, ios, app, swift, storyboard
 image: /images/blog/2021-08-15-gjpace-ios-app-1.png
+layout: BlogPost
 ---
 
 # gjPace - My First iOS App
 
-[**gjPace**](/projects/gjPace) is an iOS app for calculating pace, time, speed, and distance combinations.  
+[**gjPace**](/projects/gjPace) is an iOS app for calculating pace, time, speed, and distance combinations.
 
 <img src="/images/blog/2021-08-15-gjpace-ios-app-1.png" alt="gjPace screenshots" width="384">
 <br><br>

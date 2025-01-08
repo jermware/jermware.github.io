@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my second ios app.
 tags: gjpwd, ios, app, swift
 image: /images/blog/2021-08-17-gjpwd-ios-app-1.png
+layout: BlogPost
 ---
 
 # gjPwd - My Second iOS App
 
-[**gjPwd**](/projects/gjPwd) is an iOS app for generating secure, easy to use, passwords.  
+[**gjPwd**](/projects/gjPwd) is an iOS app for generating secure, easy to use, passwords.
 
 <img src="/images/blog/2021-08-17-gjpwd-ios-app-1.png" alt="gjPwd screenshots" width="384">
 <br><br>

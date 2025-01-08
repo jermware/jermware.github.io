@@ -3,6 +3,7 @@ date: 2020-04-13 09:41
 author: "Gavin Jerman"
 subtitle: An article describing forking a Jekyll theme.
 tags: github pages, jekyll, theme
+layout: BlogPost
 ---
 
 # Using the Contrast Jekyll Theme
@@ -16,10 +17,10 @@ There are many, many, Jekyll themes available, and you can spend hours browsing 
 
 The Jekyll [theme](https://jekyllrb.com/docs/themes/) documentation lists some of the sites hosting galleries of Jekyll themes. The two I found most useful were [jamstackthemes.dev](https://jamstackthemes.dev/ssg/jekyll/) and [jekyllthemes.io](https://jekyllthemes.io/).
 
-After a couple of false starts, I finally decided on the [Contrast](https://jekyllthemes.io/theme/contrast) Jekyll theme by [Niklas Buschmann](https://github.com/niklasbuschmann). This is a blog theme that is clean, simple, responsive, and supports pagination and syntax highlighting.  
+After a couple of false starts, I finally decided on the [Contrast](https://jekyllthemes.io/theme/contrast) Jekyll theme by [Niklas Buschmann](https://github.com/niklasbuschmann). This is a blog theme that is clean, simple, responsive, and supports pagination and syntax highlighting.
 <img src="/images/blog/2020-04-13-using-1.png" alt="image1" width="1000">
 
-It also supports site navigation, ideal for my iOS app support pages.  
+It also supports site navigation, ideal for my iOS app support pages.
 <img src="/images/blog/2020-04-13-using-2.png" alt="image2" width="1000">
 
 The *Contrast* Jekyll theme is hosted on [GitHub](https://github.com/niklasbuschmann/contrast) and comes with an [Unlicence](https://unlicense.org) i.e. "This is free and unencumbered software released into the public domain.".
@@ -32,23 +33,23 @@ With no active website repository, I could follow the *Contrast* installation in
 
 Here's what I did.
 
-- Renamed the existing **gavinjerman.github.io** website repository to **website.old**. Renaming the repository deactivates the website.  
+- Renamed the existing **gavinjerman.github.io** website repository to **website.old**. Renaming the repository deactivates the website.
 <img src="/images/blog/2020-04-13-using-3.png" alt="image3" width="1000">
 <br><br>
 
-- Forked the [Contrast](https://github.com/niklasbuschmann/contrast) repository into my GitHub account.  
+- Forked the [Contrast](https://github.com/niklasbuschmann/contrast) repository into my GitHub account.
 <img src="/images/blog/2020-04-13-using-4.png" alt="image4" width="1000">
 <br><br>
 
-- Renamed the forked *Contrast* repository to my GitHub website repository name **gavinjerman.github.io**.  
+- Renamed the forked *Contrast* repository to my GitHub website repository name **gavinjerman.github.io**.
 <img src="/images/blog/2020-04-13-using-5.png" alt="image5" width="1000">
 <br><br>
 
-- Set the website *Custom domain* to my custom domain name **www.jermware.net**, ensuring *Enforce HTTPS* was checked.  
+- Set the website *Custom domain* to my custom domain name **www.jermware.net**, ensuring *Enforce HTTPS* was checked.
 <img src="/images/blog/2020-04-13-using-6.png" alt="image6" width="1000">
 <br><br>
 
-Once this was done, my GitHub hosted website, using my custom domain, was running as a clone of the default *Contrast* theme.  
+Once this was done, my GitHub hosted website, using my custom domain, was running as a clone of the default *Contrast* theme.
 <img src="/images/blog/2020-04-13-using-7.png" alt="image7" width="1000">
 
 Now to customise the default *Contrast* theme...

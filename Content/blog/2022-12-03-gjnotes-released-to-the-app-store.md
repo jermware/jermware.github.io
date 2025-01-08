@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my fourth app released to the app store.
 tags: gjnotes, ios, app, app store, swiftui
 image: /images/blog/2022-12-03-gjnotes-released-to-the-app-store-1.png
+layout: BlogPost
 ---
 
 # gjNotes Is on the App Store
 
-[**gjNotes**](/projects/gjNotes), my fifth iOS App, is my fourth app released on the [App Store](https://apps.apple.com/app/gjnotes/id1562333522?platform=iphone).  
+[**gjNotes**](/projects/gjNotes), my fifth iOS App, is my fourth app released on the [App Store](https://apps.apple.com/app/gjnotes/id1562333522?platform=iphone).
 
 <img src="/images/blog/2022-12-03-gjnotes-released-to-the-app-store-1.png" alt="gjNotes screenshots" width="384">
 <br><br>

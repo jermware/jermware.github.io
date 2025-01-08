@@ -3,11 +3,12 @@ date: 2024-10-29 15:43
 author: "Gavin Jerman"
 subtitle: An article describing an update to gjnotes released to the app store.
 tags: gjnotes, ios, app, app store
+layout: BlogPost
 ---
 
 # gjNotes Updated on the App Store
 
-[**gjNotes**](/projects/gjNotes) has been updated to **v2024.4** on the on the [App Store](https://apps.apple.com/app/gjnotes/id1562333522?platform=iphone).  
+[**gjNotes**](/projects/gjNotes) has been updated to **v2024.4** on the [App Store](https://apps.apple.com/app/gjnotes/id1562333522?platform=iphone).
 
 This is a maintenance release with the following changes:
 - Fixed an issue with displaying the widget text.

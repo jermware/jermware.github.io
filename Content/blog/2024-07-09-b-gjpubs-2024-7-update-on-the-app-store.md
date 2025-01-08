@@ -3,11 +3,12 @@ date: 2024-07-09 21:41
 author: "Gavin Jerman"
 subtitle: An article describing an update to gjpubs released to the app store.
 tags: gjpubs, ios, app, app store
+layout: BlogPost
 ---
 
 # gjPubs Updated on the App Store
 
-[**gjPubs**](/projects/gjPubs) has been updated to **v2024.7** on the on the [App Store](https://apps.apple.com/gb/app/gjpubs/id6475642254?platform=iphone).  
+[**gjPubs**](/projects/gjPubs) has been updated to **v2024.7** on the [App Store](https://apps.apple.com/gb/app/gjpubs/id6475642254?platform=iphone).
 
 This is a maintenance release with the following changes:
 - Display sort grouping count.

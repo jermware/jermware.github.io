@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my first app released to the app store.
 tags: gjpwd, ios, app, app store
 image: /images/blog/2021-09-08-gjpwd-released-to-app-store-1.png
+layout: BlogPost
 ---
 
 # gjPwd Is on the App Store
 
-I never intended to release [**gjPwd**](/projects/gjPwd) on the [App Store](https://apps.apple.com/gb/app/gjpwd/id1532589670?platform=iphone).  
+I never intended to release [**gjPwd**](/projects/gjPwd) on the [App Store](https://apps.apple.com/gb/app/gjpwd/id1532589670?platform=iphone).
 
 <img src="/images/blog/2021-09-08-gjpwd-released-to-app-store-1.png" alt="gjPwd screenshots" width="384">
 <br><br>

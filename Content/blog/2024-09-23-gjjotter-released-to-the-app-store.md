@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my ninth app released to the app store.
 tags: gjjotter, ios, app, app store
 image: /images/blog/2024-09-23-gjjotter-released-to-the-app-store-1.png
+layout: BlogPost
 ---
 
 # gjJotter Is on the App Store
 
-[**gjJotter**](/projects/gjJotter) is my ninth app released on the [App Store](https://apps.apple.com/gb/app/gjjotter/id6698850903?platform=iphone).  
+[**gjJotter**](/projects/gjJotter) is my ninth app released on the [App Store](https://apps.apple.com/gb/app/gjjotter/id6698850903?platform=iphone).
 
 <img src="/images/blog/2024-09-23-gjjotter-released-to-the-app-store-1.png" alt="gjJotter screenshot" width="384">
 <br><br>

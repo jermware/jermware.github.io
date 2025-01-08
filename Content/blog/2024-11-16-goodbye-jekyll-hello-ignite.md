@@ -2,8 +2,9 @@
 date: 2024-11-16 09:58
 author: "Gavin Jerman"
 subtitle: An article describing switch from jekyll to ignite.
-tags: jekyll, ignite, publish, github pages, hacking with swift, markdown, python,  
+tags: jekyll, ignite, publish, github pages, hacking with swift, markdown, python
 image: /images/blog/ignite-logo.png
+layout: BlogPost
 ---
 
 # Goodbye Jekyll, Hello Ignite

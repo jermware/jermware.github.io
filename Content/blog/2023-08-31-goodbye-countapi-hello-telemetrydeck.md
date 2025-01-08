@@ -3,14 +3,14 @@ date: 2023-08-31 13:32
 author: "Gavin Jerman"
 subtitle: An article describing switch from countapi to telemetrydeck.
 tags: telemetrydeck, ios, app, app store
+layout: BlogPost
 ---
 
 # Goodbye CountAPI, Hello TelemetryDeck
 
 With the release of [**gjICE**](/projects/gjICE) in October 2022 I started using the free counting service [CountAPI](https://countapi.xyz) (link likely to 404 in the future) to collect anonymous usage data for private analytics to help understand how my apps are used and to support future developments.
 
-Unfortunately, some months ago I noticed that CountAPI was not responding to the http calls to increment my counters. At first it looked like an intermittent problem with their API server, but it soon became obvious that the problem was terminal and it was unlikely to be resolved any time soon, if at all. It was time to look for an alternative, more robust and, ideally free, solution for gathering anonymous usage data. Enter [TelemetryDeck](https://telemetrydeck.com).  
-
+Unfortunately, some months ago I noticed that CountAPI was not responding to the http calls to increment my counters. At first it looked like an intermittent problem with their API server, but it soon became obvious that the problem was terminal and it was unlikely to be resolved any time soon, if at all. It was time to look for an alternative, more robust and, ideally free, solution for gathering anonymous usage data. Enter [TelemetryDeck](https://telemetrydeck.com).
 
 **TelemetryDeck's** tagline is "_light-weight app analytics that’s not evil_", with the sub-headline "_TelemetryDeck helps app and web developers improve their product by supplying immediate, accurate usage data while users use their app. And the best part: It's all anonymized so users' data stays private!_".
 

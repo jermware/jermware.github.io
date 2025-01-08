@@ -3,11 +3,12 @@ date: 2024-09-24 11:27
 author: "Gavin Jerman"
 subtitle: An article describing an update to gjbeers released to the app store.
 tags: gjbeers, ios, app, app store
+layout: BlogPost
 ---
 
 # gjBeers Updated on the App Store
 
-[**gjBeers**](/projects/gjBeers) has been updated to **v2024.2** on the on the [App Store](https://apps.apple.com/app/gjbeers/id1532589621?platform=iphone).  
+[**gjBeers**](/projects/gjBeers) has been updated to **v2024.2** on the [App Store](https://apps.apple.com/app/gjbeers/id1532589621?platform=iphone).
 
 This is a maintenance release with the following changes:
 - Fixed an issue with adding new images on iOS 18.

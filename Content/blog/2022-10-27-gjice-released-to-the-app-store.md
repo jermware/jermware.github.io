@@ -4,18 +4,19 @@ author: "Gavin Jerman"
 subtitle: An article describing my third app released to the app store.
 tags: gjice, ios, app, app store, swift, swiftui
 image: /images/blog/2022-10-27-gjice-released-to-the-app-store-1.png
+layout: BlogPost
 ---
 
 # gjICE Is on the App Store
 
-[**gjICE**](/projects/gjICE), my sixth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone).  
+[**gjICE**](/projects/gjICE), my sixth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone).
 
 <img src="/images/blog/2022-10-27-gjice-released-to-the-app-store-1.png" alt="gjIce screenshots" width="384">
 <br><br>
 
 With the release of iOS 16.0 on September 12, 2022, Apple allowed third-party widgets to be displayed on iPhone [Lock Screens](https://support.apple.com/en-gb/guide/iphone/iph4d0e6c351/ios#iph0ee454f4c).
 
-Three types of Lock Screen widgets supported by iOS 16:  
+Three types of Lock Screen widgets supported by iOS 16:
 
 <img src="/images/gjICE/0-widget-types.png" alt="types of widget" width="300">
 <br><br>
@@ -67,7 +68,7 @@ The use of anonymous data analytics in **gjICE** was a bit of an experiment. App
 
 With everything in place, I submitted **gjICE** for App Store review and **v2022.1** was approved first time. Happy days!
 
-If you want to display your emergency contact details, or up to 3 lines of any information, on your Lock Screen, give **gjICE** a try. It's free and there are no ads. What's not to like? You can download it from the App Store using the link below.  
+If you want to display your emergency contact details, or up to 3 lines of any information, on your Lock Screen, give **gjICE** a try. It's free and there are no ads. What's not to like? You can download it from the App Store using the link below.
 <br><br>
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone)

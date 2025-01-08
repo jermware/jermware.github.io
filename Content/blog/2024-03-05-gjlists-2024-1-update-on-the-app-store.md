@@ -4,6 +4,7 @@ author: "Gavin Jerman"
 subtitle: An article describing an update to gjlists released to the app store.
 tags: gjlists, ios, app, app store, swiftui, swiftdata
 image: /images/blog/2024-03-05-gjlists-2024-1-update-on-the-app-store-1.png
+layout: BlogPost
 ---
 
 # gjLists Updated on the App Store

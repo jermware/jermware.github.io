@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my seventh app released to the app store
 tags: gjpace, ios, app, app store, swift, uikit, storyboard, swiftui
 image: /images/blog/2024-02-20-gjpubs-released-to-the-app-store-1.png
+layout: BlogPost
 ---
 
 # gjPace Is on the App Store
 
-[**gjPace**](/projects/gjPace), my very first iOS App, is my seventh app released on the [App Store](https://apps.apple.com/app/gjpace/id1532589479?platform=iphone).  
+[**gjPace**](/projects/gjPace), my very first iOS App, is my seventh app released on the [App Store](https://apps.apple.com/app/gjpace/id1532589479?platform=iphone).
 
 <img src="/images/blog/2024-04-24-gjpace-released-to-the-app-store-1.png" alt="gjPace screenshots" width="384">
 <br><br>

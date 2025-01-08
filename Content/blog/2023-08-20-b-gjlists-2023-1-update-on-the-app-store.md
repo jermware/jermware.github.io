@@ -3,6 +3,7 @@ date: 2023-08-20 22:13
 author: "Gavin Jerman"
 subtitle: An article describing an update to gjlists released to the app store.
 tags: gjlists, ios, app, app store
+layout: BlogPost
 ---
 
 # gjLists Updated on the App Store

@@ -3,6 +3,7 @@ date: 2023-08-20 21:52
 author: "Gavin Jerman"
 subtitle: An article describing an update to gjpwd released to the app store.
 tags: gjpwd, ios, app, app store
+layout: BlogPost
 ---
 
 # gjPwd Updated on the App Store

@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my third ios app.
 tags: gjbeers, ios, app, swift
 image: /images/blog/2021-08-23-gjbeers-ios-app-1.png
+layout: BlogPost
 ---
 
 # gjBeers - My Third iOS App
 
-[**gjBeers**](/projects/gjBeers) is an iOS app for cataloguing real ales.  
+[**gjBeers**](/projects/gjBeers) is an iOS app for cataloguing real ales.
 
 <img src="/images/blog/2021-08-23-gjbeers-ios-app-1.png" alt="gjBeers screenshots" width="384">
 <br><br>

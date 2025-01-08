@@ -3,11 +3,12 @@ date: 2024-07-12 11:57
 author: "Gavin Jerman"
 subtitle: An article describing an update to gjice released to the app store.
 tags: gjice, ios, app, app store
+layout: BlogPost
 ---
 
 # gjICE Updated on the App Store
 
-[**gjICE**](/projects/gjICE) has been updated to **v2024.1** on the on the [App Store](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone).  
+[**gjICE**](/projects/gjICE) has been updated to **v2024.1** on the [App Store](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone).
 
 This is a maintenance release with the following changes:
 - Changes for future stability.

@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my eighth app released to the app store.
 tags: gjbeers, ios, app, app store, swift, swiftui
 image: /images/blog/2024-07-25-gjbeers-released-to-the-app-store-1.png
+layout: BlogPost
 ---
 
 # gjBeers Is on the App Store
 
-[**gjBeers**](/projects/gjBeers), my third iOS App, is my eighth app released on the [App Store](https://apps.apple.com/app/gjbeers/id1532589621?platform=iphone).  
+[**gjBeers**](/projects/gjBeers), my third iOS App, is my eighth app released on the [App Store](https://apps.apple.com/app/gjbeers/id1532589621?platform=iphone).
 
 <img src="/images/blog/2024-07-25-gjbeers-released-to-the-app-store-1.png" alt="gjBeers screenshot" width="384">
 <br><br>

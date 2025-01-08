@@ -3,6 +3,7 @@ date: 2020-04-15 09:41
 author: "Gavin Jerman"
 subtitle: An article describing installing Jekyll.
 tags: github pages, jekyll, bundle, gem
+layout: BlogPost
 ---
 
 # Installing Jekyll

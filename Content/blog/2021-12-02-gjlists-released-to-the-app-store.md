@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my second app released to the app store.
 tags: gjlists, ios, app, app store, swift
 image: /images/blog/2021-12-02-gjlists-released-to-the-app-store-1.png
+layout: BlogPost
 ---
 
 # gjLists Is on the App Store
 
-[**gjLists**](/projects/gjLists), my fourth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjlists/id1528217135?platform=iphone).  
+[**gjLists**](/projects/gjLists), my fourth iOS App, has been released on the [App Store](https://apps.apple.com/gb/app/gjlists/id1528217135?platform=iphone).
 
 <img src="/images/blog/2021-12-02-gjlists-released-to-the-app-store-1.png" alt="gjLists screenshots" width="384">
 <br><br>
@@ -19,7 +20,7 @@ Like my previous apps, I wrote it to solve a problem I had. I like lists. I have
 
 The app uses iCloud to store its lists and to synchronise the lists across devices logged into the same iCloud account. This was my first foray into the world of iCloud synching and took quite some trial and effort to get working. Ultimately the app is at the whim of the Apple servers to perform the synchronisation, but it seems to work well. There is a setting to turn-off iCloud sync if you don't want it.
 
-I also wanted to explore using _StoreKit_. Rather than charging for the app, I decided to add a tip jar, which is quite a common feature in free apps today. It turns out that tips are 'consumables' in _StoreKit_ parlance and are much easier to implement than non-consumables or subscriptions. Even so, it took me longer to implement and test than I was expecting. I  guess that's why [RevenueCat](https://www.revenuecat.com) is so popular. It looks like _StoreKit 2_ has made life much easier under [SwiftUI](https://developer.apple.com/xcode/swiftui/), so fingers crossed for my next app.
+I also wanted to explore using _StoreKit_. Rather than charging for the app, I decided to add a tip jar, which is quite a common feature in free apps today. It turns out that tips are 'consumables' in _StoreKit_ parlance and are much easier to implement than non-consumables or subscriptions. Even so, it took me longer to implement and test than I was expecting. I guess that's why [RevenueCat](https://www.revenuecat.com) is so popular. It looks like _StoreKit 2_ has made life much easier under [SwiftUI](https://developer.apple.com/xcode/swiftui/), so fingers crossed for my next app.
 
 Given my previous experience with [**gjPwd**](/projects/gjPwd), the App Store review was process was straightforward. The only complication being setting up the in-app purchases correctly for the tip jar. All went well and **v2021.12** was approved first time.
 

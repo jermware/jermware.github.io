@@ -4,11 +4,12 @@ author: "Gavin Jerman"
 subtitle: An article describing my fifth app released to the app store
 tags: gjaero, ios, app, app store
 image: /images/blog/2023-09-15-gjaero-released-to-the-app-store-1.png
+layout: BlogPost
 ---
 
 # gjAero Is on the App Store
 
-[**gjAero**](/projects/gjAero), my seventh iOS App, is my fifth app released on the [App Store](https://apps.apple.com/app/gjaero/id6444918004?platform=iphone).  
+[**gjAero**](/projects/gjAero), my seventh iOS App, is my fifth app released on the [App Store](https://apps.apple.com/app/gjaero/id6444918004?platform=iphone).
 
 <img src="/images/blog/2023-09-15-gjaero-released-to-the-app-store-1.png" alt="gjAero screenshots" width="384">
 <br><br>
