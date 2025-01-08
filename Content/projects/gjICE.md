@@ -11,7 +11,6 @@ layout: ProjectPost
 <br><br>
 <img width="64" height="64" src="/images/gjICE/gjICE-icon.png">
 &nbsp;&nbsp;An iOS Lock Screen widget for emergency contact details.
-<br>
 
 Use **gjICE** to display your _In Case of Emergency_ (ICE) contact details in a widget on the Lock Screen.
 
@@ -83,35 +82,30 @@ Emojis may be used, but they will appear washed out since iOS applies a tint to 
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/gb/app/gjice/id6443990092?platform=iphone)
 
-<br><br>
-<h5 id="privacy">Privacy Policy</h5>
+<br><h5 id="privacy">Privacy Policy</h5>
 
 The policy applies to all information collected on **gjICE's** website and our apps for iPhone and any other devices and platforms.
 
 **TL;DR**  
-<br>**Your data is your data.**  
-<br>**We don’t want to have any of your data.**  
-<br>**We don't use trackers.**  
-<br>**We can't read your emergency contact details.**  
+**Your data is your data.**  
+**We don’t want to have any of your data.**  
+**We don't use trackers.**  
+**We can't read your emergency contact details.**  
 
 **Information**  
-<br>
 No personal information or location data are collected.
 
-We use [TelemetryDeck](https://telemetrydeck.com) to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy **[here](https://telemetrydeck.com/privacy)**.
+We use [TelemetryDeck](https://telemetrydeck.com) to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy [here](https://telemetrydeck.com/privacy).
 
 The usage data are not used for marketing, tracking, advertisement or anything alike.
 
 **Your Consent**  
-<br>
 By using our website or apps, you consent to our privacy policy.
 
 **Contact Us**  
-<br>
 If you have any questions regarding this privacy policy, you may email [jermware@mac.com](mailto:jermware@mac.com).
 
 **Changes to this Policy**  
-<br>
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
 - October 23, 2022: First published.
