@@ -1,15 +1,6 @@
 {
   "pins" : [
     {
-      "identity" : "ignite",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/twostraws/Ignite.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "c2a22687c197a7d4c60df33845c8ad868970eab6"
-      }
-    },
-    {
       "identity" : "swift-argument-parser",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser.git",
@@ -21,10 +12,10 @@
     {
       "identity" : "swift-cmark",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftlang/swift-cmark.git",
+      "location" : "https://github.com/apple/swift-cmark.git",
       "state" : {
-        "branch" : "gfm",
-        "revision" : "b022b08312decdc46585e0b3440d97f6f22ef703"
+        "revision" : "3ccff77b2dc5b96b77db3da0d68d28068593fa53",
+        "version" : "0.5.0"
       }
     },
     {
@@ -32,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/swiftlang/swift-markdown.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "90a8e2ec3d814093435b76c5e87917bd81785fd4"
+        "revision" : "8f79cb175981458a0a27e76cb42fee8e17b1a993",
+        "version" : "0.5.0"
       }
     }
   ],
