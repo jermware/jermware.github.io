@@ -21,7 +21,7 @@ public struct Footer: Component {
         "/feed.rss"
     ]
 
-    private let logo = Link("Created with Ignite", target: URL("https://github.com/twostraws/Ignite"))
+    private let logo = Link("Created in Swift with Ignite", target: URL("https://github.com/twostraws/Ignite"))
         .linkStyle(.hover)
         .target(.blank)
         .relationship(.noOpener, .noReferrer)
