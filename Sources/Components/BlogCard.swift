@@ -8,17 +8,22 @@
 import Foundation
 import Ignite
 
-public struct BlogCard: Component {
-    var content: Content
+struct BlogCard: HTML {
+    var content:Content
 
-    public func body(context: PublishingContext) -> [any PageElement] {
+    init(content: Content) {
+        self.content = content
+    }
+
+    var body: some HTML {
         Card() {
             Text(content.description)
                 .margin(.bottom, .none)
 
             if let image = content.image {
                 Image(decorative: image)
-                    .style("width: 200px")
+//                    .style("width: 200px;")
+                    .style("width: 60%;")
                     .margin(.top, 10)
             }
         } header: {
@@ -28,18 +33,11 @@ public struct BlogCard: Component {
             }
             .font(.title5)
         } footer: {
-            let tagLinks = content.tagLinks(in: context)
+            let tagLinks = content.tagLinks()
 
             if tagLinks.isEmpty == false {
                 Group {
                     tagLinks
-//                    for tagLink in tagLinks {
-//                        Badge(tagLink)
-//                            .badgeStyle(.subtleBordered)
-//                            .role(.primary)
-//                            .margin(.trailing, 5)
-//                            .margin(.bottom, .small)
-//                    }
                 }
                 .style("margin-top: -3px")
             }

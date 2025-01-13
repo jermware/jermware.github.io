@@ -17,23 +17,24 @@ struct IgniteWebsite {
 
 struct JermwareSite: Site {
     var name = "jermware"
-    var url: URL = URL("https://jermware.net")
+    var url: URL = URL(static: "https://jermware.net")
     var author = "Gavin Jerman"
-
-    var homePage = Home()
-    var tagPage = Tags()
-    var theme = MyTheme()
-//    var pageWidth = 9 // default is 10 of 12 columns
     var favicon = URL(string: "/favicon.png")
+
+//    var builtInIconsEnabled = BootstrapOptions.localBootstrap
 //    var feedConfiguration: FeedConfiguration = FeedConfiguration(mode: .descriptionOnly, contentCount: 20)
 
-    var pages: [any StaticPage] {
+    var homePage = Home()
+    var tagLayout = Tags()
+    var layout = MainLayout()
+
+    var staticLayouts: [any StaticLayout] {
         Projects()
         About()
         Archive()
     }
 
-    var layouts: [any ContentPage] {
+    var contentLayouts: [any ContentLayout] {
         BlogPost()
         ProjectPost()
     }

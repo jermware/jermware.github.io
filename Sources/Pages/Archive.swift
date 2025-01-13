@@ -8,63 +8,62 @@
 import Foundation
 import Ignite
 
-struct Archive: StaticPage {
+struct Archive: StaticLayout {
+    @Environment(\.content) var content
     var title = "Archive"
 
-    func body(context: PublishingContext) -> [BlockElement] {
-        Group {
-            Text(title)
-                .font(.title1)
-                .fontWeight(.black)
-                .margin(.top, .large)
+    var body: some HTML {
+        Text(title)
+            .font(.title1)
+            .fontWeight(.black)
+            .margin(.top, .large)
 
-            Text("Tags")
-                .font(.title4)
-                .margin(.top, .large)
+        Text("Tags")
+            .font(.title4)
+            .margin(.top, .large)
 
-            Section {
-                let tags: [String] = Set(context.allContent.flatMap(\.tags)).sorted()
+        Grid {
+            let tags: [String] = Set(content.all.flatMap(\.tags)).sorted()
 
-                for tag in tags {
-                    Group {
-                        Link(target: "/tags/\(fixTag(tag))") {
-                            Badge(tag)
-                                .role(.primary)
-                                .margin(.bottom, .small)
-                        }
+            ForEach(tags) { tag in
+                Group {
+                    Link(target: "/tags/\(fixTag(tag))") {
+                        Badge(tag)
+                            .role(.primary)
+                            .margin(.bottom, .small)
                     }
                 }
             }
-            .columns(4)
-
-            Text("Articles")
-                .font(.title4)
-                .margin(.top, .large)
-
-            Table {
-                for content in context.content(ofType: "blog").sorted(by: \.date, order: .reverse) {
-                    Row {
-                        Column {
-                            "\(content.date.asShortDisplay)"
-                        }
-                        .verticalAlignment(.middle)
-                        .style("width: 200px")
-                        Column {
-                            Link("\(content.title)", target: content.path)
-                                .linkStyle(.hover)
-
-                            if let subtitle = content.subtitle {
-                                Text(subtitle)
-                                    .margin(.bottom, 0)
-                            }
-                        }
-                        .verticalAlignment(.middle)
-                    }
-                }
-            }
-            .tableStyle(.stripedRows)
         }
-        .frame(width: "90%")
+        .columns(4)
+
+        Text("Articles")
+            .font(.title4)
+            .margin(.top, .large)
+
+        Table {
+            for content in content.all.sorted(by: \.date, order: .reverse) {
+                Row {
+                    Column {
+                        "\(content.date.asShortDisplay)"
+                    }
+                    .verticalAlignment(.middle)
+                    .style("width: 200px")
+
+                    Column {
+                        Link("\(content.title)", target: content.path)
+                            .linkStyle(.hover)
+
+                        if let subtitle = content.subtitle {
+                            Text(subtitle)
+                                .margin(.bottom, 0)
+                        }
+                    }
+                    .verticalAlignment(.middle)
+                }
+            }
+        }
+        .tableStyle(.stripedRows)
     }
 
     private func fixTag(_ tag: String) -> String {

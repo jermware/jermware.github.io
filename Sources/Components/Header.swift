@@ -8,16 +8,16 @@
 import Foundation
 import Ignite
 
-public struct Header: Component {
-    public func body(context: PublishingContext) -> [any PageElement] {
+struct Header: HTML {
+    var body: some HTML {
         NavigationBar(logo: "jermware.net") {
             Link("Home", target: "/")
             Link("Projects", target: Projects())
             Link("Archive", target: Archive())
             Link("About", target: About())
         }
-        .background(Color(red: 28/255, green: 29/255, blue: 34/255))
         .navigationBarStyle(.dark)
         .navigationItemAlignment(.trailing)
+        .background(Color(red: 28/255, green: 29/255, blue: 34/255))
     }
 }

@@ -1,31 +1,27 @@
 import Foundation
 import Ignite
 
-struct Home: StaticPage {
+struct Home: StaticLayout {
+    @Environment(\.content) var content
     var title = "Home"
 
-    func body(context: PublishingContext) -> [BlockElement] {
-        Group {
-//            Section {
-//                List {
-//                    for content in context.allContent.sorted(by: \.date, order: .forward) {
-//                        Link(content)
-//                    }
+    var body: some HTML {
+//        Section {
+//            List {
+//                ForEach(content.all.sorted(by: \.date, order: .reverse)) { content in
+//                    Link(content)
 //                }
 //            }
-//            .margin(.top, .large)
+//        }
+//        .margin(.top, .large)
 
-            Section {
-                for content in context.content(ofType: "blog").sorted(by: \.date, order: .reverse) {
-                    Group {
-                        BlogCard(content: content)
-                    }
+        Grid  {
+            ForEach(content.typed("blog").sorted(by: \.date, order: .reverse)) { content in
+                BlogCard(content: content)
                     .margin(.top, 20)
-                }
             }
-            .columns(3)
-            .margin(.top, .large)
         }
-        .frame(width: "90%")
+        .columns(3)
+        .margin(.top, .large)
     }
 }

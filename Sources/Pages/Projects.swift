@@ -8,9 +8,10 @@
 import Foundation
 import Ignite
 
-struct Projects: StaticPage {
+struct Projects: StaticLayout {
     var title = "Projects"
     var projects: [Project]
+    var url = URL(static: "https://apps.apple.com/gb/developer/gavin-jerman/id1528217377")
 
     struct Project {
         var name: String
@@ -31,46 +32,44 @@ struct Projects: StaticPage {
         ]
     }
 
-    func body(context: PublishingContext) -> [BlockElement] {
-        Group {
-            Text(title)
-                .font(.title1)
-                .fontWeight(.black)
-                .margin(.top, .large)
+    var body: some HTML {
+        Text(title)
+            .font(.title1)
+            .fontWeight(.black)
+            .margin(.top, .large)
 
-            Text("Here are all my iOS software development projects.")
-                .margin(.top, .large)
+        Text("Here are all my iOS software development projects.")
+            .margin(.top, .large)
 
-            Section {
-                Table {
-                    for project in projects {
-                        Row {
-                            Column {
-                                "&nbsp;"
-                                "<img width=\"64\" height=\"64\" src=\"/images/\(project.name)/\(project.name)-icon.png\">"
-                            }
-                            Column {
-                                Link("\(project.name)", target: "/projects/\(project.name)")
-                                    .linkStyle(.hover)
-                            }.verticalAlignment(.middle)
-                            Column {
-                                "\(project.description)"
-                            }.verticalAlignment(.middle)
-                        }
+        Table {
+            for project in projects {
+                Row {
+                    Column {
+                        "&nbsp;"
+                        "<img width=\"64\" height=\"64\" src=\"/images/\(project.name)/\(project.name)-icon.png\">"
                     }
+
+                    Column {
+                        Link("\(project.name)", target: "/projects/\(project.name)")
+                            .linkStyle(.hover)
+                    }.verticalAlignment(.middle)
+
+                    Column {
+                        "\(project.description)"
+                    }.verticalAlignment(.middle)
                 }
-                .tableBorder(true)
-            }
-
-            let link = Link("App Store", target: URL("https://apps.apple.com/gb/developer/gavin-jerman/id1528217377"))
-                .linkStyle(.hover)
-                .target(.blank)
-                .relationship(.noOpener, .noReferrer)
-
-            Text {
-                Text("Here are links to all my apps on the \(link.render(context: context))")
             }
         }
-        .frame(width: "90%")
+        .tableBorder(true)
+
+        Text {
+            Text {
+                "Here are links to all my apps on the "
+                Link("App Store", target: url)
+                    .linkStyle(.hover)
+                    .target(.blank)
+                    .relationship(.noOpener, .noReferrer)
+            }
+        }
     }
 }
