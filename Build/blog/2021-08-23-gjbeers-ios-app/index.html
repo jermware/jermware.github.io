@@ -1,3 +1,82 @@
-<!doctype html><html lang="en" data-bs-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="gjBeers is an iOS app for cataloguing real ales."><meta name="author" content="Gavin Jerman"><meta name="generator" content="Ignite v0.2.1"><title>gjBeers - My Third iOS App</title><link href="/css/bootstrap.min.css" rel="stylesheet"><link href="/css/bootstrap-icons.min.css" rel="stylesheet"><link href="https://jermware.net/blog/2021-08-23-gjbeers-ios-app" rel="canonical"><link href="/favicon.png" rel="icon"><meta property="og:site_name" content="jermware"><meta property="og:image" content="/images/blog/2021-08-23-gjbeers-ios-app-1.png"><meta property="twitter:image" content="/images/blog/2021-08-23-gjbeers-ios-app-1.png"><meta property="og:title" content="gjBeers - My Third iOS App"><meta property="twitter:title" content="gjBeers - My Third iOS App"><meta property="og:description" content="gjBeers - My Third iOS App"><meta name="twitter:description" content="gjBeers - My Third iOS App"><meta property="og:url" content="https://jermware.net/blog/2021-08-23-gjbeers-ios-app"><meta name="twitter:domain" content="jermware.net"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on"></head><body><div class="col-sm-10 mx-auto"><header><nav class="navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark"><div class="container-fluid col"><a href="/" class="navbar-brand">jermware.net</a><button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div id="navbarCollapse" class="collapse navbar-collapse"><ul class="navbar-nav mb-2 mb-md-0 col justify-content-end"><li class="nav-item"><a href="/" class="nav-link">Home</a></li><li class="nav-item"><a href="/projects" class="nav-link">Projects</a></li><li class="nav-item"><a href="/archive" class="nav-link">Archive</a></li><li class="nav-item"><a href="/about" class="nav-link">About</a></li></ul></div></div></nav></header><div class="mx-auto" style="width: 90%"><h1 class="mt-4" style="font-weight: 900">gjBeers - My Third iOS App</h1><div class="mt-4 mb-5"><h6 class="text-body-secondary" style="font-weight: 400">August 23, 2021</h6><h6 class="text-body-secondary" style="font-weight: 300">Tagged with: gjbeers, ios, app, swift</h6><h6 class="text-body-secondary" style="font-weight: 300">476 words; 2 minutes to read.</h6></div><p><a href="/projects/gjBeers"><strong>gjBeers</strong></a> is an iOS app for cataloguing real ales.</p><img src="/images/blog/2021-08-23-gjbeers-ios-app-1.png" alt="gjBeers screenshots" width="384">
-<br><br>
-<p>This is my third iOS app. It is written fully in <a href="https://swift.org">Swift</a> and uses no third-party libraries.</p><p>It was developed to solve a specific requirement. To replace my manual system i.e. spreadsheet, for recording the date, location, and tasting notes for new <a href="https://en.wikipedia.org/wiki/Real_ale">real ales</a> I drink.</p><p>When I drink a new ale I take a photo of the pump clip, or the actual pint if the pump clip is not available, with my iPhone. The app uses the photo’s <a href="https://en.wikipedia.org/wiki/Exif">EXIF</a> data to give the date, time, and location, and I enter the name, brewery, rating, and tasting notes for the beer.</p><p>The app does not store the photo of the beer, only a reference to the image in the phone’s photo library. This eliminates the significant storage overhead of duplicating the photos but makes restoring the beer collection to a new device difficult. I have a workable solution for this but it is not particularly user friendly and I have yet to find a way to automate this. Does anyone know how to programmatically rename a photo in an iOS photo library e.g. from a device assigned name of <em>IMG_3622.HEIC</em> to <em>Mosaic - Arbor.HEIC</em>?</p><p>The collection is searchable by beer name and sortable by name, date, brewery, and rating. It is viewable as an image gallery, as a list of beer names, as a list of brewery names, or as a ratings list. From these lists it is possible to view the beer’s details.</p><p>Various reports can be viewed and copied to the clipboard for exporting to other apps or devices. The CSV report is particularly useful for exporting the collection into a spreadsheet. Options exist to backup/restore the collection to/from iCloud, and the collection can be emptied or populated from the images in a photo library album named <em>Beers</em>.</p><p>It is very unlikely I will ever release this app to the <a href="https://www.apple.com/uk/app-store/">App Store</a>. It was designed for my specific requirements, and I have no intention of making it more generic to suit other people’s needs. Also, the restoring of the collection onto a new device is possible but complicated and would be a support headache.</p><p>Coding started in November 2019, code ‘complete’ June 2020. Various tweaks since but unlikely to be anymore unless future iOS versions break the app.</p></div><header><nav class="mt-5 mb-1 navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark"><div class="container-fluid col"><a href="/" class="navbar-brand"><a href="https://github.com/twostraws/Ignite" target="_blank" rel="noopener noreferrer" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover">Created in Swift with Ignite</a></a><button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div id="navbarCollapse" class="collapse navbar-collapse"><ul class="navbar-nav mb-2 mb-md-0 col justify-content-end"><li class="nav-item"><a href="https://github.com/jermware/jermware.github.io" target="_blank" rel="noopener noreferrer" class="nav-link" style="margin-right: 20px"><i class="bi-github"></i></a></li><li class="nav-item"><a href="https://mstdn.social/@gavinjerman" target="_blank" rel="noopener noreferrer" class="nav-link" style="margin-right: 20px"><i class="bi-mastodon"></i></a></li><li class="nav-item"><a href="/feed.rss" target="_blank" rel="noopener noreferrer" class="nav-link" style="margin-right: 20px"><i class="bi-rss-fill"></i></a></li></ul></div></div></nav></header></div><script src="/js/bootstrap.bundle.min.js"></script></body></html>
+<!doctype html>
+<html data-bs-theme="auto" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="gjBeers is an iOS app for cataloguing real ales." name="description" />
+    <meta content="Gavin Jerman" name="author" />
+    <meta name="generator" content="Ignite v0.2.1" />
+    <title>gjBeers - My Third iOS App</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link href="/css/prism-xcode-light.css" disabled rel="stylesheet" data-highlight-theme="xcode-light" />
+    <link href="/css/prism-xcode-dark.css" disabled rel="stylesheet" data-highlight-theme="xcode-dark" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/themes.min.css" rel="stylesheet" />
+    <link href="/css/media-queries.min.css" rel="stylesheet" />
+    <link rel="canonical" href="https://jermware.net/blog/2021-08-23-gjbeers-ios-app" />
+    <link rel="icon" href="/favicon.png" />
+    <meta content="jermware" property="og:site_name" />
+    <meta content="/images/blog/2021-08-23-gjbeers-ios-app-1.png" property="og:image" />
+    <meta property="twitter:image" content="/images/blog/2021-08-23-gjbeers-ios-app-1.png" />
+    <meta content="gjBeers - My Third iOS App" property="og:title" />
+    <meta property="twitter:title" content="gjBeers - My Third iOS App" />
+    <meta content="gjBeers - My Third iOS App" property="og:description" />
+    <meta content="gjBeers - My Third iOS App" name="twitter:description" />
+    <meta content="https://jermware.net/blog/2021-08-23-gjbeers-ios-app" property="og:url" />
+    <meta name="twitter:domain" content="jermware.net" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark">
+        <div class="container">
+          <a href="/" class="navbar-brand link-underline link-underline-opacity-100 link-underline-opacity-100-hover">jermware.net</a>
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false" aria-controls="navbarCollapse" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col justify-content-end">
+              <li class="nav-item"><a href="/" class="nav-link link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Home</a></li>
+              <li class="nav-item"><a href="/projects" class="nav-link link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Projects</a></li>
+              <li class="nav-item"><a href="/archive" class="nav-link link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Archive</a></li>
+              <li class="nav-item"><a href="/about" class="nav-link link-underline link-underline-opacity-100 link-underline-opacity-100-hover">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div style="margin-left: 48px; margin-right: 48px">
+      <div>
+        <h1 class="mt-4 mb-5" style="font-weight: 900">gjBeers - My Third iOS App</h1>
+        <h6 class="text-light-emphasis mt-4" style="font-weight: 400">August 23, 2021</h6>
+        <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: gjbeers, ios, app, swift</h6>
+        <h6 class="text-light-emphasis mb-5" style="font-weight: 300">476 words; 2 minutes to read.</h6>
+        <p></p>
+        <p><a href="/projects/gjBeers"><strong>gjBeers</strong></a> is an iOS app for cataloguing real ales.</p>
+        <img src="/images/blog/2021-08-23-gjbeers-ios-app-1.png" alt="gjBeers screenshots" width="384" /> 
+        <br />
+        <br /> 
+        <p>This is my third iOS app. It is written fully in <a href="https://swift.org">Swift</a> and uses no third-party libraries.</p>
+        <p>It was developed to solve a specific requirement. To replace my manual system i.e. spreadsheet, for recording the date, location, and tasting notes for new <a href="https://en.wikipedia.org/wiki/Real_ale">real ales</a> I drink.</p>
+        <p>When I drink a new ale I take a photo of the pump clip, or the actual pint if the pump clip is not available, with my iPhone. The app uses the photo’s <a href="https://en.wikipedia.org/wiki/Exif">EXIF</a> data to give the date, time, and location, and I enter the name, brewery, rating, and tasting notes for the beer.</p>
+        <p>The app does not store the photo of the beer, only a reference to the image in the phone’s photo library. This eliminates the significant storage overhead of duplicating the photos but makes restoring the beer collection to a new device difficult. I have a workable solution for this but it is not particularly user friendly and I have yet to find a way to automate this. Does anyone know how to programmatically rename a photo in an iOS photo library e.g. from a device assigned name of <em>IMG_3622.HEIC</em> to <em>Mosaic - Arbor.HEIC</em>?</p>
+        <p>The collection is searchable by beer name and sortable by name, date, brewery, and rating. It is viewable as an image gallery, as a list of beer names, as a list of brewery names, or as a ratings list. From these lists it is possible to view the beer’s details.</p>
+        <p>Various reports can be viewed and copied to the clipboard for exporting to other apps or devices. The CSV report is particularly useful for exporting the collection into a spreadsheet. Options exist to backup/restore the collection to/from iCloud, and the collection can be emptied or populated from the images in a photo library album named <em>Beers</em>.</p>
+        <p>It is very unlikely I will ever release this app to the <a href="https://www.apple.com/uk/app-store/">App Store</a>. It was designed for my specific requirements, and I have no intention of making it more generic to suit other people’s needs. Also, the restoring of the collection onto a new device is possible but complicated and would be a support headache.</p>
+        <p>Coding started in November 2019, code ‘complete’ June 2020. Various tweaks since but unlikely to be anymore unless future iOS versions break the app.</p>
+        <p></p>
+      </div>
+    </div>
+    <div style="margin-left: 12px; margin-right: 12px">
+      <div class="mt-5 row row-cols-1 row-cols-md-2" style="padding-top: 16px; background-color: rgb(0 0 0 / 100%)">
+        <div class="col ">
+          <p class="text-start" style="padding-top: 2px; padding-left: 20px"><a href="https://github.com/twostraws/Ignite" target="_blank" rel="noopener noreferrer" class="link-primary link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Created in Swift with Ignite</a></p>
+        </div>
+        <div class="col ">
+          <p class="text-end lead"><a href="https://github.com/jermware/jermware.github.io" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-right: 20px"><i class="bi-github"></i></a><a href="https://mstdn.social/@gavinjerman" target="_blank" rel="noopener noreferrer" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-right: 20px"><i class="bi-mastodon"></i></a><a href="/feed.rss" target="_blank" rel="noopener noreferrer" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-right: 20px"><i class="bi-rss-fill"></i></a></p>
+        </div>
+      </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

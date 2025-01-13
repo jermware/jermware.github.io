@@ -1,24 +1,125 @@
-<!doctype html><html lang="en" data-bs-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="In an earlier post Using the Contrast Jekyll Theme I described how I forked the Contrast Jekyll theme by Niklas Buschmann to create my website with the default theme."><meta name="author" content="Gavin Jerman"><meta name="generator" content="Ignite v0.2.1"><title>Customising the Contrast Jekyll Theme</title><link href="/css/bootstrap.min.css" rel="stylesheet"><link href="/css/bootstrap-icons.min.css" rel="stylesheet"><link href="https://jermware.net/blog/2020-04-18-customising-contrast-theme" rel="canonical"><link href="/favicon.png" rel="icon"><meta property="og:site_name" content="jermware"><meta property="og:title" content="Customising the Contrast Jekyll Theme"><meta property="twitter:title" content="Customising the Contrast Jekyll Theme"><meta property="og:description" content="Customising the Contrast Jekyll Theme"><meta name="twitter:description" content="Customising the Contrast Jekyll Theme"><meta property="og:url" content="https://jermware.net/blog/2020-04-18-customising-contrast-theme"><meta name="twitter:domain" content="jermware.net"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on"></head><body><div class="col-sm-10 mx-auto"><header><nav class="navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark"><div class="container-fluid col"><a href="/" class="navbar-brand">jermware.net</a><button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div id="navbarCollapse" class="collapse navbar-collapse"><ul class="navbar-nav mb-2 mb-md-0 col justify-content-end"><li class="nav-item"><a href="/" class="nav-link">Home</a></li><li class="nav-item"><a href="/projects" class="nav-link">Projects</a></li><li class="nav-item"><a href="/archive" class="nav-link">Archive</a></li><li class="nav-item"><a href="/about" class="nav-link">About</a></li></ul></div></div></nav></header><div class="mx-auto" style="width: 90%"><h1 class="mt-4" style="font-weight: 900">Customising the Contrast Jekyll Theme</h1><div class="mt-4 mb-5"><h6 class="text-body-secondary" style="font-weight: 400">April 18, 2020</h6><h6 class="text-body-secondary" style="font-weight: 300">Tagged with: github pages, jekyll, theme</h6><h6 class="text-body-secondary" style="font-weight: 300">789 words; 4 minutes to read.</h6></div><p>In an earlier post <a href="/blog/2020-04-13-using-contrast-theme">Using the Contrast Jekyll Theme</a> I described how I forked the <a href="https://github.com/niklasbuschmann/contrast">Contrast</a> Jekyll theme by <a href="https://github.com/niklasbuschmann">Niklas Buschmann</a> to create my website with the default theme.</p><p>In this post I describe how I customised the <em>Contrast</em> theme to suit the layout and style I wanted for my website.</p><p>As a reminder, here’s the default <em>Contrast</em> theme. <img src="/images/blog/2020-04-18-customising-1.png" alt="image1" width="1000"></p><p>I amended the <em>_config.yml</em> configuration file to include my information, to show the sidebar, show article excerpts, and to always show the site title.</p><img src="/images/blog/2020-04-18-customising-2.png" alt="image2" width="1000">
-<br><br>
-<p>With these changes in place the website looked like this. <img src="/images/blog/2020-04-18-customising-3.png" alt="image3" width="1000"></p><p>Next I enabled the <em>Subscribe</em> option.</p><img src="/images/blog/2020-04-18-customising-4.png" alt="image4" width="1000">
-<br><br>
-<p>This provides displays a Subscribe link in the sidebar and a site RSS feed at <em>/feed.xml</em>. <img src="/images/blog/2020-04-18-customising-5.png" alt="image5" width="1000"> <br><br></p><p>I amended the <em>navigation</em> section to include links in the sidebar to the <em>Projects</em>, <em>Archive</em>, and <em>About</em> pages.</p><img src="/images/blog/2020-04-18-customising-6.png" alt="image6" width="1000">
-<br><br>
-<p>The <em>Archive</em> page is included in the <em>Contrast</em> theme, but you will need to create the <em>About.md</em> and <em>Projects.md</em> files for their links to be active. I created stubbed pages, the content can be added later.</p><img src="/images/blog/2020-04-18-customising-7.png" alt="image7" width="40%">
-<br><br>
-<p>Here’s what the website looks now. <img src="/images/blog/2020-04-18-customising-8.png" alt="image8" width="1000"></p><p>I amended the <em>permalink</em> option to include the year and month, as well as the title, of the article.</p><img src="/images/blog/2020-04-18-customising-9.png" alt="image9" width="1000">
-<br><br>
-<p>This seemed a more logical naming convention to me.</p><img src="/images/blog/2020-04-18-customising-10.png" alt="image10" width="1000">
-<br><br>
-<p>I added pagination to the articles displayed on the home page by including the <em>jekyll-paginate</em> plugin and providing the required <em>paginate</em> and <em>paginate_path</em> settings.</p><img src="/images/blog/2020-04-18-customising-11.png" alt="image11" width="1000">
-<br><br>
-<p>Which looks like this on the website. <img src="/images/blog/2020-04-18-customising-12.png" alt="image12" width="1000"></p><p>Adding <em>jekyll-sitemap</em> to the <em>plugins</em> section…</p><img src="/images/blog/2020-04-18-customising-13.png" alt="image13" width="1000">
-<br><br>
-<p>Automatically generates a site map at <em>/sitemap.xml</em>. <img src="/images/blog/2020-04-18-customising-14.png" alt="image14" width="1000"></p><p>The remaining changes I made involved getting my hands dirty and writing some HTML.</p><p>I added support for a <em>favicon</em> by creating a <em>favicon.png</em> file with the appropriate image and copying it to the root folder of the website i.e. same location as <em>_config.yml</em>, and amending <em>default.html</em> file in the <em>_layouts</em> folder to set the <em>shortcut icon</em>.</p><img src="/images/blog/2020-04-18-customising-15.png" alt="image15" width="1000">
-<br><br>
-<img src="/images/blog/2020-04-18-customising-16.png" alt="image16" width="1000">
-<p>Finally I added a page to search for articles by title, URL, category, tags, date, and description. The search functionality was provided in a JavaScript library by <a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a> - see <em>search.js</em> in the root folder. The article data fields to search are specified using JSON in the <em>search.json</em> in the root folder.</p><img src="/images/blog/2020-04-18-customising-17.png" alt="image17" width="60%">
-<br><br>
-<p>A search page <em>search.md</em> was created to capture the search text and display the matching articles in a list similar to the <em>Archive</em> page, and added to the <em>navigation</em> in <em>_config.yml</em>.</p><img src="/images/blog/2020-04-18-customising-18.png" alt="image18" width="1000">
-<br><br>
-<p>Here’s the search page in action. <img src="/images/blog/2020-04-18-customising-19.png" alt="image19" width="1000"></p><p>With these customisations in place, here’s what the final website looks like. <img src="/images/blog/2020-04-18-customising-20.png" alt="image20" width="1000"></p><p>Now to add some content…</p></div><header><nav class="mt-5 mb-1 navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark"><div class="container-fluid col"><a href="/" class="navbar-brand"><a href="https://github.com/twostraws/Ignite" target="_blank" rel="noopener noreferrer" class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover">Created in Swift with Ignite</a></a><button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div id="navbarCollapse" class="collapse navbar-collapse"><ul class="navbar-nav mb-2 mb-md-0 col justify-content-end"><li class="nav-item"><a href="https://github.com/jermware/jermware.github.io" target="_blank" rel="noopener noreferrer" class="nav-link" style="margin-right: 20px"><i class="bi-github"></i></a></li><li class="nav-item"><a href="https://mstdn.social/@gavinjerman" target="_blank" rel="noopener noreferrer" class="nav-link" style="margin-right: 20px"><i class="bi-mastodon"></i></a></li><li class="nav-item"><a href="/feed.rss" target="_blank" rel="noopener noreferrer" class="nav-link" style="margin-right: 20px"><i class="bi-rss-fill"></i></a></li></ul></div></div></nav></header></div><script src="/js/bootstrap.bundle.min.js"></script></body></html>
+<!doctype html>
+<html data-bs-theme="auto" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="In an earlier post Using the Contrast Jekyll Theme I described how I forked the Contrast Jekyll theme by Niklas Buschmann to create my website with the default theme." name="description" />
+    <meta name="author" content="Gavin Jerman" />
+    <meta name="generator" content="Ignite v0.2.1" />
+    <title>Customising the Contrast Jekyll Theme</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link disabled rel="stylesheet" href="/css/prism-xcode-light.css" data-highlight-theme="xcode-light" />
+    <link href="/css/prism-xcode-dark.css" disabled rel="stylesheet" data-highlight-theme="xcode-dark" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/themes.min.css" rel="stylesheet" />
+    <link href="/css/media-queries.min.css" rel="stylesheet" />
+    <link href="https://jermware.net/blog/2020-04-18-customising-contrast-theme" rel="canonical" />
+    <link href="/favicon.png" rel="icon" />
+    <meta content="jermware" property="og:site_name" />
+    <meta property="og:title" content="Customising the Contrast Jekyll Theme" />
+    <meta content="Customising the Contrast Jekyll Theme" property="twitter:title" />
+    <meta property="og:description" content="Customising the Contrast Jekyll Theme" />
+    <meta name="twitter:description" content="Customising the Contrast Jekyll Theme" />
+    <meta property="og:url" content="https://jermware.net/blog/2020-04-18-customising-contrast-theme" />
+    <meta name="twitter:domain" content="jermware.net" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:dnt" content="on" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark">
+        <div class="container">
+          <a href="/" class="navbar-brand link-underline link-underline-opacity-100 link-underline-opacity-100-hover">jermware.net</a>
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col justify-content-end">
+              <li class="nav-item"><a href="/" class="nav-link link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Home</a></li>
+              <li class="nav-item"><a href="/projects" class="nav-link link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Projects</a></li>
+              <li class="nav-item"><a href="/archive" class="nav-link link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Archive</a></li>
+              <li class="nav-item"><a href="/about" class="nav-link link-underline link-underline-opacity-100 link-underline-opacity-100-hover">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div style="margin-left: 48px; margin-right: 48px">
+      <div>
+        <h1 class="mt-4 mb-5" style="font-weight: 900">Customising the Contrast Jekyll Theme</h1>
+        <h6 class="text-light-emphasis mt-4" style="font-weight: 400">April 18, 2020</h6>
+        <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: github pages, jekyll, theme</h6>
+        <h6 class="text-light-emphasis mb-5" style="font-weight: 300">789 words; 4 minutes to read.</h6>
+        <p></p>
+        <p>In an earlier post <a href="/blog/2020-04-13-using-contrast-theme">Using the Contrast Jekyll Theme</a> I described how I forked the <a href="https://github.com/niklasbuschmann/contrast">Contrast</a> Jekyll theme by <a href="https://github.com/niklasbuschmann">Niklas Buschmann</a> to create my website with the default theme.</p>
+        <p>In this post I describe how I customised the <em>Contrast</em> theme to suit the layout and style I wanted for my website.</p>
+        <p>As a reminder, here’s the default <em>Contrast</em> theme. <img src="/images/blog/2020-04-18-customising-1.png" alt="image1" width="1000" /></p>
+        <p>I amended the <em>_config.yml</em> configuration file to include my information, to show the sidebar, show article excerpts, and to always show the site title.</p>
+        <img src="/images/blog/2020-04-18-customising-2.png" alt="image2" width="1000" /> 
+        <br />
+        <br /> 
+        <p>With these changes in place the website looked like this. <img src="/images/blog/2020-04-18-customising-3.png" alt="image3" width="1000" /></p>
+        <p>Next I enabled the <em>Subscribe</em> option.</p>
+        <img src="/images/blog/2020-04-18-customising-4.png" alt="image4" width="1000" /> 
+        <br />
+        <br /> 
+        <p>This provides displays a Subscribe link in the sidebar and a site RSS feed at <em>/feed.xml</em>. <img src="/images/blog/2020-04-18-customising-5.png" alt="image5" width="1000" /> <br /><br /></p>
+        <p>I amended the <em>navigation</em> section to include links in the sidebar to the <em>Projects</em>, <em>Archive</em>, and <em>About</em> pages.</p>
+        <img src="/images/blog/2020-04-18-customising-6.png" alt="image6" width="1000" /> 
+        <br />
+        <br /> 
+        <p>The <em>Archive</em> page is included in the <em>Contrast</em> theme, but you will need to create the <em>About.md</em> and <em>Projects.md</em> files for their links to be active. I created stubbed pages, the content can be added later.</p>
+        <img src="/images/blog/2020-04-18-customising-7.png" alt="image7" width="40%" /> 
+        <br />
+        <br /> 
+        <p>Here’s what the website looks now. <img src="/images/blog/2020-04-18-customising-8.png" alt="image8" width="1000" /></p>
+        <p>I amended the <em>permalink</em> option to include the year and month, as well as the title, of the article.</p>
+        <img src="/images/blog/2020-04-18-customising-9.png" alt="image9" width="1000" /> 
+        <br />
+        <br /> 
+        <p>This seemed a more logical naming convention to me.</p>
+        <img src="/images/blog/2020-04-18-customising-10.png" alt="image10" width="1000" /> 
+        <br />
+        <br /> 
+        <p>I added pagination to the articles displayed on the home page by including the <em>jekyll-paginate</em> plugin and providing the required <em>paginate</em> and <em>paginate_path</em> settings.</p>
+        <img src="/images/blog/2020-04-18-customising-11.png" alt="image11" width="1000" /> 
+        <br />
+        <br /> 
+        <p>Which looks like this on the website. <img src="/images/blog/2020-04-18-customising-12.png" alt="image12" width="1000" /></p>
+        <p>Adding <em>jekyll-sitemap</em> to the <em>plugins</em> section…</p>
+        <img src="/images/blog/2020-04-18-customising-13.png" alt="image13" width="1000" /> 
+        <br />
+        <br /> 
+        <p>Automatically generates a site map at <em>/sitemap.xml</em>. <img src="/images/blog/2020-04-18-customising-14.png" alt="image14" width="1000" /></p>
+        <p>The remaining changes I made involved getting my hands dirty and writing some HTML.</p>
+        <p>I added support for a <em>favicon</em> by creating a <em>favicon.png</em> file with the appropriate image and copying it to the root folder of the website i.e. same location as <em>_config.yml</em>, and amending <em>default.html</em> file in the <em>_layouts</em> folder to set the <em>shortcut icon</em>.</p>
+        <img src="/images/blog/2020-04-18-customising-15.png" alt="image15" width="1000" /> 
+        <br />
+        <br /> 
+        <img src="/images/blog/2020-04-18-customising-16.png" alt="image16" width="1000" /> 
+        <p>Finally I added a page to search for articles by title, URL, category, tags, date, and description. The search functionality was provided in a JavaScript library by <a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a> - see <em>search.js</em> in the root folder. The article data fields to search are specified using JSON in the <em>search.json</em> in the root folder.</p>
+        <img src="/images/blog/2020-04-18-customising-17.png" alt="image17" width="60%" /> 
+        <br />
+        <br /> 
+        <p>A search page <em>search.md</em> was created to capture the search text and display the matching articles in a list similar to the <em>Archive</em> page, and added to the <em>navigation</em> in <em>_config.yml</em>.</p>
+        <img src="/images/blog/2020-04-18-customising-18.png" alt="image18" width="1000" /> 
+        <br />
+        <br /> 
+        <p>Here’s the search page in action. <img src="/images/blog/2020-04-18-customising-19.png" alt="image19" width="1000" /></p>
+        <p>With these customisations in place, here’s what the final website looks like. <img src="/images/blog/2020-04-18-customising-20.png" alt="image20" width="1000" /></p>
+        <p>Now to add some content…</p>
+        <p></p>
+      </div>
+    </div>
+    <div style="margin-left: 12px; margin-right: 12px">
+      <div class="mt-5 row row-cols-1 row-cols-md-2" style="padding-top: 16px; background-color: rgb(0 0 0 / 100%)">
+        <div class="col ">
+          <p class="text-start" style="padding-top: 2px; padding-left: 20px"><a href="https://github.com/twostraws/Ignite" rel="noopener noreferrer" target="_blank" class="link-primary link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Created in Swift with Ignite</a></p>
+        </div>
+        <div class="col ">
+          <p class="text-end lead"><a href="https://github.com/jermware/jermware.github.io" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-right: 20px"><i class="bi-github"></i></a><a href="https://mstdn.social/@gavinjerman" target="_blank" rel="noopener noreferrer" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-right: 20px"><i class="bi-mastodon"></i></a><a href="/feed.rss" target="_blank" rel="noopener noreferrer" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-right: 20px"><i class="bi-rss-fill"></i></a></p>
+        </div>
+      </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>
