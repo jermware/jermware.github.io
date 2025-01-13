@@ -35,7 +35,7 @@ struct About: StaticPage {
 
             Text(markdown: """
                 I'm Gavin Jerman, a retired C++ and .NET software developer living in the Cotswolds, England.
-                <br><br>  
+                <br><br>
                 I spend my spare time running, enjoying real ale, and writing code.
                 <br><br>
                 I created this website primarily to allow me to release apps on Apple's App Store and Mac App Store.

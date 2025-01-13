@@ -23,7 +23,7 @@ struct JermwareSite: Site {
     var homePage = Home()
     var tagPage = Tags()
     var theme = MyTheme()
-    var pageWidth = 10 // default 12 of 12 columns
+//    var pageWidth = 9 // default is 10 of 12 columns
     var favicon = URL(string: "/favicon.png")
 //    var feedConfiguration: FeedConfiguration = FeedConfiguration(mode: .descriptionOnly, contentCount: 20)
 

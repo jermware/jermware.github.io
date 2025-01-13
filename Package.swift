@@ -7,8 +7,8 @@ let package = Package(
     name: "JermwareWebsite",
     platforms: [.macOS(.v13)],
     dependencies: [
-//        .package(url: "https://github.com/twostraws/Ignite.git", branch: "main")
-        .package(name: "Ignite", path: "/Users/Gavin/Downloads/Ignite-0.2.2")
+ //        .package(url: "https://github.com/twostraws/Ignite.git", branch: "main")
+		.package(name: "Ignite", path: "/Users/Gavin/Downloads/Ignite-0.2.2")
     ],
     targets: [
         .executableTarget(
