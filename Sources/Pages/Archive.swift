@@ -16,7 +16,7 @@ struct Archive: StaticLayout {
         Text(title)
             .font(.title1)
             .fontWeight(.black)
-            .margin(.top, .large)
+            .margin(.top, .medium)
 
         Text("Tags")
             .font(.title4)

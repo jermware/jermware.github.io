@@ -30,7 +30,7 @@ struct About: StaticLayout {
         Text(title)
             .font(.title1)
             .fontWeight(.black)
-            .margin(.top, .large)
+            .margin(.top, .medium)
 
         Text {
             "I'm Gavin Jerman, a retired C++ and .NET software developer living in the Cotswolds, England.<br><br>"

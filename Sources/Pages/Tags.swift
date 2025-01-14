@@ -15,7 +15,7 @@ struct Tags: TagLayout {
         Text(tag ?? "All tags")
             .font(.title1)
             .fontWeight(.black)
-            .margin(.top, .large)
+            .margin(.top, .medium)
 
         Table {
             for content in content.sorted(by: \.date, order: .reverse) {

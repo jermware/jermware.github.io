@@ -19,10 +19,8 @@ struct MainLayout: Layout {
                 Header()
 
                 Section(page.body)
-                    .margin(.horizontal, 48)
 
                 Footer()
-                    .margin(.horizontal, 12)
             }
         }
     }

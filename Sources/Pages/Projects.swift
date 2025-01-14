@@ -36,7 +36,7 @@ struct Projects: StaticLayout {
         Text(title)
             .font(.title1)
             .fontWeight(.black)
-            .margin(.top, .large)
+            .margin(.top, .medium)
 
         Text("Here are all my iOS software development projects.")
             .margin(.top, .large)

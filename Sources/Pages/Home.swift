@@ -18,10 +18,9 @@ struct Home: StaticLayout {
         Grid  {
             ForEach(content.typed("blog").sorted(by: \.date, order: .reverse)) { content in
                 BlogCard(content: content)
-                    .margin(.top, 20)
+                    .margin(.top, .medium)
             }
         }
         .columns(3)
-        .margin(.top, .large)
     }
 }
