@@ -24,9 +24,12 @@ struct JermwareSite: Site {
 //    var builtInIconsEnabled = BootstrapOptions.localBootstrap
 //    var feedConfiguration: FeedConfiguration = FeedConfiguration(mode: .descriptionOnly, contentCount: 20)
 
+    var darkTheme: Theme? = nil // prevent dark theme
+
     var homePage = Home()
     var tagLayout = Tags()
     var layout = MainLayout()
+
 
     var staticLayouts: [any StaticLayout] {
         Projects()
