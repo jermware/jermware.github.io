@@ -19,6 +19,8 @@ struct MainLayout: Layout {
                 Header()
 
                 Section(page.body)
+                    .style("width: 90%;")
+                    .class("mx-auto") // center alignment
 
                 Footer()
             }
