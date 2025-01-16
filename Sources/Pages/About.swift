@@ -12,17 +12,14 @@ struct About: StaticLayout {
     var title = "About"
 
     private let githubLink = Link("GitHub Pages", target: URL(static: "https://pages.github.com"))
-        .linkStyle(.hover)
         .target(.blank)
         .relationship(.noOpener, .noReferrer)
 
     private let igniteLink = Link("Ignite", target: URL(static: "https://github.com/twostraws/Ignite"))
-        .linkStyle(.hover)
         .target(.blank)
         .relationship(.noOpener, .noReferrer)
 
     private let swiftLink = Link("Swift", target: URL(static: "https://developer.apple.com/swift"))
-        .linkStyle(.hover)
         .target(.blank)
         .relationship(.noOpener, .noReferrer)
 

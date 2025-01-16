@@ -27,7 +27,6 @@ struct Tags: TagLayout {
                     .style("width: 200px")
                     Column {
                         Link("\(content.title)", target: content.path)
-                            .linkStyle(.hover)
 
                         if let subtitle = content.subtitle {
                             Text(subtitle)

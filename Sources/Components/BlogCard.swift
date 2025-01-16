@@ -29,7 +29,6 @@ struct BlogCard: HTML {
         } header: {
             Text {
                 Link(content)
-                    .linkStyle(.hover)
             }
             .font(.title5)
         } footer: {

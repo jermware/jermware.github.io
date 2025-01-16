@@ -51,7 +51,6 @@ struct Projects: StaticLayout {
 
                     Column {
                         Link("\(project.name)", target: "/projects/\(project.name)")
-                            .linkStyle(.hover)
                     }.verticalAlignment(.middle)
 
                     Column {
@@ -66,7 +65,6 @@ struct Projects: StaticLayout {
             Text {
                 "Here are links to all my apps on the "
                 Link("App Store", target: url)
-                    .linkStyle(.hover)
                     .target(.blank)
                     .relationship(.noOpener, .noReferrer)
             }

@@ -52,7 +52,6 @@ struct Archive: StaticLayout {
 
                     Column {
                         Link("\(content.title)", target: content.path)
-                            .linkStyle(.hover)
 
                         if let subtitle = content.subtitle {
                             Text(subtitle)

@@ -22,7 +22,6 @@ struct Footer: HTML {
     ]
 
     private let logo = Link("Created in Swift with Ignite", target: URL(static: "https://github.com/twostraws/Ignite"))
-        .linkStyle(.hover)
         .target(.blank)
         .relationship(.noOpener, .noReferrer)
 
