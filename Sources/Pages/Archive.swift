@@ -42,7 +42,7 @@ struct Archive: StaticLayout {
             .margin(.top, .large)
 
         Table {
-            for content in content.all.sorted(by: \.date, order: .reverse) {
+            for content in content.all {
                 Row {
                     Column {
                         "\(content.date.asShortDisplay)"

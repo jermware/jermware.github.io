@@ -8,7 +8,7 @@ struct Home: StaticLayout {
     var body: some HTML {
 //        Section {
 //            List {
-//                ForEach(content.all.sorted(by: \.date, order: .reverse)) { content in
+//                ForEach(content.all) { content in
 //                    Link(content)
 //                }
 //            }
@@ -16,7 +16,7 @@ struct Home: StaticLayout {
 //        .margin(.top, .large)
 
         Grid  {
-            ForEach(content.typed("blog").sorted(by: \.date, order: .reverse)) { content in
+            ForEach(content.typed("blog")) { content in
                 BlogCard(content: content)
                     .margin(.top, .medium)
             }

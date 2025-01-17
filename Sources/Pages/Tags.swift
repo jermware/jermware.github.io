@@ -18,7 +18,7 @@ struct Tags: TagLayout {
             .margin(.top, .medium)
 
         Table {
-            for content in content.sorted(by: \.date, order: .reverse) {
+            for content in content {
                 Row {
                     Column {
                         "\(content.date.asShortDisplay)"
