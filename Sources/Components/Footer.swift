@@ -36,7 +36,7 @@ struct Footer: HTML {
         }
         .navigationItemAlignment(.trailing)
         .background(Color(red: 28/255, green: 29/255, blue: 34/255))
-        .margin(.top, .medium)
+        .margin(.top, .large)
         .margin(.bottom, .xSmall)
     }
 }
