@@ -1,5 +1,5 @@
 ---
-date: 2025-01-23 07:31
+date: 2025-01-23 00:25
 author: "Gavin Jerman"
 subtitle: An article describing an update to gjjotter released to the app store.
 tags: gjjotter, ios, app, app store
