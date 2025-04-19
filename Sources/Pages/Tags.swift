@@ -8,29 +8,28 @@
 import Foundation
 import Ignite
 
-struct Tags: TagLayout {
-    @Environment(\.content) var content
+struct Tags: TagPage {
 
     var body: some HTML {
-        Text(tag ?? "All tags")
+        Text(tag.name)
             .font(.title1)
             .fontWeight(.black)
             .margin(.top, .medium)
 
         Table {
-            for content in content {
+            for article in tag.articles {
                 Row {
                     Column {
-                        "\(content.date.asShortDisplay)"
+                        "\(article.date.asShortDisplay)"
                     }
                     .verticalAlignment(.middle)
-                    .style("width: 200px")
-                    Column {
-                        Link("\(content.title)", target: content.path)
 
-                        if let subtitle = content.subtitle {
+                    Column {
+                        Link("\(article.title)", target: article.path)
+
+                        if let subtitle = article.subtitle {
                             Text(subtitle)
-                                .margin(.bottom, 0)
+                                .margin(.bottom, .none)
                         }
                     }
                     .verticalAlignment(.middle)

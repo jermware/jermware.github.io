@@ -9,36 +9,31 @@ import Foundation
 import Ignite
 
 struct BlogCard: HTML {
-    var content:Content
+    var article: Article
 
-    init(content: Content) {
-        self.content = content
+    init(article: Article) {
+        self.article = article
     }
 
     var body: some HTML {
         Card() {
-            Text(content.description)
-                .margin(.bottom, .none)
+            Text(article.description)
 
-            if let image = content.image {
+            if let image = article.image {
                 Image(decorative: image)
-//                    .style("width: 200px;")
-                    .style("width: 60%;")
-                    .margin(.top, 10)
+                    .style(.width, "60%")
+                    .margin(.top, .small)
             }
         } header: {
             Text {
-                Link(content)
+                Link(article)
             }
             .font(.title5)
         } footer: {
-            let tagLinks = content.tagLinks()
-
-            if tagLinks.isEmpty == false {
-                Group {
-                    tagLinks
+            if let tagLinks = article.tagLinks() {
+                ForEach(tagLinks) { tagLink in
+                    tagLink
                 }
-                .style("margin-top: -3px")
             }
         }
     }

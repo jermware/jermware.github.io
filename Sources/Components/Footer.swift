@@ -9,10 +9,30 @@ import Foundation
 import Ignite
 
 struct Footer: HTML {
+    private let igniteLink = Link("Ignite", target: URL(static: "https://github.com/twostraws/Ignite"))
+        .target(.blank)
+        .relationship(.noOpener, .noReferrer)
+
+    var body: some HTML {
+        HStack {
+            Text("© 2025 jermware")
+            Spacer()
+            SocialFooter()
+        }
+        .margin(.top, .xLarge)
+
+        HStack {
+            Spacer()
+            Text("Site generation powered by \(igniteLink)")
+        }
+    }
+}
+
+struct SocialFooter: HTML {
     private let icons = [
-        Image(systemName: "github"),
-        Image(systemName: "mastodon"),
-        Image(systemName: "rss-fill")
+        Image(systemName: "github", description: "github"),
+        Image(systemName: "mastodon", description: "mastodon"),
+        Image(systemName: "rss-fill", description: "rss")
     ]
 
     private let urlStrings = [
@@ -21,22 +41,17 @@ struct Footer: HTML {
         "/feed.rss"
     ]
 
-    private let logo = Link("Created in Swift with Ignite", target: URL(static: "https://github.com/twostraws/Ignite"))
-        .target(.blank)
-        .relationship(.noOpener, .noReferrer)
-
     var body: some HTML {
-        NavigationBar(logo: logo) {
-            for (icon, urlString) in zip(icons, urlStrings) {
+        Text {
+            ForEach(zip(icons, urlStrings)) { icon, urlString in
                 Link(icon, target: urlString)
-                    .target(.blank)
+                    .role(.secondary)
+                    .target(.newWindow)
                     .relationship(.noOpener, .noReferrer)
-                    .role(.light)
+                    // todo = better way of determining last icon to exclude trailing margin?
+                    .margin(.trailing, urlString.contains("feed.rss") ? 0 : 20)
             }
         }
-        .navigationItemAlignment(.trailing)
-        .background(Color(red: 28/255, green: 29/255, blue: 34/255))
-        .margin(.top, .large)
-        .margin(.bottom, .xSmall)
+        .font(.title5)
     }
 }

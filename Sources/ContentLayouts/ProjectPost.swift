@@ -8,20 +8,20 @@
 import Foundation
 import Ignite
 
-struct ProjectPost: ContentLayout {
+struct ProjectPost: ArticlePage {
     var body: some HTML {
-        Text(content.title)
+        Text(article.title)
             .font(.title1)
             .fontWeight(.black)
             .margin(.top, .large)
             .margin(.bottom, .xLarge)
 
         Include("slider.html")
-        Include("\(content.title)Slider.html")
+        Include("\(article.title)Slider.html")
 
-        Text(content.body)
+        Text(article.text)
 
-        Text(content.date.asLongDisplay)
+        Text(article.date.asLongDisplay)
             .font(.title6)
             .fontWeight(.light)
             .foregroundStyle(.lightEmphasis)

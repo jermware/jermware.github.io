@@ -8,33 +8,33 @@
 import Foundation
 import Ignite
 
-struct BlogPost: ContentLayout {
+struct BlogPost: ArticlePage {
     var body: some HTML {
-        Text(content.title)
+        Text(article.title)
             .font(.title1)
             .fontWeight(.black)
             .margin(.top, .large)
             .margin(.bottom, .xLarge)
 
-        Text(content.date.asLongDisplay)
+        Text(article.date.asLongDisplay)
             .font(.title6)
             .fontWeight(.regular)
             .foregroundStyle(.lightEmphasis)
             .margin(.top, .large)
 
-        if content.hasTags {
-            Text("Tagged with: \(content.tags.joined(separator: ", "))")
+        if let tags = article.tags {
+            Text("Tagged with: \(tags.joined(separator: ", "))")
                 .font(.title6)
                 .fontWeight(.light)
                 .foregroundStyle(.lightEmphasis)
         }
 
-        Text("\(content.estimatedWordCount) words; \(content.estimatedReadingMinutes) minutes to read.")
+        Text("\(article.estimatedWordCount) words; \(article.estimatedReadingMinutes) minutes to read.")
             .font(.title6)
             .fontWeight(.light)
             .foregroundStyle(.lightEmphasis)
             .margin(.bottom, .xLarge)
 
-        Text(content.body)
+        Text(article.text)
     }
 }

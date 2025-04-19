@@ -9,21 +9,15 @@ import Foundation
 import Ignite
 
 struct MainLayout: Layout {
-    @Environment(\.siteConfiguration) private var siteConfiguration
-
     var body: some HTML {
-        HTMLDocument {
-            HTMLHead(for: page, with: siteConfiguration)
+        Body {
+            Header()
 
-            HTMLBody {
-                Header()
+            content
+                .style(.width, "90%")
+                .class("mx-auto") // center alignment
 
-                Section(page.body)
-                    .style("width: 90%;")
-                    .class("mx-auto") // center alignment
-
-                Footer()
-            }
+            Footer()
         }
     }
 }

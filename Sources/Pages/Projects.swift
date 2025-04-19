@@ -8,7 +8,7 @@
 import Foundation
 import Ignite
 
-struct Projects: StaticLayout {
+struct Projects: StaticPage {
     var title = "Projects"
     var projects: [Project]
     var url = URL(static: "https://apps.apple.com/gb/developer/gavin-jerman/id1528217377")
@@ -62,12 +62,10 @@ struct Projects: StaticLayout {
         .tableBorder(true)
 
         Text {
-            Text {
-                "Here are links to all my apps on the "
-                Link("App Store", target: url)
-                    .target(.blank)
-                    .relationship(.noOpener, .noReferrer)
-            }
+            "Here are links to all my apps on the "
+            Link("App Store", target: url)
+                .target(.blank)
+                .relationship(.noOpener, .noReferrer)
         }
     }
 }

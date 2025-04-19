@@ -1,26 +1,22 @@
 import Foundation
 import Ignite
 
-struct Home: StaticLayout {
-    @Environment(\.content) var content
+struct Home: StaticPage {
+    @Environment(\.articles) var articles
     var title = "Home"
 
     var body: some HTML {
-//        Section {
-//            List {
-//                ForEach(content.all) { content in
-//                    Link(content)
-//                }
+//        List {
+//            ForEach(articles.all) { article in
+//                Link(article)
 //            }
 //        }
-//        .margin(.top, .large)
+//        .margin(.top)
 
-        Grid  {
-            ForEach(content.typed("blog")) { content in
-                BlogCard(content: content)
-                    .margin(.top, .medium)
-            }
-        }
-        .columns(3)
+        // only display the first page of blog entries on the home page
+        BlogPager(pageNumber: 1, pageCount: articles.blogPageCount)
+        BlogEntries(pageNumber: 1)
+        BlogPager(pageNumber: 1, pageCount: articles.blogPageCount)
     }
 }
+

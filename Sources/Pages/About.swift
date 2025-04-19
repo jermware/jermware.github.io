@@ -8,7 +8,7 @@
 import Foundation
 import Ignite
 
-struct About: StaticLayout {
+struct About: StaticPage {
     var title = "About"
 
     private let githubLink = Link("GitHub Pages", target: URL(static: "https://pages.github.com"))

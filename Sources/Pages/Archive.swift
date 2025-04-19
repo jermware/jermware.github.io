@@ -8,8 +8,8 @@
 import Foundation
 import Ignite
 
-struct Archive: StaticLayout {
-    @Environment(\.content) var content
+struct Archive: StaticPage {
+    @Environment(\.articles) var articles
     var title = "Archive"
 
     var body: some HTML {
@@ -23,14 +23,13 @@ struct Archive: StaticLayout {
             .margin(.top, .large)
 
         Grid {
-            let tags: [String] = Set(content.all.flatMap(\.tags)).sorted()
+            let tags: [String] = Set(articles.all.flatMap { $0.tags ?? [] }).sorted()
 
             ForEach(tags) { tag in
                 Group {
                     Link(target: "/tags/\(fixTag(tag))") {
                         Badge(tag)
                             .role(.primary)
-                            .margin(.bottom, .small)
                     }
                 }
             }
@@ -42,20 +41,19 @@ struct Archive: StaticLayout {
             .margin(.top, .large)
 
         Table {
-            for content in content.all {
+            for article in articles.all {
                 Row {
                     Column {
-                        "\(content.date.asShortDisplay)"
+                        "\(article.date.asShortDisplay)"
                     }
                     .verticalAlignment(.middle)
-                    .style("width: 200px")
 
                     Column {
-                        Link("\(content.title)", target: content.path)
+                        Link("\(article.title)", target: article.path)
 
-                        if let subtitle = content.subtitle {
+                        if let subtitle = article.subtitle {
                             Text(subtitle)
-                                .margin(.bottom, 0)
+                                .margin(.bottom, .none)
                         }
                     }
                     .verticalAlignment(.middle)
