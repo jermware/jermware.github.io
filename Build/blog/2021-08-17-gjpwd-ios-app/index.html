@@ -1,86 +1,77 @@
 <!doctype html>
-<html data-bs-theme="auto" lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="gjPwd is an iOS app for generating secure, easy to use, passwords." name="description" />
-    <meta content="Gavin Jerman" name="author" />
-    <meta content="Ignite v0.2.1" name="generator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="gjPwd is an iOS app for generating secure, easy to use, passwords." />
+    <meta name="author" content="Gavin Jerman" />
+    <meta name="generator" content="Ignite v0.5.2" />
     <title>gjPwd - My Second iOS App</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/prism-xcode-light.css" rel="stylesheet" data-highlight-theme="xcode-light" />
     <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
-    <link href="/css/themes.min.css" rel="stylesheet" />
-    <link href="/css/media-queries.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
     <link href="https://jermware.net/blog/2021-08-17-gjpwd-ios-app" rel="canonical" />
     <link href="/favicon.png" rel="icon" />
-    <meta content="jermware" property="og:site_name" />
-    <meta content="/images/blog/2021-08-17-gjpwd-ios-app-1.png" property="og:image" />
-    <meta content="/images/blog/2021-08-17-gjpwd-ios-app-1.png" property="twitter:image" />
-    <meta content="gjPwd - My Second iOS App" property="og:title" />
-    <meta content="gjPwd - My Second iOS App" property="twitter:title" />
-    <meta content="gjPwd - My Second iOS App" property="og:description" />
-    <meta content="gjPwd - My Second iOS App" name="twitter:description" />
-    <meta content="https://jermware.net/blog/2021-08-17-gjpwd-ios-app" property="og:url" />
-    <meta content="jermware.net" name="twitter:domain" />
-    <meta content="summary_large_image" name="twitter:card" />
-    <meta content="on" name="twitter:dnt" />
+    <meta property="og:site_name" content="jermware" />
+    <meta property="og:image" content="/images/blog/2021-08-17-gjpwd-ios-app-1.png" />
+    <meta name="twitter:image" content="/images/blog/2021-08-17-gjpwd-ios-app-1.png" />
+    <meta property="og:title" content="gjPwd - My Second iOS App" />
+    <meta name="twitter:title" content="gjPwd - My Second iOS App" />
+    <meta property="og:description" content="gjPwd is an iOS app for generating secure, easy to use, passwords." />
+    <meta name="twitter:description" content="gjPwd is an iOS app for generating secure, easy to use, passwords." />
+    <meta property="og:url" content="https://jermware.net/blog/2021-08-17-gjpwd-ios-app" />
+    <meta name="twitter:domain" content="jermware.net" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
   </head>
   <body class="container">
     <header>
       <nav class="navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark">
         <div class="container">
-          <a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover navbar-brand">jermware.net</a>
-          <button type="button" class="btn navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <a href="/" class="d-inline-flex align-items-center navbar-brand">jermware.net</a>
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="col justify-content-end mb-2 mb-md-0 navbar-nav">
-              <li class="nav-item"><a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Home</a></li>
-              <li class="nav-item"><a href="/projects" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Projects</a></li>
-              <li class="nav-item"><a href="/archive" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Archive</a></li>
-              <li class="nav-item"><a href="/about" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">About</a></li>
+            <ul class="navbar-nav mb-2 mb-md-0 col justify-content-end">
+              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="/projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="/archive" class="nav-link">Archive</a></li>
+              <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div class="mx-auto" style="width: 90%;">
-      <div>
-        <h1 class="mb-5 mt-4" style="font-weight: 900">gjPwd - My Second iOS App</h1>
-        <h6 class="mt-4 text-light-emphasis" style="font-weight: 400">August 17, 2021</h6>
-        <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: gjpwd, ios, app, swift</h6>
-        <h6 class="mb-5 text-light-emphasis" style="font-weight: 300">534 words; 3 minutes to read.</h6>
-        <p></p>
-        <p><a href="/projects/gjPwd"><strong>gjPwd</strong></a> is an iOS app for generating secure, easy to use, passwords.</p>
-        <img src="/images/blog/2021-08-17-gjpwd-ios-app-1.png" alt="gjPwd screenshots" width="384" /> 
-        <br />
-        <br /> 
-        <p>This is my second iOS app and is written in <a href="https://swift.org">Swift</a>, including user interface (no more <a href="https://developer.apple.com/xcode/interface-builder/">Storyboards</a>, apart from the <a href="https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/launch-screen/">Launch Screen</a>). The UI is built using <a href="https://github.com/bhlvoong/LBTATools">LBTATools</a> v1.0.12.</p>
-        <p><strong>Bart Busschots</strong>’ <a href="https://www.xkpasswd.net">xkpasswd</a> is a wonderful website for creating secure memorable passwords. Secure passwords generators are ubiquitous and a must have feature of any <a href="https://en.wikipedia.org/wiki/Password_manager">password manager</a>. <em>If you’re not using a password manager, you really should consider using one.</em> The problem with a lot of generated passwords e.g. <strong>F7M6!uH_bN9QUtbd</strong>, is they are difficult to use if you ever have to type them in manually, rather than auto-filling from a password manager. Bart took inspiration from an <a href="https://xkcd.com/936/">xkcd</a> web comic to write a password generator that creates passwords that are both secure, and memorable i.e. easier to enter manually.</p>
-        <p>Inspired by <strong>xkpasswd</strong>, in April 2019 I decided to create an app that would generate secure, memorable, passwords. Rather than use Bart’s open source <a href="https://www.bartbusschots.ie/s/publications/software/xkpasswd/">XKPasswd.pm</a> password generation library, I decided to implement my own Swift password generator that used Bart’s approach to generating passwords i.e. use a specified number of words, of specified lengths, from a dictionary, and applying the required transformation, separators, and padding.</p>
-        <p>By November 2019 I had a working app that, although not as feature rich as <a href="https://xkpasswd.net">xkpasswd</a>, provides all the functionality I need.</p>
-        <p>The complexity of the passwords generated by the app can be configured by specifying the number and length of words, separators and padding etc., or by selecting a pre-set password configuration e.g. Apple ID or security question.</p>
-        <p>Generated passwords are automatically copied to the clipboard of the iOS device and, if <a href="https://support.apple.com/en-gb/guide/mac-help/mchl70368996/mac">Universal Clipboard</a> is configured correctly, will be copied to the Mac’s clipboard. This is useful for generating a password on an iPhone and pasting it into a website on a Mac.</p>
-        <p>I use <strong>gjPwd</strong> to generate all my passwords. I find it very useful, but I’m not sure I’ll ever release it to the <a href="https://www.apple.com/uk/app-store/">App Store</a>. Maybe if I rewrite it using <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>. We’ll see.</p>
-        <p>First code cut April 2019, code ‘complete’ November 2019. Various tweaks since but unlikely to be anymore unless future iOS versions break the app.</p>
-        <p></p>
+    <div class="mx-auto" style="width: 90%">
+      <h1 class="mt-4 mb-5" style="font-weight: 900">gjPwd - My Second iOS App</h1>
+      <h6 class="text-light-emphasis mt-4" style="font-weight: 400">August 17, 2021</h6>
+      <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: gjpwd, ios, app, swift</h6>
+      <h6 class="text-light-emphasis mb-5" style="font-weight: 300">534 words; 3 minutes to read.</h6>
+      <p></p>
+      <p><a href="/projects/gjPwd"><strong>gjPwd</strong></a> is an iOS app for generating secure, easy to use, passwords.</p>
+      <img src="/images/blog/2021-08-17-gjpwd-ios-app-1.png" alt="gjPwd screenshots" width="384" /> 
+      <br />
+      <br /> 
+      <p>This is my second iOS app and is written in <a href="https://swift.org">Swift</a>, including user interface (no more <a href="https://developer.apple.com/xcode/interface-builder/">Storyboards</a>, apart from the <a href="https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/launch-screen/">Launch Screen</a>). The UI is built using <a href="https://github.com/bhlvoong/LBTATools">LBTATools</a> v1.0.12.</p>
+      <p><strong>Bart Busschots</strong>’ <a href="https://www.xkpasswd.net">xkpasswd</a> is a wonderful website for creating secure memorable passwords. Secure passwords generators are ubiquitous and a must have feature of any <a href="https://en.wikipedia.org/wiki/Password_manager">password manager</a>. <em>If you’re not using a password manager, you really should consider using one.</em> The problem with a lot of generated passwords e.g. <strong>F7M6!uH_bN9QUtbd</strong>, is they are difficult to use if you ever have to type them in manually, rather than auto-filling from a password manager. Bart took inspiration from an <a href="https://xkcd.com/936/">xkcd</a> web comic to write a password generator that creates passwords that are both secure, and memorable i.e. easier to enter manually.</p>
+      <p>Inspired by <strong>xkpasswd</strong>, in April 2019 I decided to create an app that would generate secure, memorable, passwords. Rather than use Bart’s open source <a href="https://www.bartbusschots.ie/s/publications/software/xkpasswd/">XKPasswd.pm</a> password generation library, I decided to implement my own Swift password generator that used Bart’s approach to generating passwords i.e. use a specified number of words, of specified lengths, from a dictionary, and applying the required transformation, separators, and padding.</p>
+      <p>By November 2019 I had a working app that, although not as feature rich as <a href="https://xkpasswd.net">xkpasswd</a>, provides all the functionality I need.</p>
+      <p>The complexity of the passwords generated by the app can be configured by specifying the number and length of words, separators and padding etc., or by selecting a pre-set password configuration e.g. Apple ID or security question.</p>
+      <p>Generated passwords are automatically copied to the clipboard of the iOS device and, if <a href="https://support.apple.com/en-gb/guide/mac-help/mchl70368996/mac">Universal Clipboard</a> is configured correctly, will be copied to the Mac’s clipboard. This is useful for generating a password on an iPhone and pasting it into a website on a Mac.</p>
+      <p>I use <strong>gjPwd</strong> to generate all my passwords. I find it very useful, but I’m not sure I’ll ever release it to the <a href="https://www.apple.com/uk/app-store/">App Store</a>. Maybe if I rewrite it using <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>. We’ll see.</p>
+      <p>First code cut April 2019, code ‘complete’ November 2019. Various tweaks since but unlikely to be anymore unless future iOS versions break the app.</p>
+      <p></p>
+    </div>
+    <div class="mt-5 hstack gap-3">
+      <p class="mb-0 align-self-center">© 2025 jermware</p>
+      <div class="ms-auto" style="height: 20px"></div>
+      <div class="mb-0 align-self-center">
+        <h5><a target="_blank" rel="noopener noreferrer" href="https://github.com/jermware/jermware.github.io" class="link-secondary" style="margin-right: 20px"><i class="bi-github"></i></a><a target="_blank" rel="noopener noreferrer" href="https://mstdn.social/@gavinjerman" class="link-secondary" style="margin-right: 20px"><i class="bi-mastodon"></i></a><a target="_blank" rel="noopener noreferrer" href="/feed.rss" class="link-secondary" style="margin-right: 0px"><i class="bi-rss-fill"></i></a></h5>
       </div>
     </div>
-    <header>
-      <nav class="mb-1 mt-4 navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)">
-        <div class="container">
-          <a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover navbar-brand"></a>
-          <a href="https://github.com/twostraws/Ignite" rel="noopener noreferrer" target="_blank" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Created in Swift with Ignite</a>
-          <button type="button" class="btn navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="col justify-content-end mb-2 mb-md-0 navbar-nav">
-              <li class="nav-item"><a href="https://github.com/jermware/jermware.github.io" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-github"></i></a></li>
-              <li class="nav-item"><a href="https://mstdn.social/@gavinjerman" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-mastodon"></i></a></li>
-              <li class="nav-item"><a href="/feed.rss" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-rss-fill"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <div class="hstack gap-3">
+      <div class="ms-auto" style="height: 20px"></div>
+      <p class="mb-0 align-self-center">Site generation powered by <a target="_blank" rel="noopener noreferrer" href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    </div>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/ignite-core.js"></script>
   </body>

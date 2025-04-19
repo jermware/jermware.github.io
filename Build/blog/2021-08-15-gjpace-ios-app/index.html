@@ -1,84 +1,75 @@
 <!doctype html>
-<html data-bs-theme="auto" lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="gjPace is an iOS app for calculating pace, time, speed, and distance combinations." name="description" />
-    <meta content="Gavin Jerman" name="author" />
-    <meta content="Ignite v0.2.1" name="generator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="gjPace is an iOS app for calculating pace, time, speed, and distance combinations." />
+    <meta name="author" content="Gavin Jerman" />
+    <meta name="generator" content="Ignite v0.5.2" />
     <title>gjPace - My First iOS App</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/prism-xcode-light.css" rel="stylesheet" data-highlight-theme="xcode-light" />
     <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
-    <link href="/css/themes.min.css" rel="stylesheet" />
-    <link href="/css/media-queries.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
     <link href="https://jermware.net/blog/2021-08-15-gjpace-ios-app" rel="canonical" />
     <link href="/favicon.png" rel="icon" />
-    <meta content="jermware" property="og:site_name" />
-    <meta content="/images/blog/2021-08-15-gjpace-ios-app-1.png" property="og:image" />
-    <meta content="/images/blog/2021-08-15-gjpace-ios-app-1.png" property="twitter:image" />
-    <meta content="gjPace - My First iOS App" property="og:title" />
-    <meta content="gjPace - My First iOS App" property="twitter:title" />
-    <meta content="gjPace - My First iOS App" property="og:description" />
-    <meta content="gjPace - My First iOS App" name="twitter:description" />
-    <meta content="https://jermware.net/blog/2021-08-15-gjpace-ios-app" property="og:url" />
-    <meta content="jermware.net" name="twitter:domain" />
-    <meta content="summary_large_image" name="twitter:card" />
-    <meta content="on" name="twitter:dnt" />
+    <meta property="og:site_name" content="jermware" />
+    <meta property="og:image" content="/images/blog/2021-08-15-gjpace-ios-app-1.png" />
+    <meta name="twitter:image" content="/images/blog/2021-08-15-gjpace-ios-app-1.png" />
+    <meta property="og:title" content="gjPace - My First iOS App" />
+    <meta name="twitter:title" content="gjPace - My First iOS App" />
+    <meta property="og:description" content="gjPace is an iOS app for calculating pace, time, speed, and distance combinations." />
+    <meta name="twitter:description" content="gjPace is an iOS app for calculating pace, time, speed, and distance combinations." />
+    <meta property="og:url" content="https://jermware.net/blog/2021-08-15-gjpace-ios-app" />
+    <meta name="twitter:domain" content="jermware.net" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
   </head>
   <body class="container">
     <header>
       <nav class="navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark">
         <div class="container">
-          <a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover navbar-brand">jermware.net</a>
-          <button type="button" class="btn navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <a href="/" class="d-inline-flex align-items-center navbar-brand">jermware.net</a>
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="col justify-content-end mb-2 mb-md-0 navbar-nav">
-              <li class="nav-item"><a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Home</a></li>
-              <li class="nav-item"><a href="/projects" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Projects</a></li>
-              <li class="nav-item"><a href="/archive" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Archive</a></li>
-              <li class="nav-item"><a href="/about" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">About</a></li>
+            <ul class="navbar-nav mb-2 mb-md-0 col justify-content-end">
+              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="/projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="/archive" class="nav-link">Archive</a></li>
+              <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div class="mx-auto" style="width: 90%;">
-      <div>
-        <h1 class="mb-5 mt-4" style="font-weight: 900">gjPace - My First iOS App</h1>
-        <h6 class="mt-4 text-light-emphasis" style="font-weight: 400">August 15, 2021</h6>
-        <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: gjpace, ios, app, swift, storyboard</h6>
-        <p class="mb-0 mb-5 text-light-emphasis" style="font-weight: 300">505 words; 3 minutes to read.</p>
-        <p></p>
-        <p><a href="/projects/gjPace"><strong>gjPace</strong></a> is an iOS app for calculating pace, time, speed, and distance combinations.</p>
-        <img src="/images/blog/2021-08-15-gjpace-ios-app-1.png" alt="gjPace screenshots" width="384" /> 
-        <br />
-        <br /> 
-        <p>This is my first iOS app and is written in <a href="https://swift.org">Swift</a>, a logical choice given my C# background, with the user interface built using <a href="https://developer.apple.com/xcode/interface-builder/">Storyboards</a>.</p>
-        <p>In March 2017 I was looking for inspiration for an app to develop and decided to recreate one that I used regularly to calculate pace and mile splits to help me improve my running times. That app was <strong><a href="https://apps.apple.com/gb/app/running-pace/id519170773">Running Pace</a></strong> by <strong><a href="http://fikesfarm.com/rp/">Fikes Farm, LLC</a></strong>.</p>
-        <p>Development started in March 2017 but was put on hold while I watched numerous online iOS Swift development videos and completed the excellent Stanford University <a href="https://itunes.apple.com/in/course/developing-ios-11-apps-with-swift/id1309275316">Developing iOS 11 Apps with Swift - CS193p Fall 2017</a> iTunes course until, in March 2019, I started work on the app again.</p>
-        <p>The feature set of the app is straightforward. Given a specified distance and either a time, pace, or speed, the app calculates the 2 missing values, as well as the cumulative elapsed times for the required split interval. However, the UI is quite complex, especially implementing the <a href="https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html">auto-layout constraints</a> in Storyboards. With the core functionality of the <strong><a href="https://apps.apple.com/gb/app/running-pace/id519170773">Running Pace</a></strong> app implemented, I added the ability to record my personal running records. The record types (road, track, and trail) and distances are hard coded in the app and are specific to my running needs.</p>
-        <p>Recreating <strong><a href="https://apps.apple.com/gb/app/running-pace/id519170773">Running Pace</a></strong> from the ground up was a great introduction to developing iOS apps, the Swift programming language, and building user interfaces with Storyboards. Given that <strong>gjPace</strong> is based on an existing app in the <a href="https://www.apple.com/uk/app-store/">App Store</a>, and was created <em>without</em> permission from its developers, it will never be released to the App Store. If you want to calculate running paces then you should download <strong><a href="https://apps.apple.com/gb/app/running-pace/id519170773">Running Pace</a></strong>, but be aware, it was last updated in 2017, so you may want to seek out a more recent alternative. <strong><a href="https://apps.apple.com/gb/app/pace-me-running-calculator/id1166223979">Pace Me</a></strong> perhaps?</p>
-        <p>First code cut March 2017, coding proper resumed March 2019, code ‘complete’ November 2019. Numerous tweaks since but unlikely to be anymore unless future iOS versions break the app.</p>
-        <p></p>
+    <div class="mx-auto" style="width: 90%">
+      <h1 class="mt-4 mb-5" style="font-weight: 900">gjPace - My First iOS App</h1>
+      <h6 class="text-light-emphasis mt-4" style="font-weight: 400">August 15, 2021</h6>
+      <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: gjpace, ios, app, swift, storyboard</h6>
+      <h6 class="text-light-emphasis mb-5" style="font-weight: 300">505 words; 3 minutes to read.</h6>
+      <p></p>
+      <p><a href="/projects/gjPace"><strong>gjPace</strong></a> is an iOS app for calculating pace, time, speed, and distance combinations.</p>
+      <img src="/images/blog/2021-08-15-gjpace-ios-app-1.png" alt="gjPace screenshots" width="384" /> 
+      <br />
+      <br /> 
+      <p>This is my first iOS app and is written in <a href="https://swift.org">Swift</a>, a logical choice given my C# background, with the user interface built using <a href="https://developer.apple.com/xcode/interface-builder/">Storyboards</a>.</p>
+      <p>In March 2017 I was looking for inspiration for an app to develop and decided to recreate one that I used regularly to calculate pace and mile splits to help me improve my running times. That app was <strong><a href="https://apps.apple.com/gb/app/running-pace/id519170773">Running Pace</a></strong> by <strong><a href="http://fikesfarm.com/rp/">Fikes Farm, LLC</a></strong>.</p>
+      <p>Development started in March 2017 but was put on hold while I watched numerous online iOS Swift development videos and completed the excellent Stanford University <a href="https://itunes.apple.com/in/course/developing-ios-11-apps-with-swift/id1309275316">Developing iOS 11 Apps with Swift - CS193p Fall 2017</a> iTunes course until, in March 2019, I started work on the app again.</p>
+      <p>The feature set of the app is straightforward. Given a specified distance and either a time, pace, or speed, the app calculates the 2 missing values, as well as the cumulative elapsed times for the required split interval. However, the UI is quite complex, especially implementing the <a href="https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html">auto-layout constraints</a> in Storyboards. With the core functionality of the <strong><a href="https://apps.apple.com/gb/app/running-pace/id519170773">Running Pace</a></strong> app implemented, I added the ability to record my personal running records. The record types (road, track, and trail) and distances are hard coded in the app and are specific to my running needs.</p>
+      <p>Recreating <strong><a href="https://apps.apple.com/gb/app/running-pace/id519170773">Running Pace</a></strong> from the ground up was a great introduction to developing iOS apps, the Swift programming language, and building user interfaces with Storyboards. Given that <strong>gjPace</strong> is based on an existing app in the <a href="https://www.apple.com/uk/app-store/">App Store</a>, and was created <em>without</em> permission from its developers, it will never be released to the App Store. If you want to calculate running paces then you should download <strong><a href="https://apps.apple.com/gb/app/running-pace/id519170773">Running Pace</a></strong>, but be aware, it was last updated in 2017, so you may want to seek out a more recent alternative. <strong><a href="https://apps.apple.com/gb/app/pace-me-running-calculator/id1166223979">Pace Me</a></strong> perhaps?</p>
+      <p>First code cut March 2017, coding proper resumed March 2019, code ‘complete’ November 2019. Numerous tweaks since but unlikely to be anymore unless future iOS versions break the app.</p>
+      <p></p>
+    </div>
+    <div class="mt-5 hstack gap-3">
+      <p class="mb-0 align-self-center">© 2025 jermware</p>
+      <div class="ms-auto" style="height: 20px"></div>
+      <div class="mb-0 align-self-center">
+        <h5><a target="_blank" rel="noopener noreferrer" href="https://github.com/jermware/jermware.github.io" class="link-secondary" style="margin-right: 20px"><i class="bi-github"></i></a><a target="_blank" rel="noopener noreferrer" href="https://mstdn.social/@gavinjerman" class="link-secondary" style="margin-right: 20px"><i class="bi-mastodon"></i></a><a target="_blank" rel="noopener noreferrer" href="/feed.rss" class="link-secondary" style="margin-right: 0px"><i class="bi-rss-fill"></i></a></h5>
       </div>
     </div>
-    <header>
-      <nav class="mb-1 mt-4 navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)">
-        <div class="container">
-          <a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover navbar-brand"></a>
-          <a href="https://github.com/twostraws/Ignite" rel="noopener noreferrer" target="_blank" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Created in Swift with Ignite</a>
-          <button type="button" class="btn navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="col justify-content-end mb-2 mb-md-0 navbar-nav">
-              <li class="nav-item"><a href="https://github.com/jermware/jermware.github.io" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-github"></i></a></li>
-              <li class="nav-item"><a href="https://mstdn.social/@gavinjerman" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-mastodon"></i></a></li>
-              <li class="nav-item"><a href="/feed.rss" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-rss-fill"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <div class="hstack gap-3">
+      <div class="ms-auto" style="height: 20px"></div>
+      <p class="mb-0 align-self-center">Site generation powered by <a target="_blank" rel="noopener noreferrer" href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    </div>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/ignite-core.js"></script>
   </body>

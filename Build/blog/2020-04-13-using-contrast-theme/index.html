@@ -1,109 +1,100 @@
 <!doctype html>
-<html data-bs-theme="auto" lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="In an earlier post Welcome GitHub Pages and Jekyll I described how I created a minimal website (a single content file, index.html) hosted on GitHub and using my custom domain. At this point I could have hand-crafted the structure and content of the website using HTML and CSS files etc. This would have been a perfectly reasonable approach, especially if you like writing HTML, but it does not take advantage of GitHub Pages’ support for Jekyll." name="description" />
-    <meta content="Gavin Jerman" name="author" />
-    <meta content="Ignite v0.2.1" name="generator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="In an earlier post Welcome GitHub Pages and Jekyll I described how I created a minimal website (a single content file, index.html) hosted on GitHub and using my custom domain. At this point I could have hand-crafted the structure and content of the website using HTML and CSS files etc. This would have been a perfectly reasonable approach, especially if you like writing HTML, but it does not take advantage of GitHub Pages’ support for Jekyll." />
+    <meta name="author" content="Gavin Jerman" />
+    <meta name="generator" content="Ignite v0.5.2" />
     <title>Using the Contrast Jekyll Theme</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/prism-xcode-light.css" rel="stylesheet" data-highlight-theme="xcode-light" />
     <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
-    <link href="/css/themes.min.css" rel="stylesheet" />
-    <link href="/css/media-queries.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
     <link href="https://jermware.net/blog/2020-04-13-using-contrast-theme" rel="canonical" />
     <link href="/favicon.png" rel="icon" />
-    <meta content="jermware" property="og:site_name" />
-    <meta content="Using the Contrast Jekyll Theme" property="og:title" />
-    <meta content="Using the Contrast Jekyll Theme" property="twitter:title" />
-    <meta content="Using the Contrast Jekyll Theme" property="og:description" />
-    <meta content="Using the Contrast Jekyll Theme" name="twitter:description" />
-    <meta content="https://jermware.net/blog/2020-04-13-using-contrast-theme" property="og:url" />
-    <meta content="jermware.net" name="twitter:domain" />
-    <meta content="summary_large_image" name="twitter:card" />
-    <meta content="on" name="twitter:dnt" />
+    <meta property="og:site_name" content="jermware" />
+    <meta property="og:title" content="Using the Contrast Jekyll Theme" />
+    <meta name="twitter:title" content="Using the Contrast Jekyll Theme" />
+    <meta property="og:description" content="In an earlier post Welcome GitHub Pages and Jekyll I described how I created a minimal website (a single content file, index.html) hosted on GitHub and using my custom domain. At this point I could have hand-crafted the structure and content of the website using HTML and CSS files etc. This would have been a perfectly reasonable approach, especially if you like writing HTML, but it does not take advantage of GitHub Pages’ support for Jekyll." />
+    <meta name="twitter:description" content="In an earlier post Welcome GitHub Pages and Jekyll I described how I created a minimal website (a single content file, index.html) hosted on GitHub and using my custom domain. At this point I could have hand-crafted the structure and content of the website using HTML and CSS files etc. This would have been a perfectly reasonable approach, especially if you like writing HTML, but it does not take advantage of GitHub Pages’ support for Jekyll." />
+    <meta property="og:url" content="https://jermware.net/blog/2020-04-13-using-contrast-theme" />
+    <meta name="twitter:domain" content="jermware.net" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
   </head>
   <body class="container">
     <header>
       <nav class="navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark">
         <div class="container">
-          <a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover navbar-brand">jermware.net</a>
-          <button type="button" class="btn navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <a href="/" class="d-inline-flex align-items-center navbar-brand">jermware.net</a>
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="col justify-content-end mb-2 mb-md-0 navbar-nav">
-              <li class="nav-item"><a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Home</a></li>
-              <li class="nav-item"><a href="/projects" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Projects</a></li>
-              <li class="nav-item"><a href="/archive" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Archive</a></li>
-              <li class="nav-item"><a href="/about" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">About</a></li>
+            <ul class="navbar-nav mb-2 mb-md-0 col justify-content-end">
+              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="/projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="/archive" class="nav-link">Archive</a></li>
+              <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div class="mx-auto" style="width: 90%;">
-      <div>
-        <h1 class="mb-5 mt-4" style="font-weight: 900">Using the Contrast Jekyll Theme</h1>
-        <h6 class="mt-4 text-light-emphasis" style="font-weight: 400">April 13, 2020</h6>
-        <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: github pages, jekyll, theme</h6>
-        <h6 class="mb-5 text-light-emphasis" style="font-weight: 300">780 words; 4 minutes to read.</h6>
-        <p></p>
-        <p>In an earlier post <a href="/blog/2020-04-09-welcome-github-jekyll">Welcome GitHub Pages and Jekyll</a> I described how I created a minimal website (a single content file, <em>index.html</em>) hosted on GitHub and using my custom domain. At this point I could have hand-crafted the structure and content of the website using HTML and CSS files etc. This would have been a perfectly reasonable approach, especially if you like writing HTML, but it does not take advantage of GitHub Pages’ support for <em>Jekyll</em>.</p>
-        <p><a href="https://jekyllrb.com">Jekyll</a> is a static site generator that can “Transform your plain text into static websites and blogs.”. If you want, you can hand-craft a website from scratch using Jekyll, but why not let other people do the hard work for you and use one of many freely available Jekyll themes to create and style your website? Once a theme is applied, you just add the content, typically by writing text in markdown files. There is no need to go near HTML and CSS, unless you want to.</p>
-        <p>There are many, many, Jekyll themes available, and you can spend hours browsing for your ideal layout and style. Most of them allow you to add a personal touch by customising them via a configuration file, and those that are available in GitHub repositories allow you to clone and customise them to your exact liking.</p>
-        <p>The Jekyll <a href="https://jekyllrb.com/docs/themes/">theme</a> documentation lists some of the sites hosting galleries of Jekyll themes. The two I found most useful were <a href="https://jamstackthemes.dev/ssg/jekyll/">jamstackthemes.dev</a> and <a href="https://jekyllthemes.io/">jekyllthemes.io</a>.</p>
-        <p>After a couple of false starts, I finally decided on the <a href="https://jekyllthemes.io/theme/contrast">Contrast</a> Jekyll theme by <a href="https://github.com/niklasbuschmann">Niklas Buschmann</a>. This is a blog theme that is clean, simple, responsive, and supports pagination and syntax highlighting. <img src="/images/blog/2020-04-13-using-1.png" alt="image1" width="1000" /></p>
-        <p>It also supports site navigation, ideal for my iOS app support pages. <img src="/images/blog/2020-04-13-using-2.png" alt="image2" width="1000" /></p>
-        <p>The <em>Contrast</em> Jekyll theme is hosted on <a href="https://github.com/niklasbuschmann/contrast">GitHub</a> and comes with an <a href="https://unlicense.org">Unlicence</a> i.e. “This is free and unencumbered software released into the public domain.”.</p>
-        <p>The <em>Contrast</em> repository provides installation instructions, essentially “Just fork the repo and adjust the _config.yml to use with Github Pages and your page is done.”.</p>
-        <p>I already had a working website repository that was using my custom domain. A personal GitHub account can host only one website and the repository must be named <em>username.github.io</em>, where username is your username on GitHub. I would either have to delete or deactivate my current website in order to create a new one. I decided to rename the repository in case in needed to reinstate it. I could delete the original repository once the <em>Contrast</em> themed website was up and running.</p>
-        <p>With no active website repository, I could follow the <em>Contrast</em> installation instructions - fork the <em>Contrast</em> repository and adjust the <em>_config.yml</em> file. I would also need to set the repository’s custom domain to my domain.</p>
-        <p>Here’s what I did.</p>
-        <ul>
-          <li>Renamed the existing <strong>gavinjerman.github.io</strong> website repository to <strong>website.old</strong>. Renaming the repository deactivates the website.</li>
-        </ul>
-        <img src="/images/blog/2020-04-13-using-3.png" alt="image3" width="1000" /> 
-        <br />
-        <br /> 
-        <ul>
-          <li>Forked the <a href="https://github.com/niklasbuschmann/contrast">Contrast</a> repository into my GitHub account.</li>
-        </ul>
-        <img src="/images/blog/2020-04-13-using-4.png" alt="image4" width="1000" /> 
-        <br />
-        <br /> 
-        <ul>
-          <li>Renamed the forked <em>Contrast</em> repository to my GitHub website repository name <strong>gavinjerman.github.io</strong>.</li>
-        </ul>
-        <img src="/images/blog/2020-04-13-using-5.png" alt="image5" width="1000" /> 
-        <br />
-        <br /> 
-        <ul>
-          <li>Set the website <em>Custom domain</em> to my custom domain name <strong>www.jermware.net</strong>, ensuring <em>Enforce HTTPS</em> was checked.</li>
-        </ul>
-        <img src="/images/blog/2020-04-13-using-6.png" alt="image6" width="1000" /> 
-        <br />
-        <br /> 
-        <p>Once this was done, my GitHub hosted website, using my custom domain, was running as a clone of the default <em>Contrast</em> theme. <img src="/images/blog/2020-04-13-using-7.png" alt="image7" width="1000" /></p>
-        <p>Now to customise the default <em>Contrast</em> theme…</p>
-        <p></p>
+    <div class="mx-auto" style="width: 90%">
+      <h1 class="mt-4 mb-5" style="font-weight: 900">Using the Contrast Jekyll Theme</h1>
+      <h6 class="text-light-emphasis mt-4" style="font-weight: 400">April 13, 2020</h6>
+      <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: github pages, jekyll, theme</h6>
+      <h6 class="text-light-emphasis mb-5" style="font-weight: 300">780 words; 4 minutes to read.</h6>
+      <p></p>
+      <p>In an earlier post <a href="/blog/2020-04-09-welcome-github-jekyll">Welcome GitHub Pages and Jekyll</a> I described how I created a minimal website (a single content file, <em>index.html</em>) hosted on GitHub and using my custom domain. At this point I could have hand-crafted the structure and content of the website using HTML and CSS files etc. This would have been a perfectly reasonable approach, especially if you like writing HTML, but it does not take advantage of GitHub Pages’ support for <em>Jekyll</em>.</p>
+      <p><a href="https://jekyllrb.com">Jekyll</a> is a static site generator that can “Transform your plain text into static websites and blogs.”. If you want, you can hand-craft a website from scratch using Jekyll, but why not let other people do the hard work for you and use one of many freely available Jekyll themes to create and style your website? Once a theme is applied, you just add the content, typically by writing text in markdown files. There is no need to go near HTML and CSS, unless you want to.</p>
+      <p>There are many, many, Jekyll themes available, and you can spend hours browsing for your ideal layout and style. Most of them allow you to add a personal touch by customising them via a configuration file, and those that are available in GitHub repositories allow you to clone and customise them to your exact liking.</p>
+      <p>The Jekyll <a href="https://jekyllrb.com/docs/themes/">theme</a> documentation lists some of the sites hosting galleries of Jekyll themes. The two I found most useful were <a href="https://jamstackthemes.dev/ssg/jekyll/">jamstackthemes.dev</a> and <a href="https://jekyllthemes.io/">jekyllthemes.io</a>.</p>
+      <p>After a couple of false starts, I finally decided on the <a href="https://jekyllthemes.io/theme/contrast">Contrast</a> Jekyll theme by <a href="https://github.com/niklasbuschmann">Niklas Buschmann</a>. This is a blog theme that is clean, simple, responsive, and supports pagination and syntax highlighting. <img src="/images/blog/2020-04-13-using-1.png" alt="image1" width="1000" /></p>
+      <p>It also supports site navigation, ideal for my iOS app support pages. <img src="/images/blog/2020-04-13-using-2.png" alt="image2" width="1000" /></p>
+      <p>The <em>Contrast</em> Jekyll theme is hosted on <a href="https://github.com/niklasbuschmann/contrast">GitHub</a> and comes with an <a href="https://unlicense.org">Unlicence</a> i.e. “This is free and unencumbered software released into the public domain.”.</p>
+      <p>The <em>Contrast</em> repository provides installation instructions, essentially “Just fork the repo and adjust the _config.yml to use with Github Pages and your page is done.”.</p>
+      <p>I already had a working website repository that was using my custom domain. A personal GitHub account can host only one website and the repository must be named <em>username.github.io</em>, where username is your username on GitHub. I would either have to delete or deactivate my current website in order to create a new one. I decided to rename the repository in case in needed to reinstate it. I could delete the original repository once the <em>Contrast</em> themed website was up and running.</p>
+      <p>With no active website repository, I could follow the <em>Contrast</em> installation instructions - fork the <em>Contrast</em> repository and adjust the <em>_config.yml</em> file. I would also need to set the repository’s custom domain to my domain.</p>
+      <p>Here’s what I did.</p>
+      <ul>
+        <li>Renamed the existing <strong>gavinjerman.github.io</strong> website repository to <strong>website.old</strong>. Renaming the repository deactivates the website.</li>
+      </ul>
+      <img src="/images/blog/2020-04-13-using-3.png" alt="image3" width="1000" /> 
+      <br />
+      <br /> 
+      <ul>
+        <li>Forked the <a href="https://github.com/niklasbuschmann/contrast">Contrast</a> repository into my GitHub account.</li>
+      </ul>
+      <img src="/images/blog/2020-04-13-using-4.png" alt="image4" width="1000" /> 
+      <br />
+      <br /> 
+      <ul>
+        <li>Renamed the forked <em>Contrast</em> repository to my GitHub website repository name <strong>gavinjerman.github.io</strong>.</li>
+      </ul>
+      <img src="/images/blog/2020-04-13-using-5.png" alt="image5" width="1000" /> 
+      <br />
+      <br /> 
+      <ul>
+        <li>Set the website <em>Custom domain</em> to my custom domain name <strong>www.jermware.net</strong>, ensuring <em>Enforce HTTPS</em> was checked.</li>
+      </ul>
+      <img src="/images/blog/2020-04-13-using-6.png" alt="image6" width="1000" /> 
+      <br />
+      <br /> 
+      <p>Once this was done, my GitHub hosted website, using my custom domain, was running as a clone of the default <em>Contrast</em> theme. <img src="/images/blog/2020-04-13-using-7.png" alt="image7" width="1000" /></p>
+      <p>Now to customise the default <em>Contrast</em> theme…</p>
+      <p></p>
+    </div>
+    <div class="mt-5 hstack gap-3">
+      <p class="mb-0 align-self-center">© 2025 jermware</p>
+      <div class="ms-auto" style="height: 20px"></div>
+      <div class="mb-0 align-self-center">
+        <h5><a target="_blank" rel="noopener noreferrer" href="https://github.com/jermware/jermware.github.io" class="link-secondary" style="margin-right: 20px"><i class="bi-github"></i></a><a target="_blank" rel="noopener noreferrer" href="https://mstdn.social/@gavinjerman" class="link-secondary" style="margin-right: 20px"><i class="bi-mastodon"></i></a><a target="_blank" rel="noopener noreferrer" href="/feed.rss" class="link-secondary" style="margin-right: 0px"><i class="bi-rss-fill"></i></a></h5>
       </div>
     </div>
-    <header>
-      <nav class="mb-1 mt-4 navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)">
-        <div class="container">
-          <a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover navbar-brand"></a>
-          <a href="https://github.com/twostraws/Ignite" rel="noopener noreferrer" target="_blank" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Created in Swift with Ignite</a>
-          <button type="button" class="btn navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="col justify-content-end mb-2 mb-md-0 navbar-nav">
-              <li class="nav-item"><a href="https://github.com/jermware/jermware.github.io" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-github"></i></a></li>
-              <li class="nav-item"><a href="https://mstdn.social/@gavinjerman" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-mastodon"></i></a></li>
-              <li class="nav-item"><a href="/feed.rss" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-rss-fill"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <div class="hstack gap-3">
+      <div class="ms-auto" style="height: 20px"></div>
+      <p class="mb-0 align-self-center">Site generation powered by <a target="_blank" rel="noopener noreferrer" href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    </div>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/ignite-core.js"></script>
   </body>

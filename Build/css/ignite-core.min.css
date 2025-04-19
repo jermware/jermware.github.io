@@ -1,11 +1,7 @@
-:root {
-    --supports-light-theme: true;
-    --supports-dark-theme: false;
-    --light-theme-id: "light";
-    --dark-theme-id: "";
 
-    /* Light theme variables (default theme) */
-        --bs-primary: rgb(13 110 253 / 100%);
+
+:root {
+    --bs-primary: rgb(13 110 253 / 100%);
     --bs-primary-rgb: 13, 110, 253;
     --bs-primary-text-emphasis: rgb(5 44 101 / 100%);
     --bs-primary-bg-subtle: rgb(206 226 254 / 100%);
@@ -65,30 +61,37 @@
     --bs-link-hover-color-rgb: 10, 88, 202;
     --bs-border-color: rgb(222 226 230 / 100%);
     --bs-border-color-rgb: 222, 226, 230;
-    --bs-breakpoint-sm: 576px;
-    --bs-breakpoint-md: 768px;
-    --bs-breakpoint-lg: 992px;
-    --bs-breakpoint-xl: 1200px;
-    --bs-breakpoint-xxl: 1400px;
     --syntax-highlight-theme: "xcode-light";
 }
 
-.container {
-    @media (min-width: 576px) {
-        max-width: var(--theme-container-sm, 540px);
-    }
-    @media (min-width: 768px) {
-        max-width: var(--theme-container-md, 720px);
-    }
-    @media (min-width: 992px) {
-        max-width: var(--theme-container-lg, 960px);
-    }
-    @media (min-width: 1200px) {
-        max-width: var(--theme-container-xl, 1140px);
-    }
-    @media (min-width: 1400px) {
-        max-width: var(--theme-container-xxl, 1320px);
-    }
+@media (min-width: 540px) {
+    .container {
+    max-width: 540px;
+}
+}
+
+@media (min-width: 720px) {
+    .container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 960px) {
+    .container {
+    max-width: 960px;
+}
+}
+
+@media (min-width: 1140px) {
+    .container {
+    max-width: 1140px;
+}
+}
+
+@media (min-width: 1320px) {
+    .container {
+    max-width: 1320px;
+}
 }
 
 /* Global style rules */
@@ -385,9 +388,17 @@ h6 { font-size: var(--bs-h6-font-size, 1rem); }
 .lh-base { line-height: var(--bs-line-height-base, 1.5); }
 .lh-lg { line-height: var(--bs-line-height-expanded, 2); }
 
+/* Inline code */
+:not(pre) > code {
+    font-family: var(--bs-font-monospace, monospace);
+    font-size: var(--bs-code-font-size, 1em);
+}
+
 /* Code blocks */
 code, pre {
     font-family: var(--bs-font-monospace, monospace);
+    font-size: var(--code-block-font-size, 1em);
+    margin-bottom: var(--bs-paragraph-margin-bottom, 1rem) !important;
 }
 
 /* Border styles */
@@ -419,8 +430,8 @@ code, pre {
     border-color: var(--bs-primary);
 }
 .btn-primary:hover {
-    background-color: rgba(var(--bs-primary-rgb), 0.8);
-    border-color: rgba(var(--bs-primary-rgb), 0.8);
+    background-color: rgb(var(--bs-primary-rgb));
+    border-color: rgb(var(--bs-primary-rgb));
 }
 
 .btn-secondary {
@@ -428,8 +439,8 @@ code, pre {
     border-color: var(--bs-secondary);
 }
 .btn-secondary:hover {
-    background-color: rgba(var(--bs-secondary-rgb), 0.8);
-    border-color: rgba(var(--bs-secondary-rgb), 0.8);
+    background-color: rgb(var(--bs-secondary-rgb));
+    border-color: rgb(var(--bs-secondary-rgb));
 }
 
 .btn-success {
@@ -437,8 +448,8 @@ code, pre {
     border-color: var(--bs-success);
 }
 .btn-success:hover {
-    background-color: rgba(var(--bs-success-rgb), 0.8);
-    border-color: rgba(var(--bs-success-rgb), 0.8);
+    background-color: rgb(var(--bs-success-rgb));
+    border-color: rgb(var(--bs-success-rgb));
 }
 
 .btn-info {
@@ -446,8 +457,8 @@ code, pre {
     border-color: var(--bs-info);
 }
 .btn-info:hover {
-    background-color: rgba(var(--bs-info-rgb), 0.8);
-    border-color: rgba(var(--bs-info-rgb), 0.8);
+    background-color: rgb(var(--bs-info-rgb));
+    border-color: rgb(var(--bs-info-rgb));
 }
 
 .btn-warning {
@@ -455,8 +466,8 @@ code, pre {
     border-color: var(--bs-warning);
 }
 .btn-warning:hover {
-    background-color: rgba(var(--bs-warning-rgb), 0.8);
-    border-color: rgba(var(--bs-warning-rgb), 0.8);
+    background-color: rgb(var(--bs-warning-rgb));
+    border-color: rgb(var(--bs-warning-rgb));
 }
 
 .btn-danger {
@@ -464,8 +475,8 @@ code, pre {
     border-color: var(--bs-danger);
 }
 .btn-danger:hover {
-    background-color: rgba(var(--bs-danger-rgb), 0.8);
-    border-color: rgba(var(--bs-danger-rgb), 0.8);
+    background-color: rgb(var(--bs-danger-rgb));
+    border-color: rgb(var(--bs-danger-rgb));
 }
 
 .btn-light {
@@ -473,8 +484,8 @@ code, pre {
     border-color: var(--bs-light);
 }
 .btn-light:hover {
-    background-color: rgba(var(--bs-light-rgb), 0.8);
-    border-color: rgba(var(--bs-light-rgb), 0.8);
+    background-color: rgb(var(--bs-light-rgb));
+    border-color: rgb(var(--bs-light-rgb));
 }
 
 .btn-dark {
@@ -482,6 +493,10 @@ code, pre {
     border-color: var(--bs-dark);
 }
 .btn-dark:hover {
-    background-color: rgba(var(--bs-dark-rgb), 0.8);
-    border-color: rgba(var(--bs-dark-rgb), 0.8);
+    background-color: rgb(var(--bs-dark-rgb));
+    border-color: rgb(var(--bs-dark-rgb));
 }
+
+
+
+

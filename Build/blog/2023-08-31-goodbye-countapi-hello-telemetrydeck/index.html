@@ -1,79 +1,70 @@
 <!doctype html>
-<html data-bs-theme="auto" lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="With the release of gjICE in October 2022 I started using the free counting service CountAPI (link likely to 404 in the future) to collect anonymous usage data for private analytics to help understand how my apps are used and to support future developments." name="description" />
-    <meta content="Gavin Jerman" name="author" />
-    <meta content="Ignite v0.2.1" name="generator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="With the release of gjICE in October 2022 I started using the free counting service CountAPI (link likely to 404 in the future) to collect anonymous usage data for private analytics to help understand how my apps are used and to support future developments." />
+    <meta name="author" content="Gavin Jerman" />
+    <meta name="generator" content="Ignite v0.5.2" />
     <title>Goodbye CountAPI, Hello TelemetryDeck</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/prism-xcode-light.css" rel="stylesheet" data-highlight-theme="xcode-light" />
     <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
-    <link href="/css/themes.min.css" rel="stylesheet" />
-    <link href="/css/media-queries.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
     <link href="https://jermware.net/blog/2023-08-31-goodbye-countapi-hello-telemetrydeck" rel="canonical" />
     <link href="/favicon.png" rel="icon" />
-    <meta content="jermware" property="og:site_name" />
-    <meta content="Goodbye CountAPI, Hello TelemetryDeck" property="og:title" />
-    <meta content="Goodbye CountAPI, Hello TelemetryDeck" property="twitter:title" />
-    <meta content="Goodbye CountAPI, Hello TelemetryDeck" property="og:description" />
-    <meta content="Goodbye CountAPI, Hello TelemetryDeck" name="twitter:description" />
-    <meta content="https://jermware.net/blog/2023-08-31-goodbye-countapi-hello-telemetrydeck" property="og:url" />
-    <meta content="jermware.net" name="twitter:domain" />
-    <meta content="summary_large_image" name="twitter:card" />
-    <meta content="on" name="twitter:dnt" />
+    <meta property="og:site_name" content="jermware" />
+    <meta property="og:title" content="Goodbye CountAPI, Hello TelemetryDeck" />
+    <meta name="twitter:title" content="Goodbye CountAPI, Hello TelemetryDeck" />
+    <meta property="og:description" content="With the release of gjICE in October 2022 I started using the free counting service CountAPI (link likely to 404 in the future) to collect anonymous usage data for private analytics to help understand how my apps are used and to support future developments." />
+    <meta name="twitter:description" content="With the release of gjICE in October 2022 I started using the free counting service CountAPI (link likely to 404 in the future) to collect anonymous usage data for private analytics to help understand how my apps are used and to support future developments." />
+    <meta property="og:url" content="https://jermware.net/blog/2023-08-31-goodbye-countapi-hello-telemetrydeck" />
+    <meta name="twitter:domain" content="jermware.net" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
   </head>
   <body class="container">
     <header>
       <nav class="navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark">
         <div class="container">
-          <a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover navbar-brand">jermware.net</a>
-          <button type="button" class="btn navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <a href="/" class="d-inline-flex align-items-center navbar-brand">jermware.net</a>
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="col justify-content-end mb-2 mb-md-0 navbar-nav">
-              <li class="nav-item"><a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Home</a></li>
-              <li class="nav-item"><a href="/projects" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Projects</a></li>
-              <li class="nav-item"><a href="/archive" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Archive</a></li>
-              <li class="nav-item"><a href="/about" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">About</a></li>
+            <ul class="navbar-nav mb-2 mb-md-0 col justify-content-end">
+              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="/projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="/archive" class="nav-link">Archive</a></li>
+              <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div class="mx-auto" style="width: 90%;">
-      <div>
-        <h1 class="mb-5 mt-4" style="font-weight: 900">Goodbye CountAPI, Hello TelemetryDeck</h1>
-        <h6 class="mt-4 text-light-emphasis" style="font-weight: 400">August 31, 2023</h6>
-        <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: telemetrydeck, ios, app, app store</h6>
-        <h6 class="mb-5 text-light-emphasis" style="font-weight: 300">356 words; 2 minutes to read.</h6>
-        <p></p>
-        <p>With the release of <a href="/projects/gjICE"><strong>gjICE</strong></a> in October 2022 I started using the free counting service <a href="https://countapi.xyz">CountAPI</a> (link likely to 404 in the future) to collect anonymous usage data for private analytics to help understand how my apps are used and to support future developments.</p>
-        <p>Unfortunately, some months ago I noticed that CountAPI was not responding to the http calls to increment my counters. At first it looked like an intermittent problem with their API server, but it soon became obvious that the problem was terminal and it was unlikely to be resolved any time soon, if at all. It was time to look for an alternative, more robust and, ideally free, solution for gathering anonymous usage data. Enter <a href="https://telemetrydeck.com">TelemetryDeck</a>.</p>
-        <p><strong>TelemetryDeck’s</strong> tagline is “<em>light-weight app analytics that’s not evil</em>”, with the sub-headline “<em>TelemetryDeck helps app and web developers improve their product by supplying immediate, accurate usage data while users use their app. And the best part: It’s all anonymized so users’ data stays private!</em>”.</p>
-        <p>This is just what I was looking for and allows me to send 100,000 ‘signals’ per month for free. If I need more than that then my apps are doing really well and I might have to consider charging for them to cover the cost of upgrading to the paid plan that allows up to 1.5 million signals a month. I’ll cross that bridge <em>if</em> I come to it.</p>
-        <p><strong>TelemetryDeck</strong> provides a Swift API making it much simpler to call than CountAPI’s https interface, and the online dashboard to summarise and query the usage data is excellent. All in all, <strong>TelemetryDeck</strong> is a vast improvement over <strong>CountAPI</strong>.</p>
-        <p>As of today, all of my apps on the <a href="https://apps.apple.com/gb/developer/gavin-jerman/id1528217377">App Store</a> have been updated to use <strong>TelemetryDeck</strong>.</p>
-        <p>Happy days.</p>
-        <p></p>
+    <div class="mx-auto" style="width: 90%">
+      <h1 class="mt-4 mb-5" style="font-weight: 900">Goodbye CountAPI, Hello TelemetryDeck</h1>
+      <h6 class="text-light-emphasis mt-4" style="font-weight: 400">August 31, 2023</h6>
+      <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: telemetrydeck, ios, app, app store</h6>
+      <h6 class="text-light-emphasis mb-5" style="font-weight: 300">356 words; 2 minutes to read.</h6>
+      <p></p>
+      <p>With the release of <a href="/projects/gjICE"><strong>gjICE</strong></a> in October 2022 I started using the free counting service <a href="https://countapi.xyz">CountAPI</a> (link likely to 404 in the future) to collect anonymous usage data for private analytics to help understand how my apps are used and to support future developments.</p>
+      <p>Unfortunately, some months ago I noticed that CountAPI was not responding to the http calls to increment my counters. At first it looked like an intermittent problem with their API server, but it soon became obvious that the problem was terminal and it was unlikely to be resolved any time soon, if at all. It was time to look for an alternative, more robust and, ideally free, solution for gathering anonymous usage data. Enter <a href="https://telemetrydeck.com">TelemetryDeck</a>.</p>
+      <p><strong>TelemetryDeck’s</strong> tagline is “<em>light-weight app analytics that’s not evil</em>”, with the sub-headline “<em>TelemetryDeck helps app and web developers improve their product by supplying immediate, accurate usage data while users use their app. And the best part: It’s all anonymized so users’ data stays private!</em>”.</p>
+      <p>This is just what I was looking for and allows me to send 100,000 ‘signals’ per month for free. If I need more than that then my apps are doing really well and I might have to consider charging for them to cover the cost of upgrading to the paid plan that allows up to 1.5 million signals a month. I’ll cross that bridge <em>if</em> I come to it.</p>
+      <p><strong>TelemetryDeck</strong> provides a Swift API making it much simpler to call than CountAPI’s https interface, and the online dashboard to summarise and query the usage data is excellent. All in all, <strong>TelemetryDeck</strong> is a vast improvement over <strong>CountAPI</strong>.</p>
+      <p>As of today, all of my apps on the <a href="https://apps.apple.com/gb/developer/gavin-jerman/id1528217377">App Store</a> have been updated to use <strong>TelemetryDeck</strong>.</p>
+      <p>Happy days.</p>
+      <p></p>
+    </div>
+    <div class="mt-5 hstack gap-3">
+      <p class="mb-0 align-self-center">© 2025 jermware</p>
+      <div class="ms-auto" style="height: 20px"></div>
+      <div class="mb-0 align-self-center">
+        <h5><a target="_blank" rel="noopener noreferrer" href="https://github.com/jermware/jermware.github.io" class="link-secondary" style="margin-right: 20px"><i class="bi-github"></i></a><a target="_blank" rel="noopener noreferrer" href="https://mstdn.social/@gavinjerman" class="link-secondary" style="margin-right: 20px"><i class="bi-mastodon"></i></a><a target="_blank" rel="noopener noreferrer" href="/feed.rss" class="link-secondary" style="margin-right: 0px"><i class="bi-rss-fill"></i></a></h5>
       </div>
     </div>
-    <header>
-      <nav class="mb-1 mt-4 navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)">
-        <div class="container">
-          <a href="/" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover navbar-brand"></a>
-          <a href="https://github.com/twostraws/Ignite" rel="noopener noreferrer" target="_blank" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Created in Swift with Ignite</a>
-          <button type="button" class="btn navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="col justify-content-end mb-2 mb-md-0 navbar-nav">
-              <li class="nav-item"><a href="https://github.com/jermware/jermware.github.io" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-github"></i></a></li>
-              <li class="nav-item"><a href="https://mstdn.social/@gavinjerman" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-mastodon"></i></a></li>
-              <li class="nav-item"><a href="/feed.rss" rel="noopener noreferrer" target="_blank" class="link-light link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link"><i class="bi-rss-fill"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <div class="hstack gap-3">
+      <div class="ms-auto" style="height: 20px"></div>
+      <p class="mb-0 align-self-center">Site generation powered by <a target="_blank" rel="noopener noreferrer" href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    </div>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/ignite-core.js"></script>
   </body>
