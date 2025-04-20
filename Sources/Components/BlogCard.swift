@@ -11,30 +11,34 @@ import Ignite
 struct BlogCard: HTML {
     var article: Article
 
-    init(article: Article) {
-        self.article = article
-    }
-
     var body: some HTML {
         Card() {
-            Text(article.description)
+            Text {article.title}
+                .font(.title5)
 
             if let image = article.image {
-                Image(decorative: image)
-                    .style(.width, "60%")
-                    .margin(.top, .small)
-            }
-        } header: {
-            Text {
-                Link(article)
-            }
-            .font(.title5)
-        } footer: {
-            if let tagLinks = article.tagLinks() {
-                ForEach(tagLinks) { tagLink in
-                    tagLink
+                HStack {
+                    Spacer()
+                    Image(decorative: image)
+                        .style(.width, "60%")
+                        .margin(.top, .medium)
+                    Spacer()
                 }
             }
+
+            Text(article.description)
+                .margin(.top, .medium)
+
+            if let tagLinks = article.tagLinks() {
+                Section {
+                    ForEach(tagLinks) { tagLink in
+                        tagLink
+                    }
+                }
+                .margin(.top, .medium)
+            }
         }
+        .padding(3)
+        .background(.whiteSmoke)
     }
 }

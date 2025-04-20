@@ -31,6 +31,7 @@ struct Archive: StaticPage {
                         Badge(tag)
                             .role(.primary)
                     }
+                    .transition(.scale(from: 1.0, to: 1.015), on: .hover)
                 }
             }
         }

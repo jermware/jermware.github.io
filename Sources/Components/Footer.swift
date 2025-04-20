@@ -25,6 +25,7 @@ struct Footer: HTML {
             Spacer()
             Text("Site generation powered by \(igniteLink)")
         }
+        .margin(.bottom, .medium)
     }
 }
 

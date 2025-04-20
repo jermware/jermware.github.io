@@ -15,7 +15,10 @@ struct BlogEntries: HTML {
     var body: some HTML {
         Grid(alignment: .topLeading) {
             ForEach(articles.blogArticlesFor(pageNumber: pageNumber)) { article in
-                BlogCard(article: article)
+                Link(target: article) {
+                    BlogCard(article: article)
+                }
+                .transition(.scale(from: 1.0, to: 1.015), on: .hover)
             }
         }
         .columns(Constants.blogArticlesColumns)
