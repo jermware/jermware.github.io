@@ -23,7 +23,7 @@ struct Footer: HTML {
 
         HStack {
             Spacer()
-            Text("Site generation powered by \(igniteLink)")
+            Text("Created in Swift with \(igniteLink)")
         }
         .margin(.bottom, .medium)
     }
