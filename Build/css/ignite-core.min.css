@@ -1,11 +1,27 @@
 
 
+@font-face {
+    font-family: 'SourceCodePro';
+    src: url('/fonts/SourceCodePro-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceCodePro';
+    src: url('/fonts/SourceCodePro-Regular.ttf');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
 :root {
-    --bs-primary: rgb(13 110 253 / 100%);
-    --bs-primary-rgb: 13, 110, 253;
-    --bs-primary-text-emphasis: rgb(5 44 101 / 100%);
-    --bs-primary-bg-subtle: rgb(206 226 254 / 100%);
-    --bs-primary-border-subtle: rgb(109 168 253 / 100%);
+    --bs-primary: rgb(105 105 105 / 100%);
+    --bs-primary-rgb: 105, 105, 105;
+    --bs-primary-text-emphasis: rgb(42 42 42 / 100%);
+    --bs-primary-bg-subtle: rgb(225 225 225 / 100%);
+    --bs-primary-border-subtle: rgb(165 165 165 / 100%);
     --bs-secondary: rgb(108 117 125 / 100%);
     --bs-secondary-rgb: 108, 117, 125;
     --bs-secondary-text-emphasis: rgb(43 46 50 / 100%);
@@ -55,12 +71,13 @@
     --bs-secondary-bg-rgb: 233, 236, 239;
     --bs-tertiary-bg: rgb(248 249 250 / 100%);
     --bs-tertiary-bg-rgb: 248, 249, 250;
-    --bs-link-color: rgb(13 110 253 / 100%);
-    --bs-link-color-rgb: 13, 110, 253;
-    --bs-link-hover-color: rgb(10 88 202 / 100%);
-    --bs-link-hover-color-rgb: 10, 88, 202;
+    --bs-link-color: rgb(105 105 105 / 100%);
+    --bs-link-color-rgb: 105, 105, 105;
+    --bs-link-hover-color: rgb(128 128 128 / 100%);
+    --bs-link-hover-color-rgb: 128, 128, 128;
     --bs-border-color: rgb(222 226 230 / 100%);
     --bs-border-color-rgb: 222, 226, 230;
+    --bs-font-monospace: SourceCodePro;
     --syntax-highlight-theme: "xcode-light";
 }
 
@@ -500,3 +517,11 @@ code, pre {
 
 
 
+.animation-sWfAv-hover {
+    transform-style: preserve-3d;
+    transition: transform 0.35s cubic-bezier(0.4, 1.0, 0.0, 1.0);
+}
+
+.animation-sWfAv-hover:hover {
+    transform: scale(1.015);
+}
