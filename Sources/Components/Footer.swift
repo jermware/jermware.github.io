@@ -44,13 +44,8 @@ struct SocialFooter: HTML {
 
     var body: some HTML {
         Text {
-            ForEach(zip(icons, urlStrings)) { icon, urlString in
-                Link(icon, target: urlString)
-                    .role(.secondary)
-                    .target(.newWindow)
-                    .relationship(.noOpener, .noReferrer)
-                    // todo = better way of determining last icon to exclude trailing margin?
-                    .margin(.trailing, urlString.contains("feed.rss") ? 0 : 20)
+            for item in Social.allCases {
+                item
             }
         }
         .font(.title5)

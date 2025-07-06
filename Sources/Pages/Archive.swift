@@ -27,7 +27,7 @@ struct Archive: StaticPage {
 
             ForEach(tags) { tag in
                 Group {
-                    Link(target: "/tags/\(fixTag(tag))") {
+                    LinkGroup(target: "/tags/\(fixTag(tag))") {
                         Badge(tag)
                             .role(.primary)
                     }

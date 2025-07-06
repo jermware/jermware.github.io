@@ -9,7 +9,8 @@ let package = Package(
     dependencies: [
 //        .package(url: "https://github.com/twostraws/Ignite.git", branch: "main")
 //        .package(url: "https://github.com/twostraws/Ignite.git", exact: "0.5.2")
-        .package(path: "../Ignite")
+        .package(url: "https://github.com/twostraws/Ignite.git", exact: "0.6.0")
+//        .package(path: "../Ignite")
     ],
     targets: [
         .executableTarget(

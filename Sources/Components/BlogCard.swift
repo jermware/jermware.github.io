@@ -39,6 +39,7 @@ struct BlogCard: HTML {
             }
         }
         .padding(3)
+        .margin(.top, -24)
         .background(.whiteSmoke)
     }
 }
