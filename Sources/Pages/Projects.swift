@@ -29,6 +29,7 @@ struct Projects: StaticPage {
             .init(name: "gjAero", description: "An iOS app for creating perfect <a href=\"https://en.wikipedia.org/wiki/AeroPress\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-primary link-underline-opacity-0 link-underline-opacity-100-hover\">AeroPress</a> brews."),
             .init(name: "gjPubs", description: "An iOS app for collecting and rating your pubs."),
             .init(name: "gjJotter", description: "An iOS app for saving your jottings."),
+//            .init(name: "gjRoutes", description: "A multi-route GPX viewer for macOS, iPadOS, and iOS."),
         ]
     }
 
