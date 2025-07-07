@@ -12,7 +12,7 @@ layout: ProjectPost
 <img width="64" height="64" src="/images/gjJotter/gjJotter-icon.png">
 &nbsp;&nbsp;An iOS app for saving your jottings.
 
-Use **gjJotter** as a simple, no frills, jotter pad for your jottings, notes, to-do lists, etc.
+Use **gjJotter** is a simple, no frills, jotter pad for your jottings, notes, to-do lists, etc.
 
 Need to jot something down quickly or just want a place to store easily accessible information? Simply open the app or tap the app's widget on your home screen and start typing. That's it! There's no need to create a document or tap save when done. There's only one jotter pad, it automatically saves your notes, and it's always there.
 
