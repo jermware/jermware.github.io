@@ -1,7 +1,7 @@
 ---
 date: 2025-07-07 06:40
 author: "Gavin Jerman"
-subtitle: My first macOS app and tenth iOS app.
+subtitle: My first macOS app, and tenth iOS app.
 tags: gjroutes, macos, ios, app store
 layout: ProjectPost
 ---
