@@ -1,5 +1,5 @@
 ---
-date: 2025-07-07 06:40
+date: 2025-08-11 21:53
 author: "Gavin Jerman"
 subtitle: My first macOS app, and tenth iOS app.
 tags: gjroutes, macos, ios, app store
@@ -7,6 +7,10 @@ layout: ProjectPost
 ---
 
 # gjRoutes
+
+<!--<center>-->
+<!--<img src="/images/gjRoutes/gjRoutes-1l.png" alt="gjRoutes iPad screenshot" height="512">-->
+<!--</center>-->
 
 <br><br>
 <img width="64" height="64" src="/images/gjRoutes/gjRoutes-icon.png">
@@ -66,4 +70,4 @@ If you have any questions regarding this privacy policy, you may email [jermware
 **Changes to this Policy**  
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
-- July 7, 2025: First published.
+- August 11, 2025: First published.
