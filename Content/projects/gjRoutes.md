@@ -30,6 +30,7 @@ layout: ProjectPost
 - Cross-Platform Experience: Designed for macOS, iPadOS, and iOS with a consistent, native interface.
 - Dark and Light Mode Support: Fully supports system appearance for a comfortable viewing experience.
 - Requires macOS 15.0 or later, iPadOS 18.0 or later, iOS 18.0 or later.
+- <img height="18" src="/images/gjRoutes/strava-compatible.png">
 
 Perfect for athletes, adventurers, and planners who want clarity and control when reviewing past activities or planning new ones.
 
