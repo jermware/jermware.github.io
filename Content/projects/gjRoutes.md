@@ -9,7 +9,7 @@ layout: ProjectPost
 # gjRoutes
 
 <!--<center>-->
-<img src="/images/gjRoutes/gjRoutes-1l.png" alt="gjRoutes iPad screenshot" height="512">
+<img src="/images/gjRoutes/gjRoutes-1.png" alt="gjRoutes iPad screenshot" height="512">
 <!--</center>-->
 
 <br><br>
