@@ -1,5 +1,5 @@
 ---
-date: 2025-08-11 21:53
+date: 2025-08-25 11:43
 author: "Gavin Jerman"
 subtitle: My first macOS app, and tenth iOS app.
 tags: gjroutes, macos, ios, app store
@@ -40,7 +40,7 @@ Available on iPhone, iPad, and Mac with a single purchase — designed for all y
 <br><br>
 
 [![download](/images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjroutes/id6742377844?platform=mac)
-[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjroutes/id6742377844?platform=iphone)
+[![download](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjroutes/id6742377844?platform=ipad)
 
 <br><h5 id="privacy">Privacy Policy</h5>
 
@@ -71,4 +71,4 @@ If you have any questions regarding this privacy policy, you may email [jermware
 **Changes to this Policy**  
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
-- August 11, 2025: First published.
+- August 25, 2025: First published.
