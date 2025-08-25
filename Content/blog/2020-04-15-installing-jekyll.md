@@ -10,7 +10,7 @@ layout: BlogPost
 
 [GitHub Pages](https://pages.github.com) is a free service provided by [GitHub](https://github.com/) to host static websites. It takes HTML, CSS, and JavaScript files straight from a repository on *GitHub*, optionally runs the files through a build process, and publishes a website.
 
-Once you have a website hosted on *GitHub Pages*, see [Welcome GitHub Pages and Jekyll](/2020/04/welcome-github-jekyll), it publishes any static files that are pushed to the website repository. By default, *GitHub Pages* uses [Jekyll](https://jekyllrb.com) to build the site.
+Once you have a website hosted on *GitHub Pages*, see [Welcome GitHub Pages and Jekyll](/blog/2020-04-09-welcome-github-jekyll), it publishes any static files that are pushed to the website repository. By default, *GitHub Pages* uses [Jekyll](https://jekyllrb.com) to build the site.
 
 
 This is straightforward and convenient, especially when adding new content to an established site. However, it can be frustrating when creating a new, or restyling an existing, website as there is no direct control over when changes to the site are built and published. Typically *GitHub Pages* will publish the changes in a matter of minutes, if not immediately. But when making multiple incremental changes to a site, waiting for them to be published will inevitably delay the development process.
