@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="gjRoutes is my tenth iOS app and first macOS released on the App Store." />
+    <meta name="author" content="Gavin Jerman" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>gjRoutes Is on the App Store</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://jermware.net/blog/2025-08-25-gjroutes-released-to-the-app-store" rel="canonical" />
+    <link href="/favicon.png" rel="icon" />
+    <meta property="og:site_name" content="jermware" />
+    <meta property="og:image" content="/images/blog/2025-08-25-gjroutes-released-to-the-app-store-1.png" />
+    <meta name="twitter:image" content="/images/blog/2025-08-25-gjroutes-released-to-the-app-store-1.png" />
+    <meta property="og:title" content="gjRoutes Is on the App Store" />
+    <meta name="twitter:title" content="gjRoutes Is on the App Store" />
+    <meta property="og:description" content="gjRoutes is my tenth iOS app and first macOS released on the App Store." />
+    <meta name="twitter:description" content="gjRoutes is my tenth iOS app and first macOS released on the App Store." />
+    <meta property="og:url" content="https://jermware.net/blog/2025-08-25-gjroutes-released-to-the-app-store" />
+    <meta name="twitter:domain" content="jermware.net" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <div class="me-2 me-md-auto">
+            <a href="/" class="d-inline-flex align-items-center navbar-brand">jermware.net</a>
+          </div>
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col justify-content-end">
+              <li class="nav-item"><a href="/" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/projects" class="nav-link text-nowrap">Projects</a></li>
+              <li class="nav-item"><a href="/archive" class="nav-link text-nowrap">Archive</a></li>
+              <li class="nav-item"><a href="/about" class="nav-link text-nowrap">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content mx-auto" style="width: 90%">
+      <h1 class="mt-4 mb-5" style="font-weight: 900">gjRoutes Is on the App Store</h1>
+      <h6 class="text-light-emphasis mt-4" style="font-weight: 400">August 25, 2025</h6>
+      <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: gjroutes, ios, macos, app, app store</h6>
+      <h6 class="text-light-emphasis mb-5" style="font-weight: 300">736 words; 3 minutes to read.</h6>
+      <p></p>
+      <p><a href="/projects/gjRoutes"><strong>gjRoutes</strong></a> is my tenth iOS app and <strong>first</strong> macOS released on the <a href="https://apps.apple.com/gb/app/gjroutes/id6742377844">App Store</a>.</p>
+      <img src="/images/blog/2025-09-25-gjjotter-released-to-the-app-store-1.png" alt="gjJotter screenshot" width="384" /> 
+      <br />
+      <br /> 
+      <p>I’m a runner, mainly off-road, and I like varying my routes and exploring new areas. I wear a <a href="https://www.garmin.com/en-GB/p/780139">Garmin</a> watch to record my runs and often download the GPX files from <a href="https://connect.garmin.com">Garmin Connect</a> to see exactly where I’ve been. Most of my runs start and finish at home, so my routes often overlap or run close to each other. I’d been using a GPX viewing app, but it opened files in separate windows instead of one, which was frustrating. Despite lots of apps out there, I couldn’t find exactly what I wanted.</p>
+      <p>So, I decided to build my own: display multiple GPX files in different colours on a map, with options to change colours and hide routes to declutter the display.</p>
+      <p>I’d only written iOS apps before (<a href="/projects">my apps</a>), so I started <strong>gjRoutes</strong> as an <a href="https://developer.apple.com/documentation/swiftui/">iPad SwiftUI</a> app. The tricky part was reading GPX files and extracting coordinates. Vincent Neo’s <a href="https://github.com/vincentneo/CoreGPX">CoreGPX</a> <a href="https://swift.org/">Swift</a> package solved this neatly, making it easy to parse GPX files and display them on a map with Apple’s <a href="https://developer.apple.com/documentation/mapkit">MapKit</a>.</p>
+      <p>Soon I had a working app on the iPad. With a few tweaks it ran on the iPhone too—even on my smaller <a href="https://support.apple.com/en-gb/111873">iPhone 13 mini</a>. But I also wanted it on the Mac, to use my 5K display.</p>
+      <p>I’d never built a Mac app before, but luckily iOS, iPadOS and macOS can share the same SwiftUI code base. That meant one app across all platforms with a single purchase unlocking it everywhere. Perfect. I turned to <a href="https://chatgpt.com">ChatGPT</a> for help adapting the code for macOS. It wasn’t always smooth—sometimes it got stuck in a loop or ran out of tokens—but eventually, <strong>gjRoutes</strong> was running on all three platforms. After testing and fixing bugs, I was ready to publish.</p>
+      <p>Then I had a brainwave. Garmin Connect automatically uploads my runs to <a href="https://www.strava.com">Strava</a>. Wouldn’t it be great to view Strava runs directly in the app?</p>
+      <p>Strava provides an <a href="https://developers.strava.com">API</a>, and Gustavo Ferrufino’s <a href="https://github.com/ferrufino/StravaKit">StravaKit</a> package made integration straightforward. After getting an API key and reorganising some code, <strong>gjRoutes</strong> could display Strava activities alongside GPX files.</p>
+      <p>Submitting to the App Store wasn’t straightforward. Strava’s default API key only allowed one user—fine for development, but useless for real users or App Review. To fix this, I had to follow Strava’s <a href="https://developers.strava.com/guidelines/">brand guidelines</a>, update some screens, and apply for enhanced API access. Thankfully, I was approved within a week.</p>
+      <p>App Review itself was tougher. The iOS version took three rounds of rejection before approval, and the Mac version five. Some rejections were my fault, others less so, but persistence paid off.</p>
+      <p>Now I’m happy to say <strong>gjRoutes</strong> is live on both the App Store and the Mac App Store.</p>
+      <p>If you’re a GPX user or a runner with a Strava account, download <strong>gjRoutes</strong> using the links below and give it a try. Hopefully you’ll find it worth the small fee, especially with Strava integration. And if you enjoy it, please consider leaving a review—thanks! <br /><br /></p>
+      <p><a href="https://apps.apple.com/app/gjroutes/id6742377844?platform=mac"><img src="/images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="download" class="img-fluid" /></a> <a href="https://apps.apple.com/app/gjroutes/id6742377844?platform=ipad"><img src="/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="download" class="img-fluid" /></a></p>
+      <p></p>
+    </div>
+    <div class="mt-5 hstack gap-3">
+      <p class="mb-0 align-self-center">© 2025 jermware</p>
+      <div class="ms-auto"></div>
+      <div class="mb-0 align-self-center">
+        <h5><a target="_blank" rel="noopener noreferrer" href="https://github.com/jermware" class="link-secondary" style="margin-right: 20px"><i class="bi-github"></i></a><a target="_blank" rel="noopener noreferrer" href="https://mstdn.social/@gavinjerman" class="link-secondary" style="margin-right: 20px"><i class="bi-mastodon"></i></a><a target="_blank" rel="noopener noreferrer" href="/feed.rss" class="link-secondary" style="margin-right: 0px"><i class="bi-rss-fill"></i></a></h5>
+      </div>
+    </div>
+    <div class="mb-3 hstack gap-3">
+      <div class="ms-auto"></div>
+      <p class="mb-0 align-self-center">Created in Swift with <a target="_blank" rel="noopener noreferrer" href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>
