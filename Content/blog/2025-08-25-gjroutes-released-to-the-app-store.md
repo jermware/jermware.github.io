@@ -12,7 +12,7 @@ published: true
 
 [**gjRoutes**](/projects/gjRoutes) is my tenth iOS app and **first** macOS released on the [App Store](https://apps.apple.com/gb/app/gjroutes/id6742377844).
 
-<img src="/images/blog/2025-09-25-gjjotter-released-to-the-app-store-1.png" alt="gjJotter screenshot" width="384">
+<img src="/images/blog/2025-08-25-gjroutes-released-to-the-app-store-1.png" alt="gjRoutes screenshot" width="384">
 <br><br>
 
 I'm a runner, mainly off-road, and I like varying my routes and exploring new areas. I wear a [Garmin](https://www.garmin.com/en-GB/p/780139) watch to record my runs and often download the GPX files from [Garmin Connect](https://connect.garmin.com) to see exactly where I’ve been. Most of my runs start and finish at home, so my routes often overlap or run close to each other. I’d been using a GPX viewing app, but it opened files in separate windows instead of one, which was frustrating. Despite lots of apps out there, I couldn’t find exactly what I wanted.
