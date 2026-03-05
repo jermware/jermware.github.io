@@ -44,7 +44,7 @@ Available on iPhone, iPad, and Mac with a single purchase — designed for all y
 
 <br><h5 id="privacy">Privacy Policy</h5>
 
-The policy applies to all information collected on **gjRoutes'** website and our apps for mac, iPad, iPhone, and any other devices and platforms.
+The policy applies to all information collected on **gjRoutes'** website and our apps for Mac, iPad, iPhone, and any other devices and platforms.
 
 **TL;DR**  
 **Your data is your data**.  
