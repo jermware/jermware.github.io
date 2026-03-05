@@ -15,7 +15,7 @@ struct Footer: HTML {
 
     var body: some HTML {
         HStack {
-            Text("© 2025 jermware")
+            Text("© 2026 jermware")
             Spacer()
             SocialFooter()
         }
