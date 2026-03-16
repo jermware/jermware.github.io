@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="gjPDFs is my second macOS app released on the App Store." />
+    <meta name="author" content="Gavin Jerman" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>gjPDFs Is on the App Store</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://jermware.net/blog/2026-03-16-gjpdfs-released-to-the-app-store" rel="canonical" />
+    <link href="/favicon.png" rel="icon" />
+    <meta property="og:site_name" content="jermware" />
+    <meta property="og:image" content="/images/blog/2026-03-16-gjpdfs-released-to-the-app-store-1.png" />
+    <meta name="twitter:image" content="/images/blog/2026-03-16-gjpdfs-released-to-the-app-store-1.png" />
+    <meta property="og:title" content="gjPDFs Is on the App Store" />
+    <meta name="twitter:title" content="gjPDFs Is on the App Store" />
+    <meta property="og:description" content="gjPDFs is my second macOS app released on the App Store." />
+    <meta name="twitter:description" content="gjPDFs is my second macOS app released on the App Store." />
+    <meta property="og:url" content="https://jermware.net/blog/2026-03-16-gjpdfs-released-to-the-app-store" />
+    <meta name="twitter:domain" content="jermware.net" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(0 0 0 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <div class="me-2 me-md-auto">
+            <a href="/" class="d-inline-flex align-items-center navbar-brand">jermware.net</a>
+          </div>
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col justify-content-end">
+              <li class="nav-item"><a href="/" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/projects" class="nav-link text-nowrap">Projects</a></li>
+              <li class="nav-item"><a href="/archive" class="nav-link text-nowrap">Archive</a></li>
+              <li class="nav-item"><a href="/about" class="nav-link text-nowrap">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content mx-auto" style="width: 90%">
+      <h1 class="mt-4 mb-5" style="font-weight: 900">gjPDFs Is on the App Store</h1>
+      <h6 class="text-light-emphasis mt-4" style="font-weight: 400">March 16, 2026</h6>
+      <h6 class="text-light-emphasis" style="font-weight: 300">Tagged with: gjpdfs, macos, app, app store, claude</h6>
+      <h6 class="text-light-emphasis mb-5" style="font-weight: 300">854 words; 4 minutes to read.</h6>
+      <p></p>
+      <p><a href="/projects/gjPDFs"><strong>gjPDFs</strong></a> is my second macOS app released on the <a href="https://apps.apple.com/app/gjpdfs/id6760037275">App Store</a>.</p>
+      <img src="/images/blog/2026-03-16-gjpdfs-released-to-the-app-store-1.png" alt="gjPDFs screenshot" width="384" /> 
+      <br />
+      <br /> 
+      <p>Like most of my apps, <strong>gjPDFs</strong>, was written to solve a problem I had. I’m pretty much paperless now, storing as much as I can in PDFs. This means I need a PDF editor. My editing needs are pretty simple. I re-order and delete pages, insert pages from other PDF documents, insert whole PDF documents, and create and update the document’s table of contents to simplify navigation. All of these needs, except the last one, can be achieved, for free, using the Preview app that comes with macOS. However, if you want to edit a PDF’s table of contents you need to pay and it’s either more than I want to pay e.g. PDF Expert, or the app doesn’t work how I want it to.</p>
+      <p>The solution? I’m a SwiftUI developer, so I wrote my own app to do what I want, how I want.</p>
+      <p>I say I wrote my own app. I didn’t. I didn’t write a single line of code 😱. We currently live in a world of emerging AI impacting everyone’s lives. As a software developer I wanted to see just what AI could do. Several months ago I tried using ChatGPT and Claude to write an app to view PDFs files. The experience was very frustrating. It would frequently get stuck in a loop with me telling it the code didn’t work, “you’re absolutely right” it would say. It would then generate different code that didn’t work. I would tell it this, it would agree and proceed to generate the original code that didn’t work. Rinse and repeat until my free tokens had expired, I was too tight to pay to upgrade my account, so I had to wait until my tokens refreshed to continue the battle. Very frustrating.</p>
+      <p>The recent release of Xcode 26.3 included support for agentic coding, allowing:</p>
+      <p>“<em>Agents like Claude Agent and Codex can now collaborate throughout the entire development life cycle, giving developers the power to streamline workflows, iterate faster, and bring ideas to life like never before. Agents can search documentation, explore file structures, update project settings, and verify their work visually by capturing Xcode Previews and iterating through builds and fixes.</em>”</p>
+      <p>The media were also reporting that the AI agents’ coding skills were much improved, and Anthropic’s Claude Agent was probably the best for generating SwiftUI code.</p>
+      <p>I decided to try an experiment to see if Claude could generate a macOS PDF editing app from start to finish without me writing any code. Initial impressions were very good, but I soon ran into free token limitations. Having to wait 5 hours for my tokens to refresh was very frustrating, especially given that it was doing such a good job. I caved in and upgraded my free account to the £18 per month (with VAT) account with increased tokens. After this I don’t remember running out of tokens.</p>
+      <p>Then end result is the app you see in the Mac App Store. I honestly didn’t write a single line of code. I’ve examined and tested all of the code Claude has written, but I didn’t write any of it. On a couple of occasions, it would have been quicker for me to fix the code that wasn’t working, but I persevered and with the right instructions got Claude to fix the problem. I did have to make some changes to the project settings in Xcode that Claude was unable to make itself but able to tell me exactly what to change. I also created the app icon myself. I’m no designer but the icons it came up with were awful. Claude event wrote the description text and keywords needed for the Mac App Store.</p>
+      <p>I’m blown away by what Claude generated. But, and this is a big but, it needed an awful lot of hand-holding and careful prompting to produce code that worked in the way needed. It wasn’t just a case of saying “generate a macOS app the edits PDF documents”. It took many hours of prompting and testing to get the final app, although that was much less time than it would have taken me to write it from scratch. Amazing!</p>
+      <p>If you use PDFs, especially if you edit their table of contents or reorganise their pages, download <strong>gjPDFs</strong> using the link below and give it a try. Hopefully you’ll find it worth the small fee. And if you enjoy it, please consider leaving a review—thanks! <br /><br /></p>
+      <p><a href="https://apps.apple.com/app/gjpdfs/id6760037275"><img src="/images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="download" class="img-fluid" /></a></p>
+      <p></p>
+    </div>
+    <div class="mt-5 hstack gap-3">
+      <p class="mb-0 align-self-center">© 2026 jermware</p>
+      <div class="ms-auto"></div>
+      <div class="mb-0 align-self-center">
+        <h5><a target="_blank" rel="noopener noreferrer" href="https://github.com/jermware" class="link-secondary" style="margin-right: 20px"><i class="bi-github"></i></a><a target="_blank" rel="noopener noreferrer" href="https://mstdn.social/@gavinjerman" class="link-secondary" style="margin-right: 20px"><i class="bi-mastodon"></i></a><a target="_blank" rel="noopener noreferrer" href="/feed.rss" class="link-secondary" style="margin-right: 0px"><i class="bi-rss-fill"></i></a></h5>
+      </div>
+    </div>
+    <div class="mb-3 hstack gap-3">
+      <div class="ms-auto"></div>
+      <p class="mb-0 align-self-center">Created in Swift with <a target="_blank" rel="noopener noreferrer" href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

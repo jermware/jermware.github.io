@@ -10,7 +10,7 @@ published: true
 
 # gjRoutes Is on the App Store
 
-[**gjRoutes**](/projects/gjRoutes) is my tenth iOS app and **first** macOS released on the [App Store](https://apps.apple.com/gb/app/gjroutes/id6742377844).
+[**gjRoutes**](/projects/gjRoutes) is my tenth iOS and **first** macOS app released on the [App Store](https://apps.apple.com/gb/app/gjroutes/id6742377844).
 
 <img src="/images/blog/2025-08-25-gjroutes-released-to-the-app-store-1.png" alt="gjRoutes screenshot" width="384">
 <br><br>
