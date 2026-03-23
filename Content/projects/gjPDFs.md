@@ -27,6 +27,9 @@ Build and reorganise your PDF's table of contents from scratch. Add, rename, and
 **Rearrange and Manage Pages**
 Reorder pages by dragging thumbnails to new positions. Delete pages you no longer need. Insert pages from other PDF files — their table of contents entries are automatically merged into yours.
 
+**Insert Pages from Images and Text Files**
+Drop image files — JPEG, PNG, TIFF, HEIC, BMP, GIF, WebP, and SVG — onto the thumbnail sidebar to insert them as new pages. Drop text files (.txt, .md, .rtf) to insert their content as rendered pages, with Rich Text formatting preserved.
+
 **Full Undo and Redo**
 Every change you make — whether it's moving a page, editing the table of contents, or inserting pages from another file — can be undone and redone. The Edit menu shows exactly what action will be undone or redone so you always know where you stand.
 
@@ -37,6 +40,7 @@ Every change you make — whether it's moving a page, editing the table of conte
 - Thumbnail and table of contents sidebars.
 - Drag-and-drop page reordering.
 - Insert pages from other PDFs with automatic TOC merging.
+- Insert pages from images (JPEG, PNG, TIFF, HEIC, BMP, GIF, WebP, SVG) and text files (.txt, .md, .rtf)
 - Full undo/redo for all editing operations.
 - Find text with match navigation.
 - Zoom to fit width, fit page, actual size, or custom levels.
