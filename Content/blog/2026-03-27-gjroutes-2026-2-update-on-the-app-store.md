@@ -11,7 +11,7 @@ layout: BlogPost
 [**gjRoutes**](/projects/gjRoutes) has been updated to **v2026.2** on the [App Store](https://apps.apple.com/app/gjroutes/id6742377844).
 
 This is a maintenance release with the following changes:
-- Fixed an issue with Open With not correctly loading the PDF file.
+- Fixed an issue with Open With not correctly loading the GPX file.
 
 <br>
 
