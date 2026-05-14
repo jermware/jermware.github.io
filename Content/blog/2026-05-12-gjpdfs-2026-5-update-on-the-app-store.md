@@ -10,7 +10,7 @@ layout: BlogPost
 
 [**gjPDFs**](/projects/gjPDFs) has been updated to **v2026.5** on the [App Store](https://apps.apple.com/app/gjpdfs/id6760037275).
 
-This is an enhacement  release with the following changes:
+This is an enhancement  release with the following changes:
 - Added printing support.
 - Dropping a PDF onto the app's content area, an empty window, or the dock icon now opens it.
 - Table of contents selection highlight now dims when focus moves away.
