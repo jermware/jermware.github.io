@@ -60,7 +60,7 @@ The policy applies to all information collected on **gjBeers'** website and our 
 **We don't use trackers**.  
 **We can't read your beer records**.
 
-**Information**  
+**Information Collected**  
 No personal information or location data are collected.
 
 We use [TelemetryDeck](https://telemetrydeck.com) to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy [here](https://telemetrydeck.com/privacy).

@@ -93,7 +93,7 @@ The policy applies to all information collected on **gjICE's** website and our a
 **We don't use trackers.**  
 **We can't read your emergency contact details.**  
 
-**Information**  
+**Information Collected**  
 No personal information or location data are collected.
 
 We use [TelemetryDeck](https://telemetrydeck.com) to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy [here](https://telemetrydeck.com/privacy).
