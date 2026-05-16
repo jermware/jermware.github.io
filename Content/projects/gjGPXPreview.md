@@ -14,7 +14,7 @@ layout: ProjectPost
 
 <br><br>
 <img width="64" height="64" src="/images/gjGPXPreview/gjGPXPreview-icon.png">
-&nbsp;&nbsp;Quick Look GPX Files in Finder.
+&nbsp;&nbsp;Quick Look GPX Files in macOS Finder.
 
 **gjGPXPreview** is a lightweight macOS QuickLook extension that lets you preview GPX files directly in Finder — no app to open, no import needed. Just select a _.gpx_ file and press Space.
 

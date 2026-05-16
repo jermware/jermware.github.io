@@ -31,6 +31,7 @@ struct Projects: StaticPage {
             .init(name: "gjJotter", description: "An iOS app for saving your jottings."),
             .init(name: "gjRoutes", description: "A multi-route GPX viewer for macOS, iPadOS, and iOS."),
             .init(name: "gjPDFs", description: "A fast, focused PDF editor for macOS."),
+            // .init(name: "gjGPXPreview", description: "Quick Look GPX Files in macOS Finder."),
         ]
     }
 
