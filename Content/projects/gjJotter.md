@@ -35,10 +35,10 @@ The only other thing you might want to do, using the using the toolbar items at 
 The policy applies to all information collected on **gjJotter's** website and our apps for iPhone and any other devices and platforms.
 
 **TL;DR**  
-**Your data is your data**.  
-**We don’t want to have any of your data.**  
-**We don't use trackers**.  
-**We can't read your jottings**.  
+**Your data is your data**  
+**We don’t want to have any of your data**  
+**We don't use trackers**  
+**We can't read your jottings**  
 
 **Information Collected**  
 No personal information or location data are collected.
@@ -50,11 +50,11 @@ The usage data are not used for marketing, tracking, advertisement or anything a
 **Local Storage**  
 Your jottings are saved locally on your device and will remain on your device until you delete them within the app, or you delete the app from your device.
 
-**Your Consent**  
+**User Consent**  
 By using our website or apps, you consent to our privacy policy.
 
 **Contact Us**  
-If you have any questions regarding this privacy policy, you may email [jermware@mac.com](mailto:jermware@mac.com).
+Questions about this privacy policy can be directed to [jermware@mac.com](mailto:jermware@mac.com).
 
 **Changes to this Policy**  
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:

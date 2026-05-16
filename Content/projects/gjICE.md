@@ -88,10 +88,10 @@ Emojis may be used, but they will appear washed out since iOS applies a tint to 
 The policy applies to all information collected on **gjICE's** website and our apps for iPhone and any other devices and platforms.
 
 **TL;DR**  
-**Your data is your data.**  
-**We don’t want to have any of your data.**  
-**We don't use trackers.**  
-**We can't read your emergency contact details.**  
+**Your data is your data**  
+**We don’t want to have any of your data**  
+**We don't use trackers**  
+**We can't read your emergency contact details**  
 
 **Information Collected**  
 No personal information or location data are collected.
@@ -100,11 +100,11 @@ We use [TelemetryDeck](https://telemetrydeck.com) to collect anonymized usage da
 
 The usage data are not used for marketing, tracking, advertisement or anything alike.
 
-**Your Consent**  
+**User Consent**  
 By using our website or apps, you consent to our privacy policy.
 
 **Contact Us**  
-If you have any questions regarding this privacy policy, you may email [jermware@mac.com](mailto:jermware@mac.com).
+Questions about this privacy policy can be directed to [jermware@mac.com](mailto:jermware@mac.com).
 
 **Changes to this Policy**  
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
