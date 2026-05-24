@@ -44,7 +44,7 @@ Files containing more than one track or route are fully supported. Each is drawn
 - Automatic activity icon detection (running, cycling, hiking, and more)
 - Native macOS app built with SwiftUI
 
-**gjGPXPreview** is available for a tiny fee, there are no ads, and you can download it from the App Store using the link below.
+**gjGPXPreview** is available for a small fee, there are no ads, and you can download it from the App Store using the link below.
 <br><br>
 
 [![download](/images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/app/gjgpxpreview/id6769827229)
