@@ -10,7 +10,7 @@ layout: BlogPost
 
 [**gjPDFs**](/projects/gjPDFs) has been updated to **v2026.9** on the [App Store](https://apps.apple.com/app/gjpdfs/id6760037275).
 
-This is an enhancement  release with the following changes:
+This is an enhancement release with the following changes:
 - Pick your look — System, Light, or Dark — from the toolbar.
 - Dark mode now sports a warmer accent colour.
 

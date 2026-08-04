@@ -10,7 +10,7 @@ layout: BlogPost
 
 [**gjPDFs**](/projects/gjPDFs) has been updated to **v2026.7** on the [App Store](https://apps.apple.com/app/gjpdfs/id6760037275).
 
-This is an maintenance  release with the following changes:
+This is an maintenance release with the following changes:
 - Table of contents items created from selected text now link to the selection's location, not the top of the page.
 - Selecting a table of contents item now scrolls to the bookmarked location on the page, not just the page itself.
 - Option+Arrow keys to move, promote, and demote table of contents items, with full undo/redo support.

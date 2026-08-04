@@ -10,7 +10,7 @@ layout: BlogPost
 
 [**gjGPXPreview**](/projects/gjGPXPreview) has been updated to **v2026.2** on the [App Store](https://apps.apple.com/app/gjgpxpreview/id6769827229).
 
-This is an enhancement  release with the following changes:
+This is an enhancement release with the following changes:
 - Units now default to metric or imperial based on your locale.
 - Font sizes now use Dynamic Type instead of fixed values, improving accessibility.
 - Invalid or unreadable GPX files now show a clear error instead of a blank preview.

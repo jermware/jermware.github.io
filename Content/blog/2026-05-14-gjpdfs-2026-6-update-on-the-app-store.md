@@ -10,7 +10,7 @@ layout: BlogPost
 
 [**gjPDFs**](/projects/gjPDFs) has been updated to **v2026.6** on the [App Store](https://apps.apple.com/app/gjpdfs/id6760037275).
 
-This is an maintenance  release with the following changes:
+This is an maintenance release with the following changes:
 - Text selected in the PDF is now used as the name for new table of contents items.
 - Fixed incorrect menu item names and enable states.
 

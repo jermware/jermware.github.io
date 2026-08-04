@@ -10,7 +10,7 @@ layout: BlogPost
 
 [**gjPDFs**](/projects/gjPDFs) has been updated to **v2026.8** on the [App Store](https://apps.apple.com/app/gjpdfs/id6760037275).
 
-This is an maintenance  release with the following changes:
+This is an maintenance release with the following changes:
 - Sidebar width now persists between documents and across app launches.
 - The sidebar resize divider is thicker, making it easier to grab and drag.
 - More reliable drag 'n' drop of files onto thumbnails sidebar to insert pages.
